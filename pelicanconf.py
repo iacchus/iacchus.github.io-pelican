@@ -9,6 +9,11 @@ SITEURL = 'https://iacchus.github.io'
 PATH = 'content'
 OUTPUT_PATH = 'site' # also in Makefile
 
+THEME = 'themes/attila'
+
+PLUGIN_PATHS = 'plugins/'
+PLUGINS = ['slim',]
+
 TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_LANG = 'en'
