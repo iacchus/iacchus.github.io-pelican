@@ -11,8 +11,8 @@ OUTPUT_PATH = 'site' # also in Makefile
 
 THEME = 'themes/attila'
 
-PLUGIN_PATHS = 'plugins/'
-PLUGINS = ['slim',]
+#PLUGIN_PATHS = 'plugins/'
+#PLUGINS = ['slim',]
 
 TIMEZONE = 'America/Sao_Paulo'
 
