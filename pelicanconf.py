@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Iacchus Mercurius'
 SITENAME = "The Philosopher's Workbench"
-SITEURL = 'https://iacchus.github.io'
+SITEURL = 'https://iacchus.github.io/site'
 
 PATH = 'content'
 OUTPUT_PATH = 'site' # also in Makefile
