@@ -21,6 +21,8 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 DELETE_OUTPUT_DIRECTORY = False
 
 DEFAULT_DATE = 'fs'
+SUMMARY_MAX_LENGTH = None
+
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
