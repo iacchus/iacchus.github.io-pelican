@@ -474,8 +474,9 @@ body {
     // font: 400 2em / 1.5em 'Cardo', serif;
     // font: 400 2em / 1.5em 'Cardo', serif;
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
+    line-height: 20px;
     color: #45484d;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -501,7 +502,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     text-rendering: optimizeLegibility;
     color: #000
 }
@@ -605,7 +606,6 @@ blockquote {
     padding: 1em;
     box-sizing: border-box;
     border-left: 0.25em solid #e5e4e1;
-    font-style: italic;
     font-weight: 400;
     color: #45484d;
     background: #faf9f7
