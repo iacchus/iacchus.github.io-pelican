@@ -28,6 +28,16 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+MARKDOWN = {
+        'extensions_configs':
+            {
+                'markdown.extensions.extra': {},
+                'markdown.extensions.meta': {},
+                'markdown.extensions.toc': {},
+            }
+        }
+['extra']
+
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
