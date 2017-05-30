@@ -561,17 +561,17 @@ ol>li:before {
     position: absolute;
     width: 1.5em;
     margin-left: -2em;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 1em;
-    font-weight: 500;
-    line-height: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    //font-size: 1em;
+    font-weight: 400;
+    line-height: 1.6px;
     text-align: right;
     color: #000
 }
 
 ul>li:before {
     margin-top: 0.25em;
-    content: '*'
+    content: '·'
 }
 
 ol {
@@ -760,7 +760,7 @@ table td {
 }
 
 table th {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 0.75em;
     line-height: 1.25em;
@@ -884,7 +884,7 @@ img {
     z-index: 10;
     margin: 0;
     padding: 0;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     font-size: 2em;
     line-height: 1em;
