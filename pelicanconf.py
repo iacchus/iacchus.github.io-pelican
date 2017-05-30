@@ -34,7 +34,9 @@ MARKDOWN = {
                 'markdown.extensions.extra': {},
                 'markdown.extensions.meta': {},
                 'markdown.extensions.toc': {},
-            }
+            },
+        'extensions': ['extra','meta','toc']
+
         }
 ['extra']
 
