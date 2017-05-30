@@ -16,21 +16,9 @@
                 </span>
                 <div class="clear"></div>
             </header>
-            {% if SHOW_FULL_ARTICLE %}
                 <section class="post-content">
                 {{ article.content }}
                 </section>
-            {% else %}
-                <section class="post-excerpt">
-                    <p>
-                    {% if article.has_summary %}
-                        {{ article.summary }}
-                    {% elif article.summary %}
-                        {{ article.summary|striptags|truncate(250) }}
-                    {% endif %}
-                    </p>
-                </section>
-            {% endif %}
             {% include 'partials/comments_count.html' %}
             </div>
         </article>
