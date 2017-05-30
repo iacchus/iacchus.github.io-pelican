@@ -684,6 +684,8 @@ pre {
     padding: 1em;
     overflow: hidden;
     font-family: 'Inconsolata', monospace, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
     white-space: pre;
     background: #faf9f7;
     border: 1px solid #e5e4e1;
