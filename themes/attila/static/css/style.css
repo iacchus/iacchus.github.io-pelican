@@ -577,7 +577,7 @@ ul {
 li {
     position: relative;
     //line-height: 22px;
-    line-height: 16px;
+    //line-height: 16px;
 }
 
 ul>li:before,
