@@ -1057,6 +1057,7 @@ img {
     overflow: hidden;
     //font-family: 'Fira Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     box-shadow: inset -2px 0 7px rgba(0, 0, 0, 0.1);
     //transform: translate3d(16em, 0, 0);
     transform: translate3d(270px, 0, 0);
@@ -1173,17 +1174,16 @@ img {
 
 #menu .menulabel {
     background-color: #333;
-    color: white;
-    padding: 1px 4px;
-    font-size: 12px;
-    font-weight: 400;
+    color: #ddd;
+    padding: 2px 4px;
+    //font-size: 12px;
     text-align: center;
+    text-transform: capitalize;
 }
 
 #menu li a {
     display: block;
-    //padding: 1.25em 1.5em;
-    padding: 1px 4px;
+    padding: 2px 4px;
     color: #212226;
     white-space: nowrap;
     text-overflow: ellipsis;
