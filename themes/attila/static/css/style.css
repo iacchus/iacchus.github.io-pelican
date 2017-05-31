@@ -1455,10 +1455,10 @@ img {
 
 .toc:before {
     display: block;
-    content: 'Index';
+    content: 'Index Publicationis';
     font-size: medium;
     font-family: 'Roboto Condensed';
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 11px;
 }
 
@@ -1467,7 +1467,7 @@ div.toc {
 }
 
 div.toc a {
-     font-weight: 600 !important;
+     font-weight: 500 !important;
 }
 
 .post-excerpt p {
