@@ -545,8 +545,13 @@ h6 a {
 p,
 ul,
 ol {
-    margin: 0;
-    line-height: normal;
+   // margin: 0;
+   // line-height: normal;
+}
+
+ul,
+ol {
+   margin: 0;
 }
 
 ul {
