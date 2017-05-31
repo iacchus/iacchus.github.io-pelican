@@ -1,4 +1,4 @@
-Title: About me
+title: About me
 
 this is a sample page
 
