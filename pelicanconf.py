@@ -35,10 +35,9 @@ MARKDOWN = {
                 'markdown.extensions.meta': {},
                 'markdown.extensions.toc': {},
             },
-        'extensions': ['extra','meta','toc']
+        'extensions': ['extra', 'meta', 'toc']
 
         }
-['extra']
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
