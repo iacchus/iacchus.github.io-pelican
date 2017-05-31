@@ -545,7 +545,7 @@ h6 a {
 p,
 ul,
 ol {
-    margin: 2em auto;
+    margin: 0;
     line-height: normal;
 }
 
@@ -589,8 +589,16 @@ ol ol,
 ul ul,
 ul ol,
 ol ul {
-    padding-left: 30px;
-    margin: 15px 0
+    padding-left: 14px;
+    margin:  0;
+}
+
+li {
+    margin: 7px 11px;
+}
+
+div.toc{
+    font-family: 'Roboto Condensed'
 }
 
 hr {
@@ -672,7 +680,8 @@ tt {
     margin: 0 0.333em;
     padding: 0.333em 0.666em;
     font-family: 'Inconsolata', monospace, sans-serif;
-    font-size: 0.75em;
+    line-height: normal;
+    //font-size: 0.75em;
     white-space: pre;
     background: #faf9f7;
     border: 1px solid #e5e4e1;
@@ -686,7 +695,7 @@ pre {
     overflow: hidden;
     font-family: 'Inconsolata', monospace, sans-serif;
     font-size: 14px;
-    line-height: 16px;
+    line-height: normal;
     white-space: pre;
     background: #faf9f7;
     border: 1px solid #e5e4e1;
@@ -701,8 +710,8 @@ pre .lines {
     top: 0;
     padding: 1.333em 0;
     border-right: 1px solid #e5e4e1;
-    font-size: 0.75em;
-    line-height: 2em;
+    font-size: 14px;
+    line-height: normal;
     text-align: right;
     box-sizing: border-box;
     background: rgba(255, 255, 255, 0.5)
@@ -721,8 +730,8 @@ pre tt {
     margin: -1.333em -1.333em -1.333em 1.333em;
     padding: 1.333em;
     overflow: scroll;
-    font-size: 0.75em;
-    line-height: 2em;
+    font-size: 14px;
+    line-height: normal;
     white-space: pre;
     background: transparent;
     border: none;
