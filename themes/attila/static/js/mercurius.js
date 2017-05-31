@@ -1,8 +1,10 @@
-
 abcjs_plugin_autostart = false;
 window.ABCJS.plugin.auto_render = false;
 
 $(document).ready(function(){
+
+  // autoembed
+  $("div.post-content a.autoembed").oembed();
   function is_it_abc(elem) {
     if(window.ABCJS.plugin.getABCContainingElements(elem).length) return true;
     else return false;
