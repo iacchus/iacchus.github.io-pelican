@@ -219,6 +219,10 @@ th {
     padding: 0
 }
 
+svg * {
+    font-family: 'Old Standard TT', sans-serif;
+}
+
 @font-face {
     font-family: 'icons';
     src: url("../font/icons.eot?51058516");
@@ -1234,9 +1238,10 @@ img {
 #footer {
     position: relative;
     z-index: 20;
-    font-family: 'Fira Sans', sans-serif;
+    //font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1em;
-    padding-bottom: 6em
+    padding-bottom: 6em;
 }
 
 .credits {
@@ -1245,23 +1250,23 @@ img {
     line-height: 1em;
     padding: 1.1em 0;
     overflow: auto;
-    opacity: 0.5
+    opacity: 0.5;
 }
 
 .credits a {
-    color: inherit
+    color: inherit;
 }
 
 .credits span {
-    display: block
+    display: block;
 }
 
 .credits-theme {
-    float: left
+    float: left;
 }
 
 .credits-software {
-    float: right
+    float: right;
 }
 
 #blog-author {
@@ -1302,9 +1307,12 @@ img {
 }
 
 #blog-author .post-author-name {
+
+    font-family: 'Open Sans Condensed', sans-serif;
     padding: 0.333em 0 0;
     font-size: 2em;
-    line-height: 1em
+    line-height: 1em;
+    font-weight: 800 !important;
 }
 
 #blog-author.has-cover .post-author-name {
@@ -1621,7 +1629,7 @@ div.toc li {
 
 .post-author-bio {
     padding-left: 25%;
-    font-family: 'Fira Sans', sans-serif;
+    //font-family: 'Fira Sans', sans-serif;
     font-size: 0.75em;
     line-height: 1.333em
 }
