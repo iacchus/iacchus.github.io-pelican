@@ -570,10 +570,10 @@ li {
 
 ul>li:before,
 ol>li:before {
-    position: absolute;
+    //position: absolute;
     //width: 1.5em;
     width: 11px;
-    margin-left: -2em;
+    //margin-left: -2em;
     font-family: 'Roboto', sans-serif;
     //font-size: 1em;
     font-weight: 400;
