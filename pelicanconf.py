@@ -56,3 +56,15 @@ DEFAULT_PAGINATION = 11
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+AUTHORS_BIO = {
+  "iacchus": {
+    "name": "IACCHVS",
+    "cover": "https://avatars2.githubusercontent.com/u/881531?v=3&u=ced26c8fd97409f69ee0237da7b87cce1790fb16&s=700",
+    "image": "https://avatars2.githubusercontent.com/u/881531?v=3&u=ced26c8fd97409f69ee0237da7b87cce1790fb16&s=400",
+    "website": "https://iacchus.github.io",
+    "location": "Querencia",
+    "bio": "This is the place for a small biography with max 200 characters. Well, now 100 are left. Cool, hugh?"
+  }
+}
+

@@ -10,6 +10,8 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
+# https://github.com/arulrajnet/attila
+
 SITEURL = 'https://iacchus.github.io/site'
 RELATIVE_URLS = False
 #RELATIVE_URLS = True
