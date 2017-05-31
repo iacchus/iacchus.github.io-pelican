@@ -498,7 +498,7 @@ body {
 
 a {
     //color: #212226;
-    color: #669;
+    color: #336;
     text-decoration: none;
     //font-weight: 400;
     font-weight: 500;
@@ -616,10 +616,6 @@ ol ul {
 
 li {
     margin: 7px 11px;
-}
-
-div.toc {
-    font-family: 'Roboto';
 }
 
 hr {
@@ -1456,21 +1452,22 @@ img {
     border-color: rgba(255, 255, 255, 0.5)
 }
 
-.toc:before {
+div.toc:before {
     display: block;
     content: 'Index Publicationis';
-    font-size: medium;
+    font-size: large;
     font-family: 'Roboto Condensed';
-    font-weight: 500;
-    margin-bottom: 11px;
+    font-weight: 600;
+    margin-bottom: 13px;
 }
 
 div.toc {
-   font-size: 12px;
+   font-family: 'Roboto Condensed';
+   font-size: 14px;
 }
 
 div.toc a {
-     font-weight: 500 !important;
+     font-weight: 400 !important;
 }
 
 .post-excerpt p {
