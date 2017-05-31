@@ -470,16 +470,25 @@ html.menu-active,
 .menu-active body {
     overflow-y: hidden
 }
-
-body {
-    // font: 400 2em / 1.5em 'Cardo', serif;
-    // font: 400 2em / 1.5em 'Cardo', serif;
+/*body {
     font-family: 'Roboto', sans-serif;
     //font-size: 16px;
     font-size: 14px;
     font-weight: 400;
     //line-height: 20px;
     line-height: 16px;
+    color: #45484d;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden
+}*/
+
+body {
+    font-family: 'Old Standard TT', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
     color: #45484d;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
