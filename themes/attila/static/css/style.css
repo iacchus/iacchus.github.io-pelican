@@ -840,7 +840,8 @@ img {
     height: 1px;
     left: 50%;
     bottom: 0;
-    margin-left: -16em;
+    //margin-left: -16em;
+    margin-left: -270px;
     content: '';
     background: #e5e4e1
 }
@@ -964,7 +965,8 @@ img {
 }
 
 .menu-active #wrapper {
-    padding-right: 16em
+    //padding-right: 16em
+    padding-right: 270px;
 }
 
 .menu-active #wrapper .hidden-close {
@@ -1056,7 +1058,8 @@ img {
     //font-family: 'Fira Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
     box-shadow: inset -2px 0 7px rgba(0, 0, 0, 0.1);
-    transform: translate3d(16em, 0, 0);
+    //transform: translate3d(16em, 0, 0);
+    transform: translate3d(270px, 0, 0);
     transition: all ease-out 0.25s;
 }
 
@@ -1273,7 +1276,8 @@ img {
     height: 1px;
     left: 50%;
     bottom: 0;
-    margin-left: -16em;
+    //margin-left: -16em;
+    margin-left: -270px;
     content: '';
     background: #e5e4e1
 }
@@ -1329,7 +1333,8 @@ img {
     height: 1px;
     left: 50%;
     bottom: 0;
-    margin-left: -16em;
+    //margin-left: -16em;
+    margin-left: -270px;
     content: '';
     background: #e5e4e1
 }
@@ -1361,7 +1366,8 @@ img {
     height: 1px;
     left: 50%;
     top: 0;
-    margin-left: -16em;
+    //margin-left: -16em;
+    margin-left: -270px;
     content: '';
     background: #e5e4e1
 }
@@ -1792,7 +1798,8 @@ div.toc li {
     height: 1px;
     left: 50%;
     bottom: 0;
-    margin-left: -16em;
+    //margin-left: -16em;
+    margin-left: -270px;
     content: '';
     background: #e5e4e1
 }
@@ -1878,7 +1885,8 @@ div.toc li {
     }
     .menu-active #wrapper {
         padding-right: 0;
-        transform: translate3d(-16em, 0, 0)
+        //transform: translate3d(-16em, 0, 0)
+        transform: translate3d(-270px, 0, 0)
     }
     .blog-logo,
     .nav-button {
