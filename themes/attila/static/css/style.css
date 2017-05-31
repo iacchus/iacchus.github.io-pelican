@@ -46,12 +46,13 @@ template {
 }
 
 a {
-    background: 0 0
+    background: 0 0;
+    text-decoration: none;
 }
 
 a:active,
 a:hover {
-    outline: 0
+    outline: 0;
 }
 
 abbr[title] {
@@ -474,9 +475,11 @@ body {
     // font: 400 2em / 1.5em 'Cardo', serif;
     // font: 400 2em / 1.5em 'Cardo', serif;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    //font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 20px;
+    //line-height: 20px;
+    line-height: 16px;
     color: #45484d;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -485,9 +488,11 @@ body {
 }
 
 a {
-    color: #212226;
+    //color: #212226;
+    color: #669;
     text-decoration: none;
-    font-weight: 400;
+    //font-weight: 400;
+    font-weight: 500;
     transition: all ease-out 0.2s
 }
 
@@ -1446,7 +1451,7 @@ img {
 }
 
 .post-content a {
-    border-bottom: 1px solid #f26a3d
+    //border-bottom: 1px solid #f26a3d
 }
 
 .post-content a:hover,
