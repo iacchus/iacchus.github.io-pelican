@@ -1,4 +1,5 @@
 title: testing gfm codeblock
+tags: hello, buddy
 
 Hllo
 
