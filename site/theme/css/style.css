@@ -583,7 +583,7 @@ li {
 ul>li:before,
 ol>li:before {
     float: left;
-    font-family: 'Roboto', sans-serif;
+    //font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-align: right;
     padding-right: 3px;
@@ -697,17 +697,14 @@ mark {
 
 code,
 tt {
-    //position: relative;
-    //margin: 0 0.333em;
-    //padding: 0.333em 0.666em;
-    padding: 1px 3px;
+    padding: 2px 4px;
     font-family: 'Inconsolata', monospace, sans-serif;
+    font-size: 14px;
     line-height: normal;
-    //font-size: 0.75em;
     white-space: pre;
-    background: #faf9f7;
-    border: 1px solid #e5e4e1;
-    //top: -2px
+    background-color: #333;
+    color: #fff;
+    border-radius: 3px;
 }
 
 pre {
