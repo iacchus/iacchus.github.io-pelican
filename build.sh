@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+pyvenv
 make clean
 make publish
 git add .
