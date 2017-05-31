@@ -567,22 +567,22 @@ ol>li:before {
     font-weight: 400;
     line-height: 1.6px;
     text-align: right;
-    color: #000
+    color: #000;
 }
 
 ul>li:before {
     margin-top: 0.25em;
-    content: '·'
+    content: '·';
 }
 
 ol {
     list-style-type: none;
-    counter-reset: item
+    counter-reset: item;
 }
 
 ol>li:before {
     content: counter(item) ". " !important;
-    counter-increment: item
+    counter-increment: item;
 }
 
 ol ol,
@@ -597,8 +597,8 @@ li {
     margin: 7px 11px;
 }
 
-div.toc{
-    font-family: 'Roboto Condensed'
+div.toc {
+    font-family: 'Roboto';
 }
 
 hr {
@@ -607,7 +607,7 @@ hr {
     margin: 2em 0;
     padding: 0;
     background: #e5e4e1;
-    border: 0
+    border: 0;
 }
 
 blockquote {
