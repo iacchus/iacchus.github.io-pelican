@@ -963,6 +963,15 @@ img {
     z-index: 350
 }
 
+.menulabel {
+    background-color: #333;
+    color: white;
+    padding: 0px 4px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+
 .menu-active #wrapper {
     padding-right: 16em
 }
