@@ -22,6 +22,8 @@ DEFAULT_LANG = 'en'
 DEFAULT_DATE = 'fs'
 SUMMARY_MAX_LENGTH = None
 
+DISPLAY_PAGES_ON_MENU = True
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
