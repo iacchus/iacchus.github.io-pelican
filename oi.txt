@@ -1,0 +1,8 @@
+.toc:before {
+    display: block;
+    content: 'Index';
+    font-size: medium;
+    font-family: 'Roboto Condensed';
+    font-weight: 600;
+    margin-bottom: 11px;
+}
