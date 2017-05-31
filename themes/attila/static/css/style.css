@@ -1044,7 +1044,8 @@ img {
 
 #menu {
     position: fixed;
-    width: 16em;
+    //width: 16em;
+    width: 270px;
     height: 100%;
     top: 0;
     right: 0;
@@ -1052,10 +1053,11 @@ img {
     border-left: 1px solid #e5e4e1;
     z-index: 400;
     overflow: hidden;
-    font-family: 'Fira Sans', sans-serif;
+    //font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     box-shadow: inset -2px 0 7px rgba(0, 0, 0, 0.1);
     transform: translate3d(16em, 0, 0);
-    transition: all ease-out 0.25s
+    transition: all ease-out 0.25s;
 }
 
 .menu-active #menu {

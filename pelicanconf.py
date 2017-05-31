@@ -59,7 +59,7 @@ DEFAULT_PAGINATION = 11
 #RELATIVE_URLS = True
 
 AUTHORS_BIO = {
-  "iacchus": {
+  "iacchus mercurius": {
     "name": "IACCHVS",
     "cover": "https://avatars2.githubusercontent.com/u/881531?v=3&u=ced26c8fd97409f69ee0237da7b87cce1790fb16&s=700",
     "image": "https://avatars2.githubusercontent.com/u/881531?v=3&u=ced26c8fd97409f69ee0237da7b87cce1790fb16&s=400",
