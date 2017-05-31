@@ -561,7 +561,8 @@ ol {
 }
 
 ul {
-    list-style: none
+    list-style: none;
+    list-style-type: circle;
 }
 
 li {
@@ -572,7 +573,7 @@ ul>li:before,
 ol>li:before {
     //position: absolute;
     //width: 1.5em;
-    width: 11px;
+    //width: 11px;
     //margin-left: -2em;
     font-family: 'Roboto', sans-serif;
     //font-size: 1em;
@@ -584,10 +585,11 @@ ol>li:before {
 
 ul>li:before {
     //margin-top: 0.25em;
-    content: '·';
+    //content: '·';
 }
 
 ol {
+    //list-style-type: none;
     list-style-type: none;
     counter-reset: item;
 }
