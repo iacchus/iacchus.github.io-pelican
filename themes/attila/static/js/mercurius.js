@@ -5,6 +5,7 @@ $(document).ready(function(){
 
   // emojify
   emojify.setConfig({ignore_emoticons : true});
+  emojify.run();
 
   // autoembed
   $("div.post-content a.autoembed").oembed();
