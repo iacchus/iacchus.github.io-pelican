@@ -18,11 +18,9 @@
     </ul>
     <div class="menulabel">tags</div>
     <ul>
-      {% if DISPLAY_CATEGORIES_ON_MENU %}
-      	  {% for taag, x in tags %}
-	  <li{% if taag == tag %} class="nav-{{taag.slug}} active"{% endif %} role="presentation"><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }} ({{x}})</a></li>
-          {% endfor %}
-      {% endif %}
+        {% for taag, x in tags %}
+          <li{% if taag == tag %} class="nav-{{taag.slug}} active"{% endif %} role="presentation"><a href="{{ SITEURL }}/{{ taag.url }}">{{ taag }} ({{x}})</a></li>
+        {% endfor %}
     </ul>
     <div class="menulabel">categories</div>
     <ul>
