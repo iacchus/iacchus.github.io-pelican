@@ -28,4 +28,5 @@ DELETE_OUTPUT_DIRECTORY = True
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
+DISQUS_SITENAME = "the-philosophers-workbench"
 #GOOGLE_ANALYTICS = ""
