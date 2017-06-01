@@ -809,10 +809,10 @@ table td:after {
 }
 
 img {
-    display: block;
+    display: inline-block;
     max-width: 100%;
-    height: auto;
-    margin: 2.5em auto
+    //height: auto;
+    //margin: 2.5em auto
 }
 
 .clear {
@@ -1513,9 +1513,9 @@ div.toc li {
 
 .post-content img,
 .post-content .fluid-width-video-wrapper {
-    max-width: none;
-    width: 110%;
-    margin-left: -5%
+    //max-width: none;
+    //width: 110%;
+    //margin-left: -5%
 }
 
 .post-info {
@@ -1941,10 +1941,9 @@ div.toc li {
         left: 0;
         top: -1.75em
     }
-    .post-content img,
     .post-content .fluid-width-video-wrapper {
         width: 100%;
-        margin-left: auto
+        margin-left: auto;
     }
     .post-nav:after {
         display: none
