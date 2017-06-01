@@ -10,7 +10,7 @@ $(document).ready(function(){
 	});
 
   // autoembed
-  $("div.post-content a.autoembed").each(function(){$(this).oembed()});
+  $(".post-content a.autoembed").each(function(){$(this).oembed()});
 
   // abcjs 
   function is_it_abc(elem) {
