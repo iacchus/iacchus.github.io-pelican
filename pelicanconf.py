@@ -25,7 +25,8 @@ SUMMARY_MAX_LENGTH = None
 DISPLAY_PAGES_ON_MENU = True
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM = True
+# FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
@@ -49,9 +50,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('oi','hey'),
-        ('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('github','https://github.com/iacchus/'),)
 
 DEFAULT_PAGINATION = 11
 
@@ -64,8 +63,8 @@ AUTHORS_BIO = {
     "cover": "https://avatars2.githubusercontent.com/u/881531?v=3&u=ced26c8fd97409f69ee0237da7b87cce1790fb16&s=700",
     "image": "https://avatars2.githubusercontent.com/u/881531?v=3&u=ced26c8fd97409f69ee0237da7b87cce1790fb16&s=400",
     "website": "https://iacchus.github.io",
-    "location": "Querencia",
-    "bio": "This is the place for a small biography with max 200 characters. Well, now 100 are left. Cool, hugh?"
+    "location": "Querência Amadaa",
+    "bio": "EE hew. Maybe soon we fill this."
   }
 }
 
