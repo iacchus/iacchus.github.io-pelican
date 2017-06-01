@@ -1506,6 +1506,16 @@ div.toc li {
     margin: 0
 }
 
+.post-content .oembedall-container {
+    border-left: 5px solid #336;
+    padding: 3px 7px;
+    border-radius: 3px;
+}
+
+.post-content .oembedall-container > .content {
+
+}
+
 .post-content a {
     //border-bottom: 1px solid #f26a3d
 }
