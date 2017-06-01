@@ -3,6 +3,9 @@ window.ABCJS.plugin.auto_render = false;
 
 $(document).ready(function(){
 
+  // emojify
+  emojify.setConfig({ignore_emoticons : true});
+
   // autoembed
   $("div.post-content a.autoembed").oembed();
   function is_it_abc(elem) {
