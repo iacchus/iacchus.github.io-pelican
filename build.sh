@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# exit on error
+set -e
+
 make clean
 make publish
 git add .
