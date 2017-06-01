@@ -1133,11 +1133,12 @@ img {
 
 #menu .nav-label {
     display: block;
-    padding: 1.666em 2em;
-    margin: 0;
+    //padding: 1.666em 2em;
+    margin: 13px 7%;
     opacity: 0.5;
-    font-size: 0.75em;
-    line-height: 2em
+    //font-size: 0.75em;
+    font-size: 12px;
+    //line-height: 2em
 }
 
 #menu ul {
@@ -1183,6 +1184,8 @@ img {
     //font-size: 12px;
     text-align: center;
     text-transform: capitalize;
+    margin: 0 7%;
+    border-radius: 3px;
 }
 
 #menu li a {
@@ -1191,7 +1194,8 @@ img {
     color: #212226;
     white-space: nowrap;
     text-overflow: ellipsis;
-    font-weight: 400
+    font-weight: 400;
+    margin: 0 7%;
 }
 
 #menu li a:hover,
