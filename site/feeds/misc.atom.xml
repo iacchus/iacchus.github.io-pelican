@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench - misc</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/misc.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-01T23:16:51-03:00</updated><entry><title>Testing Mathjax</title><link href="https://iacchus.github.io/site/testing-mathjax.html" rel="alternate"></link><published>2017-06-01T23:16:51-03:00</published><updated>2017-06-01T23:16:51-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-01:/site/testing-mathjax.html</id><summary type="html">&lt;p&gt;(for writing Chord Inversions)&lt;/p&gt;
-&lt;p&gt;&lt;span class="math"&gt;\(I_4^6\)&lt;/span&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench - misc</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/misc.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-01T23:51:13-03:00</updated><entry><title>Testing Mathjax</title><link href="https://iacchus.github.io/site/testing-mathjax.html" rel="alternate"></link><published>2017-06-01T23:51:13-03:00</published><updated>2017-06-01T23:51:13-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-01:/site/testing-mathjax.html</id><summary type="html">&lt;p&gt;(for writing Chord Inversions)&lt;/p&gt;
+&lt;p&gt;Here &lt;span class="math"&gt;\(I_4^6\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Aand Here: &lt;span class="math"&gt;\(\mathrm{I_4^6}\)&lt;/span&gt;&lt;/p&gt;
 &lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",
@@ -56,7 +57,8 @@
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;</summary><content type="html">&lt;p&gt;(for writing Chord Inversions)&lt;/p&gt;
-&lt;p&gt;&lt;span class="math"&gt;\(I_4^6\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Here &lt;span class="math"&gt;\(I_4^6\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Aand Here: &lt;span class="math"&gt;\(\mathrm{I_4^6}\)&lt;/span&gt;&lt;/p&gt;
 &lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",
