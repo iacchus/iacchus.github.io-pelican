@@ -31,6 +31,7 @@ PLUGINS = [
     # 'post_revision',
     'render_math',
     'rmd_reader',
+    'show_source',
     'summary',
 ]
 
@@ -71,6 +72,9 @@ MARKDOWN = {
 MATH_JAX = {
     'message_style': None,
 }
+
+SHOW_SOURCE_IN_SECTION = True
+SHOW_SOURCE_ALL_POSTS = True
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
