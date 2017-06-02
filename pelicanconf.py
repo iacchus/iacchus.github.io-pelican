@@ -68,6 +68,10 @@ MARKDOWN = {
 
         }
 
+MATH_JAX = {
+    'message_style': None,
+}
+
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
