@@ -13,9 +13,9 @@
                         <a href="{{ SITEURL }}/{{ author.url }}">{{ author|capitalize }}</a>
                     {% endfor %}
                     | <time datetime="{{ article.locale_date }}">{{ article.locale_date }}</time>
-                </span>
-                <span class="post-meta">
-		    {# % if article.tags  % #}
+                <!-- </span>
+		<span class="post-meta"> -->
+		    {# % if article.tags  % #} |
 		    {% for tag in article.tags %}
 		    <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{%if not loop.last%}, {%endif%}
 		    {% endfor %}
