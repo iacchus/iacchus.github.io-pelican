@@ -16,10 +16,8 @@
                 </span>
                 <div class="clear"></div>
             </header>
-            {% if SHOW_FULL_ARTICLE and (not article.has_summary) %}
+            {% if SHOW_FULL_ARTICLE and not article.has_summary %}
                 <section class="post-content">
-			{{ article.has_summary }}
-			{{ article.summary }}
                 {{ article.content }}
                 </section>
             {% else %}
