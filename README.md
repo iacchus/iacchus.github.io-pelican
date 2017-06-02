@@ -2,8 +2,35 @@
 
 https://iacchus.github.io
 
-## Pelican
+```
+$ fortune
 
+I
+am
+not
+very
+happy
+acting
+pleased
+whenever
+prominent
+scientists
+overmagnify
+intellectual
+enlightenment
+```
+
+## Tools & Feats
+
+* abcjs
+* mathjax
+* markdown extra
+  * toc
+  * attrs
+* oembedall
+* emoji
+
+## Pelican
 
 ### Documentation
  
