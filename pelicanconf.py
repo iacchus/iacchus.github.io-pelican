@@ -44,8 +44,7 @@ AUTHOR_FEED_RSS = None
 SHOW_FULL_ARTICLE = True
 
 RMD_READER_KNITR_OPTS_CHUNK = {
-    'comment':'NA',
-    'class.source':'knitr-output',
+    'comment': '',
     'prompt': True,        
 }
 
