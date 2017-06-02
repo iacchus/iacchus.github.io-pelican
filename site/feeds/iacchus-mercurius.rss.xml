@@ -1,54 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Fri, 02 Jun 2017 17:42:07 -0300</lastBuildDate><item><title>testing summary plugin</title><link>https://iacchus.github.io/site/testing-summary-plugin.html</link><description>&lt;p&gt;The only thing cheaper than hardware is talk.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Strange memories on this nervous night in Las Vegas.  Five years later?
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Six?  It seems like a lifetime, or at least a Main Era -- the kind of peak that
-never comes again.  San Fransisco in the middle sixties was a very special …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Fri, 02 Jun 2017 17:42:07 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-02:/site/testing-summary-plugin.html</guid></item><item><title>test rmd</title><link>https://iacchus.github.io/site/test-rmd.html</link><description>&lt;pre&gt;&lt;code class="python"&gt;&amp;gt; print(5**5)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class="knitr-output"&gt;3125
-&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Fri, 02 Jun 2017 05:35:37 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-02:/site/test-rmd.html</guid></item><item><title>Testing Mathjax</title><link>https://iacchus.github.io/site/testing-mathjax.html</link><description>&lt;p&gt;(for writing Chord Inversions)&lt;/p&gt;
-&lt;p&gt;Here &lt;span class="math"&gt;\(I_4^6\)&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Aand Here: &lt;span class="math"&gt;\(\mathrm{I_4^6}\)&lt;/span&gt;&lt;/p&gt;
-&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width &lt; 768) ? "left" : align;
-        indent = (screen.width &lt; 768) ? "0em" : indent;
-        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    mathjaxscript.id …&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Thu, 01 Jun 2017 23:51:13 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-01:/site/testing-mathjax.html</guid></item><item><title>test tag attrs</title><link>https://iacchus.github.io/site/test-tag-attrs.html</link><description>&lt;p&gt;&lt;a href="https://iacchus.github.io"&gt;no blank target&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://iacchus.github.io" target="_blank"&gt;blank target&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Thu, 01 Jun 2017 20:22:19 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-01:/site/test-tag-attrs.html</guid></item><item><title>testing some md</title><link>https://iacchus.github.io/site/testing-some-md.html</link><description>&lt;p&gt;32^nd^&lt;/p&gt;
-&lt;p&gt;H~2~O&lt;/p&gt;
-&lt;p&gt;I^6^~4~&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Thu, 01 Jun 2017 04:58:48 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-01:/site/testing-some-md.html</guid></item><item><title>test autoembed</title><link>https://iacchus.github.io/site/test-autoembed.html</link><description>&lt;p&gt;&lt;a class="autoembed" href="https://en.wikipedia.org/wiki/Diatonic_and_chromatic"&gt;hey freak&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Thu, 01 Jun 2017 02:36:16 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-01:/site/test-autoembed.html</guid></item><item><title>testing emoji</title><link>https://iacchus.github.io/site/testing-emoji.html</link><description>&lt;p&gt;ok :cake: :tophat: :)&lt;/p&gt;
-&lt;p&gt;There we go.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Wed, 31 May 2017 21:54:58 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-05-31:/site/testing-emoji.html</guid></item><item><title>My First Review</title><link>https://iacchus.github.io/site/my-first-review.html</link><description>&lt;p&gt;Following is a review of my favorite mechanical keyboard.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Wed, 31 May 2017 20:55:16 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-05-31:/site/my-first-review.html</guid><category>hello</category></item><item><title>testing gfm codeblock</title><link>https://iacchus.github.io/site/testing-gfm-codeblock.html</link><description>&lt;p&gt;Hllo&lt;/p&gt;
-&lt;pre&gt;&lt;code class="abckeep"&gt;X: 1
-T: Far Away
-R: waltz
-M: 3/4
-L: 1/8
-K: Bmin
-z4 FA |B2 BA Bd |cA F2 FA |B2 BA B3/4c/e3/4 |
-c4 dc |B2 BA B3/4c/d3/4 |cB A2 de |fe dc BA |
-B3 A FA |B2 BA Bd …&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Wed, 31 May 2017 20:54:57 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-05-31:/site/testing-gfm-codeblock.html</guid><category>hello</category><category>buddy</category></item><item><title>md placeholder</title><link>https://iacchus.github.io/site/md-placeholder.html</link><description>&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#lorem-ipsum-header1"&gt;Lorem Ipsum ─ Header1&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#header-2"&gt;Header 2&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#header-3-lets-try-some-text-changing-like-bold-italic-and-strikethrough-here"&gt;Header 3. Lets try some text changing like bold, italic, and strikethrough here&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="#another-header-2"&gt;Another Header 2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#yet-another-header-2"&gt;Yet Another Header 2&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#header-3"&gt;Header 3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#another-header-3-here-goes-a-blockquote"&gt;Another Header 3. Here goes a blockquote:&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#h4-with-another-blockquote"&gt;H4 with another blockquote:&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="#another-header-3"&gt;Another Header 3&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#and-this-is-a-header-4"&gt;And this is a header 4&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#this-is-another-header-4"&gt;This is another …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Tue, 30 May 2017 18:19:42 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-05-30:/site/md-placeholder.html</guid></item></channel></rss>
+<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Fri, 02 Jun 2017 18:33:37 -0300</lastBuildDate><item><title>Opening the labs</title><link>https://iacchus.github.io/site/opening-the-labs.html</link><description>&lt;p&gt;Here are are. This is our very first post. This is not intended to be a
+presentational blog, but instead to contain my personal ideas and experiments
+on various subjects.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;formating sources with vim's &lt;code&gt;gq}&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Fri, 02 Jun 2017 18:33:37 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-02:/site/opening-the-labs.html</guid></item></channel></rss>
