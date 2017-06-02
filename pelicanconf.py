@@ -43,6 +43,12 @@ AUTHOR_FEED_RSS = None
 
 SHOW_FULL_ARTICLE = True
 
+RMD_READER_KNITR_OPTS_CHUNK = {
+    'prompt': True,        
+}
+
+RMD_READER_KNITR_OPTS_KNIT = None
+
 MARKDOWN = {
         'extensions_configs':
             {
