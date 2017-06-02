@@ -11,7 +11,9 @@ run...  There was madness in any direction, at any hour.  If not across the
 Bay, then up the Golden Gate or down 101 to Los Altos or La Honda...  You could
 strike sparks anywhere. There was a fantastic universal sense that whatever we
 were doing was right, that we were winning...
+
 <!-- PELICAN_BEGIN_SUMMARY -->	
+
 And that, I think, was the handle -- that sense of inevitable victory
 
 
@@ -23,6 +25,7 @@ up on a steep hill in Las Vegas and look West, and with the right kind of eyes
 you can almost ___see the high-water mark -- that place where the wave finally
 broke and rolled back.
 		-- Hunter S. Thompson
+
 <!-- PELICAN_END_SUMMARY -->
 
 

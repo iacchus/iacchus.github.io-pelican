@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/all-en.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-02T17:37:33-03:00</updated><entry><title>testing summary plugin</title><link href="https://iacchus.github.io/site/testing-summary-plugin.html" rel="alternate"></link><published>2017-06-02T17:37:33-03:00</published><updated>2017-06-02T17:37:33-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-02:/site/testing-summary-plugin.html</id><summary type="html">&lt;p&gt;The only thing cheaper than hardware is talk.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/all-en.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-02T17:42:07-03:00</updated><entry><title>testing summary plugin</title><link href="https://iacchus.github.io/site/testing-summary-plugin.html" rel="alternate"></link><published>2017-06-02T17:42:07-03:00</published><updated>2017-06-02T17:42:07-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-02:/site/testing-summary-plugin.html</id><summary type="html">&lt;p&gt;The only thing cheaper than hardware is talk.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Strange memories on this nervous night in Las Vegas.  Five years later?
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Six?  It seems like a lifetime, or at least a Main Era -- the kind of peak that
@@ -8,9 +8,10 @@ and place to be a part of.  Maybe it meant something.  Maybe not, in the long
 run...  There was madness in any direction, at any hour.  If not across the
 Bay, then up the Golden Gate or down 101 to Los Altos or La Honda...  You could
 strike sparks anywhere. There was a fantastic universal sense that whatever we
-were doing was right, that we were winning...
-&lt;!-- PELICAN_BEGIN_SUMMARY --&gt;&lt;br /&gt;
-And that, I think, was the handle -- that sense of inevitable victory&lt;/p&gt;
+were doing was right, that we were winning...&lt;/p&gt;
+&lt;!-- PELICAN_BEGIN_SUMMARY --&gt;
+
+&lt;p&gt;And that, I think, was the handle -- that sense of inevitable victory&lt;/p&gt;
 &lt;p&gt;over the forces of Old and Evil.  Not in any mean or military sense; we didn't
 need that. Our energy would simply prevail.  There was no point in fighting
 -- on our side or theirs.  We had all the momentum; we were riding the crest
@@ -18,8 +19,9 @@ of a high and beautiful wave.  So now, less than five years later, you can go
 up on a steep hill in Las Vegas and look West, and with the right kind of eyes
 you can almost ___see the high-water mark -- that place where the wave finally
 broke and rolled back.
-        -- Hunter S. Thompson
-&lt;!-- PELICAN_END_SUMMARY --&gt;&lt;/p&gt;
+        -- Hunter S. Thompson&lt;/p&gt;
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
 &lt;p&gt;Hi! How are things going?
     (just fine, thank you...)
 Great! Say, could I bother you for a question?
@@ -50,9 +52,10 @@ and place to be a part of.  Maybe it meant something.  Maybe not, in the long
 run...  There was madness in any direction, at any hour.  If not across the
 Bay, then up the Golden Gate or down 101 to Los Altos or La Honda...  You could
 strike sparks anywhere. There was a fantastic universal sense that whatever we
-were doing was right, that we were winning...
-&lt;!-- PELICAN_BEGIN_SUMMARY --&gt;&lt;br /&gt;
-And that, I think, was the handle -- that sense of inevitable victory&lt;/p&gt;
+were doing was right, that we were winning...&lt;/p&gt;
+&lt;!-- PELICAN_BEGIN_SUMMARY --&gt;
+
+&lt;p&gt;And that, I think, was the handle -- that sense of inevitable victory&lt;/p&gt;
 &lt;p&gt;over the forces of Old and Evil.  Not in any mean or military sense; we didn't
 need that. Our energy would simply prevail.  There was no point in fighting
 -- on our side or theirs.  We had all the momentum; we were riding the crest
@@ -60,8 +63,9 @@ of a high and beautiful wave.  So now, less than five years later, you can go
 up on a steep hill in Las Vegas and look West, and with the right kind of eyes
 you can almost ___see the high-water mark -- that place where the wave finally
 broke and rolled back.
-        -- Hunter S. Thompson
-&lt;!-- PELICAN_END_SUMMARY --&gt;&lt;/p&gt;
+        -- Hunter S. Thompson&lt;/p&gt;
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
 &lt;p&gt;Hi! How are things going?
     (just fine, thank you...)
 Great! Say, could I bother you for a question?
