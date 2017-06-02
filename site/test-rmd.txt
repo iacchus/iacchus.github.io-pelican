@@ -1,5 +1,0 @@
-title: test rmd
-
-```{python}
-print(5**5)
-```
