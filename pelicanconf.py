@@ -12,9 +12,6 @@ OUTPUT_PATH = 'site' # also in Makefile
 
 THEME = 'themes/attila'
 
-#PLUGIN_PATHS = 'plugins/'
-#PLUGINS = ['slim',]
-
 TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_LANG = 'en'
@@ -24,10 +21,14 @@ SUMMARY_MAX_LENGTH = None
 
 DISPLAY_PAGES_ON_MENU = True
 
+PLUGIN_PATHS = ['plugins/']
+PLUGINS = ['render_math',]
+
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = True
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 # FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
+#CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
