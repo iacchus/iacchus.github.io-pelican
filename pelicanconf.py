@@ -21,8 +21,14 @@ SUMMARY_MAX_LENGTH = None
 
 DISPLAY_PAGES_ON_MENU = True
 
-PLUGIN_PATHS = ['plugins/']
-PLUGINS = ['render_math',]
+PLUGIN_PATHS = [
+    'plugins/'
+]
+
+PLUGINS = [
+    'render_math',
+    'rmd_reader',
+]
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -32,6 +38,8 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+SHOW_FULL_ARTICLE = True
 
 MARKDOWN = {
         'extensions_configs':
