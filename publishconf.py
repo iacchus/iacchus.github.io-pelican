@@ -16,8 +16,8 @@ SITEURL = 'https://iacchus.github.io/site'
 RELATIVE_URLS = False
 #RELATIVE_URLS = True
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+#FEED_ALL_ATOM = 'feeds/all.atom.xml'
+#CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 #DELETE_OUTPUT_DIRECTORY = False
