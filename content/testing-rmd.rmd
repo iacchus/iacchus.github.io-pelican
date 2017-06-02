@@ -1,5 +1,5 @@
 title: test rmd
 
-```python
+```{python}
 print(5**5)
 ```
