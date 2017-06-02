@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
 AUTHOR = 'Iacchus Mercurius'
 SITENAME = "The Philosopher's Workbench"
@@ -27,6 +28,7 @@ PLUGIN_PATHS = [
 
 PLUGINS = [
     'pin_to_top',
+    'post_revision',
     'render_math',
     'rmd_reader',
     'summary',
@@ -37,9 +39,13 @@ FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 # FEED_ALL_ATOM = None
 #CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+#TRANSLATION_FEED_ATOM = None
+#AUTHOR_FEED_ATOM = None
+#AUTHOR_FEED_RSS = None
+
+# for post_revision
+GITHUB_URL = 'https://github.com/iacchus/iacchus.github.io'
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 SHOW_FULL_ARTICLE = True
 
