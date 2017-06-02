@@ -26,8 +26,10 @@ PLUGIN_PATHS = [
 ]
 
 PLUGINS = [
+    'pin_to_top',
     'render_math',
     'rmd_reader',
+    'summary',
 ]
 
 # Feed generation is usually not desired when developing
