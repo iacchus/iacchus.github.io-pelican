@@ -46,6 +46,7 @@ SHOW_FULL_ARTICLE = True
 RMD_READER_KNITR_OPTS_CHUNK = {
     'comment': '',
     'prompt': True,        
+    'class.output': 'knitr-output',
 }
 
 RMD_READER_KNITR_OPTS_KNIT = None

@@ -5,19 +5,9 @@ https://iacchus.github.io
 ```
 $ fortune
 
-I
-am
-not
-very
-happy
-acting
-pleased
-whenever
-prominent
-scientists
-overmagnify
-intellectual
-enlightenment
+"Flight Reservation systems decide whether or not you exist. If your information
+isn't in their database, then you simply don't get to go anywhere."
+-- Arthur Miller
 ```
 
 ## Tools & Feats
@@ -29,6 +19,7 @@ enlightenment
   * attrs
 * oembedall
 * emoji
+* rmd reader
 
 ## Pelican
 
@@ -43,6 +34,16 @@ Settings - http://docs.getpelican.com/en/stable/settings.html
 ### Theme
 
 Attila Theme - https://github.com/arulrajnet/attila
+
+# RMD Reader
+
+rmd_reader - https://github.com/getpelican/pelican-plugins/tree/master/rmd_reader
+
+knitr options - https://yihui.name/knitr/options/
+
+knitr hooks - https://yihui.name/knitr/hooks/#html-render-html
+
+rmarkdown - http://rmarkdown.rstudio.com/lesson-1.html
 
 ## Plugins
 
