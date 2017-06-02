@@ -28,7 +28,7 @@ PLUGIN_PATHS = [
 
 PLUGINS = [
     'pin_to_top',
-    'post_revision',
+    # 'post_revision',
     'render_math',
     'rmd_reader',
     'summary',
