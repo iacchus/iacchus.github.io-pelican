@@ -20,6 +20,7 @@ isn't in their database, then you simply don't get to go anywhere."
 * oembedall
 * emoji
 * rmd reader
+* post_revision
 
 ## Pelican
 
@@ -44,6 +45,12 @@ knitr options - https://yihui.name/knitr/options/
 knitr hooks - https://yihui.name/knitr/hooks/#html-render-html
 
 rmarkdown - http://rmarkdown.rstudio.com/lesson-1.html
+
+## Post Revision
+
+post_revision - https://github.com/jhshi/pelican.plugins.post_revision/tree/1e42ac2113aae7edad889741613fa85e9f030745
+
+example - http://jhshi.me/2015/10/13/post-revision-plugin-for-pelican/index.html
 
 ## Plugins
 
