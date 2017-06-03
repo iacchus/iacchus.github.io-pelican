@@ -1,0 +1,28 @@
+greek modes
+
+ionian C+D+E-F+G+A+B-C
+dorian D+E-F+G+A+B-C+D
+phrygian E-F+G+A+B-C+D+E
+lydian F+G+A+B-C+D+E-F
+mixolydian G+A+B-C+D+E-F+G
+aeolian A+B-C+D+E-F+G+A
+locrianB-C+D+E-F+G+A+B
+
+intervals  P1 m2 M2 m3 M3 P4 TT P5 m6 M6 m7 M7 P8
+semitones  00 01 02 03 04 05 06 07 08 09 10 11 12
+ionian     c     d     e  f     g     a     b  c
+dorian     d     e  f     g     a     b  c     d
+phrygian   e  f     g     a     b  c     d     e
+lydian     f     g     a     b  c     d     e  f
+myxolidian g     a     b  c     d     e  f     g
+aeolian    a     b  c     d     e  f     g     a
+locrian    b  c     d     e  f     g     a     b
+
+ionian:
+
+iii pos:
+0110
+0110
+gabc
+cdef
+
