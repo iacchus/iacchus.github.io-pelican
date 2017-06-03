@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Sat, 03 Jun 2017 00:30:43 -0300</lastBuildDate><item><title>Brainstorming on music</title><link>https://iacchus.github.io/site/brainstorming-on-music.html</link><description>&lt;div class="toc"&gt;
+<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Sat, 03 Jun 2017 09:57:26 -0300</lastBuildDate><item><title>testing multiple chunks interoperability</title><link>https://iacchus.github.io/site/testing-multiple-chunks-interoperability.html</link><description>&lt;pre&gt;&lt;code class="python"&gt;&amp;gt; def simple_table(str_data):
++ 
++     from pandas import DataFrame as DF
++ 
++     lines = [line.split('  ') for line in tabular.splitlines()]
++     return DF(lines).to_html()
++ 
++ tabular = &amp;quot;&amp;quot;&amp;quot;
++ A  B  C
++    2  3
++ &amp;quot;&amp;quot;&amp;quot;.strip()
++ 
++ df = simple_table(tabular)
++ print(df)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;table border="1" class="dataframe"&gt;
+  &lt;thead&gt;
+    &lt;tr style="text-align: right;"&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;0&lt;/th&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;th&gt;2&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;0&lt;/th&gt;
+      &lt;td&gt;A&lt;/td&gt;
+      &lt;td&gt;B&lt;/td&gt;
+      &lt;td&gt;C&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 09:57:26 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/testing-multiple-chunks-interoperability.html</guid></item><item><title>Brainstorming on music</title><link>https://iacchus.github.io/site/brainstorming-on-music.html</link><description>&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#greek-modes"&gt;Greek Modes&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#standard"&gt;Standard&lt;/a&gt;&lt;ul&gt;

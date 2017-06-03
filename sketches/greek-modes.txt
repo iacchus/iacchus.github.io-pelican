@@ -18,6 +18,15 @@ myxolidian g     a     b  c     d     e  f     g
 aeolian    a     b  c     d     e  f     g     a
 locrian    b  c     d     e  f     g     a     b
 
+neighbours:
+
+d : TSTTTST
+a : TSTTSTT
+p : STTTSTT
+lo: STTSTTT
+ly: TTTSTTS
+i : TTSTTTS
+m : TTSTTST
 
 ionian:     0110|0110
 dorian:     0101|0101
