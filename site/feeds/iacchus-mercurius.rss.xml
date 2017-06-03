@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Sat, 03 Jun 2017 00:19:04 -0300</lastBuildDate><item><title>Brainstorming on music</title><link>https://iacchus.github.io/site/brainstorming-on-music.html</link><description>&lt;div class="toc"&gt;
+<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Sat, 03 Jun 2017 00:30:43 -0300</lastBuildDate><item><title>Brainstorming on music</title><link>https://iacchus.github.io/site/brainstorming-on-music.html</link><description>&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#greek-modes"&gt;Greek Modes&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#standard"&gt;Standard&lt;/a&gt;&lt;ul&gt;
@@ -19,7 +19,7 @@
 &lt;h2 id="greek-modes"&gt;Greek Modes&lt;/h2&gt;
 &lt;p&gt;We were thinking about greek modes these days.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;intervals  P1 m2 M2 m3 M3 P4 TT P5 m6 M6 m7 M7 P8
-semitones  00 01 02 03 04 05 …&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 00:19:04 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/brainstorming-on-music.html</guid><category>music</category><category>metanoia</category></item><item><title>Projects</title><link>https://iacchus.github.io/site/projects.html</link><description>&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
+semitones  00 01 02 03 04 05 …&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 00:30:43 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/brainstorming-on-music.html</guid><category>music</category><category>metanoia</category></item><item><title>Projects</title><link>https://iacchus.github.io/site/projects.html</link><description>&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;musiceditor&lt;/li&gt;
 &lt;li&gt;fretboard-svg&lt;/li&gt;

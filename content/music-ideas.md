@@ -39,6 +39,8 @@ locrian:    0011|1110
 
 maybe we use `b` for the base, so we can shift it. Also can use `r` for root, `t` for tonic etc.
 
+We should achieve a standard notation that allows shifting the base tonic seamlessly.
+
 #### Mode Abbreviations
 
 We can use i, d, p, l, m, a, l
@@ -67,10 +69,10 @@ We do this by the ascending major scale degrees:
 
 We use the Major scale intervals, but in descending order to achieve this.
 
-* I ─ First Degree (C, DM)
+* I ─ First Degree (C, CM)
 * D ─ Descending Second (C, BbM)
 * P ─ Descending Major Third (C, AbM)
 * L ─ Descending Perfect Fourth (C, GM)
 * M ─ Descending Perfect Fifth (C, FM)
-* A ─ Descending Major Sixth (C, Eb)
-* L ─ Descending Major Seventh (C, C#)
+* A ─ Descending Major Sixth (C, EbM)
+* L ─ Descending Major Seventh (C, C#M)
