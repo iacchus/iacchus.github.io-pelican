@@ -22,6 +22,11 @@
 		    {#% endif %#}
 		    {% if article.pin %} | <strong>pinned post</strong>{% endif %}
                 </span>
+                <span class="post-meta-right">
+		    {% if article and article.show_source_url %}
+		    <a href="{{ SITEURL }}/{{ article.show_source_url }}">Show source</a>
+		    {% endif %}
+                </span>
                 <div class="clear"></div>
             </header>
             {% if SHOW_FULL_ARTICLE %}
