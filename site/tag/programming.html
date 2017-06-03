@@ -143,20 +143,20 @@
             </header>
                 <section class="post-content">
                 <p>https://iacchus.github.io/jupyter-notebooks/html/Simple-Str-to-Tables.html</p>
-<pre><code class="python">&gt; def simple_table(str_data):
-+ 
-+     from pandas import DataFrame as DF
-+ 
-+     lines = [line.split('  ') for line in tabular.splitlines()]
-+     return DF(lines).to_html()
-+ 
-+ tabular = &quot;&quot;&quot;
-+ A  B  C
-+    2  3
-+ &quot;&quot;&quot;.strip()
-+ 
-+ df = simple_table(tabular)
-+ print(df)
+<pre><code class="python">def simple_table(str_data):
+
+    from pandas import DataFrame as DF
+
+    lines = [line.split('  ') for line in tabular.splitlines()]
+    return DF(lines).to_html()
+
+tabular = &quot;&quot;&quot;
+A  B  C
+   2  3
+&quot;&quot;&quot;.strip()
+
+df = simple_table(tabular)
+print(df)
 </code></pre>
 
 <table border="1" class="dataframe">

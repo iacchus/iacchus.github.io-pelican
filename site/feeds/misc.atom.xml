@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench - misc</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/misc.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-03T10:09:54-03:00</updated><entry><title>testing multiple chunks interoperability</title><link href="https://iacchus.github.io/site/testing-multiple-chunks-interoperability.html" rel="alternate"></link><published>2017-06-03T10:09:54-03:00</published><updated>2017-06-03T10:09:54-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-03:/site/testing-multiple-chunks-interoperability.html</id><summary type="html">&lt;p&gt;https://iacchus.github.io/jupyter-notebooks/html/Simple-Str-to-Tables.html&lt;/p&gt;
-&lt;pre&gt;&lt;code class="python"&gt;&amp;gt; def simple_table(str_data):
-+ 
-+     from pandas import DataFrame as DF
-+ 
-+     lines = [line.split('  ') for line in tabular.splitlines()]
-+     return DF(lines).to_html()
-+ 
-+ tabular = &amp;quot;&amp;quot;&amp;quot;
-+ A  B  C
-+    2  3
-+ &amp;quot;&amp;quot;&amp;quot;.strip()
-+ 
-+ df = simple_table(tabular)
-+ print(df)
+&lt;pre&gt;&lt;code class="python"&gt;def simple_table(str_data):
+
+    from pandas import DataFrame as DF
+
+    lines = [line.split('  ') for line in tabular.splitlines()]
+    return DF(lines).to_html()
+
+tabular = &amp;quot;&amp;quot;&amp;quot;
+A  B  C
+   2  3
+&amp;quot;&amp;quot;&amp;quot;.strip()
+
+df = simple_table(tabular)
+print(df)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;table border="1" class="dataframe"&gt;
@@ -36,20 +36,20 @@
       &lt;th&gt;1&lt;/th&gt;
       &lt;td&gt;&lt;/td&gt;
       &lt;td&gt;2 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;https://iacchus.github.io/jupyter-notebooks/html/Simple-Str-to-Tables.html&lt;/p&gt;
-&lt;pre&gt;&lt;code class="python"&gt;&amp;gt; def simple_table(str_data):
-+ 
-+     from pandas import DataFrame as DF
-+ 
-+     lines = [line.split('  ') for line in tabular.splitlines()]
-+     return DF(lines).to_html()
-+ 
-+ tabular = &amp;quot;&amp;quot;&amp;quot;
-+ A  B  C
-+    2  3
-+ &amp;quot;&amp;quot;&amp;quot;.strip()
-+ 
-+ df = simple_table(tabular)
-+ print(df)
+&lt;pre&gt;&lt;code class="python"&gt;def simple_table(str_data):
+
+    from pandas import DataFrame as DF
+
+    lines = [line.split('  ') for line in tabular.splitlines()]
+    return DF(lines).to_html()
+
+tabular = &amp;quot;&amp;quot;&amp;quot;
+A  B  C
+   2  3
+&amp;quot;&amp;quot;&amp;quot;.strip()
+
+df = simple_table(tabular)
+print(df)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;table border="1" class="dataframe"&gt;

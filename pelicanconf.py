@@ -52,7 +52,7 @@ RMD_READER_KNITR_OPTS_CHUNK = {
     'class.output': 'knitr-output',
     'collapse': True,
     'comment': '',
-    'prompt': True,        
+    # 'prompt': True,        
     'results': 'asis',
 }
 

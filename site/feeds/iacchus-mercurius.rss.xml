@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Sat, 03 Jun 2017 10:09:54 -0300</lastBuildDate><item><title>testing multiple chunks interoperability</title><link>https://iacchus.github.io/site/testing-multiple-chunks-interoperability.html</link><description>&lt;p&gt;https://iacchus.github.io/jupyter-notebooks/html/Simple-Str-to-Tables.html&lt;/p&gt;
-&lt;pre&gt;&lt;code class="python"&gt;&amp;gt; def simple_table(str_data):
-+ 
-+     from pandas import DataFrame as DF
-+ 
-+     lines = [line.split('  ') for line in tabular.splitlines()]
-+     return DF(lines).to_html()
-+ 
-+ tabular = &amp;quot;&amp;quot;&amp;quot;
-+ A  B  C
-+    2  3
-+ &amp;quot;&amp;quot;&amp;quot;.strip()
-+ 
-+ df = simple_table(tabular)
-+ print(df)
+&lt;pre&gt;&lt;code class="python"&gt;def simple_table(str_data):
+
+    from pandas import DataFrame as DF
+
+    lines = [line.split('  ') for line in tabular.splitlines()]
+    return DF(lines).to_html()
+
+tabular = &amp;quot;&amp;quot;&amp;quot;
+A  B  C
+   2  3
+&amp;quot;&amp;quot;&amp;quot;.strip()
+
+df = simple_table(tabular)
+print(df)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;table border="1" class="dataframe"&gt;
