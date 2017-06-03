@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench - misc</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/misc.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-02T18:50:39-03:00</updated><entry><title>Opening the labs</title><link href="https://iacchus.github.io/site/opening-the-labs.html" rel="alternate"></link><published>2017-06-02T18:50:39-03:00</published><updated>2017-06-02T18:50:39-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-02:/site/opening-the-labs.html</id><summary type="html">&lt;p&gt;Here we are. This is our very first post. This is not intended to be a
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench - misc</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/misc.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-03T00:04:15-03:00</updated><entry><title>Brainstorming on music</title><link href="https://iacchus.github.io/site/brainstorming-on-music.html" rel="alternate"></link><published>2017-06-03T00:04:15-03:00</published><updated>2017-06-03T00:04:15-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-03:/site/brainstorming-on-music.html</id><summary type="html">&lt;h2 id="greek-modes"&gt;Greek Modes&lt;/h2&gt;
+&lt;p&gt;We were thinking about greek modes these days.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;intervals  P1 m2 M2 m3 M3 P4 TT P5 m6 M6 m7 M7 P8
+semitones  00 01 02 03 04 05 06 07 08 09 10 11 12
+ionian     c     d     e  f     g     a     b  c
+dorian     d     e …&lt;/code&gt;&lt;/pre&gt;</summary><content type="html">&lt;h2 id="greek-modes"&gt;Greek Modes&lt;/h2&gt;
+&lt;p&gt;We were thinking about greek modes these days.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;intervals  P1 m2 M2 m3 M3 P4 TT P5 m6 M6 m7 M7 P8
+semitones  00 01 02 03 04 05 06 07 08 09 10 11 12
+ionian     c     d     e  f     g     a     b  c
+dorian     d     e  f     g     a     b  c     d
+phrygian   e  f     g     a     b  c     d     e
+lydian     f     g     a     b  c     d     e  f
+myxolidian g     a     b  c     d     e  f     g
+aeolian    a     b  c     d     e  f     g     a
+locrian    b  c     d     e  f     g     a     b
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id="standard"&gt;Standard&lt;/h3&gt;
+&lt;h4 id="diatonic-scale-shapes"&gt;Diatonic Scale Shapes&lt;/h4&gt;
+&lt;p&gt;We are currently sketching a standard to represent a diatonic scale shape&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ionian:     0110|0110
+dorian:     0101|0101
+phrygian:   0011|0011
+lydian:     0111|0110
+myxolidian: 0110|0101
+aeolian:    0101|0011
+locrian:    0011|1110
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;maybe we use &lt;code&gt;b&lt;/code&gt; for the base, so we can shift it. Also can use &lt;code&gt;r&lt;/code&gt; for root, &lt;code&gt;t&lt;/code&gt; for tonic etc.&lt;/p&gt;
+&lt;h4 id="mode-abbreviations"&gt;Mode Abbreviations&lt;/h4&gt;
+&lt;p&gt;We can use i, d, p, l, m, a, l&lt;/p&gt;
+&lt;h3 id="mnemonics"&gt;Mnemonics&lt;/h3&gt;
+&lt;p&gt;Giving the ascending major scale degrees with the semitones:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;PI M2 M3 P4 P5 M6 M7
+0  2  4  5  7  9  11
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id="formulating-mode-from-major-degree"&gt;Formulating mode from major degree&lt;/h4&gt;
+&lt;p&gt;We do this by the ascending major scale degrees:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  I  II III  IV   V  VI VII
+  I   D   P   L   M  A  L
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id="formulating-key-from-enharmonic-tonic"&gt;Formulating key from enharmonic tonic&lt;/h4&gt;
+&lt;p&gt;We use the Major scale intervals, but in descending order to achieve this.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I ─ First Degree (C, DM)&lt;/li&gt;
+&lt;li&gt;D ─ Descending Second (C, BbM)&lt;/li&gt;
+&lt;li&gt;P ─ Descending Major Third (C, AbM)&lt;/li&gt;
+&lt;li&gt;L ─ Descending Perfect Fourth (C, GM)&lt;/li&gt;
+&lt;li&gt;M ─ Descending Perfect Fifth (C, FM)&lt;/li&gt;
+&lt;li&gt;A ─ Descending Major Sixth (C, Eb)&lt;/li&gt;
+&lt;li&gt;L ─ Descending Major Seventh (C, C#)&lt;/li&gt;
+&lt;/ul&gt;</content><category term="music"></category><category term="metanoia"></category></entry><entry><title>Projects</title><link href="https://iacchus.github.io/site/projects.html" rel="alternate"></link><published>2017-06-02T23:42:21-03:00</published><updated>2017-06-02T23:42:21-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-02:/site/projects.html</id><summary type="html">&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
+&lt;p&gt;musiceditor&lt;/p&gt;</summary><content type="html">&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
+&lt;p&gt;musiceditor&lt;/p&gt;</content><category term="projects"></category></entry><entry><title>Opening the labs</title><link href="https://iacchus.github.io/site/opening-the-labs.html" rel="alternate"></link><published>2017-06-02T18:50:39-03:00</published><updated>2017-06-02T18:50:39-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-02:/site/opening-the-labs.html</id><summary type="html">&lt;p&gt;Here we are. This is our very first post. This is not intended to be a
 presentational blog, but instead to contain my personal ideas and experiments
 on various subjects.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;formatting sources with vim's &lt;code&gt;gq}&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Here we are. This is our very first post. This is not intended to be a

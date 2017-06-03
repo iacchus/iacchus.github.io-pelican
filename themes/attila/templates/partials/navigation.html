@@ -19,7 +19,7 @@
     <div class="menulabel">tags</div>
     <ul>
         {% for taag, null in tags %}
-          <li{% if taag == tag %} class="nav-{{taag.slug}} active"{% endif %} role="presentation"><a href="{{ SITEURL }}/{{ taag.url }}">{{ taag }}</a></li>
+	<li{% if taag == tag %} class="nav-{{taag.slug}} active"{% endif %} role="presentation"><a href="{{ SITEURL }}/{{ taag.url }}">{{ taag }}</a></li>
         {% endfor %}
     </ul>
     <div class="menulabel">categories</div>
