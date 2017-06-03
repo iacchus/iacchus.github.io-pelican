@@ -698,7 +698,7 @@ mark {
 
 code,
 tt {
-    //padding: 2px 4px;
+    padding: 0px 2px;
     font-family: 'Inconsolata', monospace, sans-serif;
     font-size: 14px;
     line-height: normal;
@@ -747,6 +747,7 @@ pre .lines .line {
 
 pre code,
 pre tt {
+    padding: 0;
     color: #333;
     overflow: scroll;
     font-size: 14px;
