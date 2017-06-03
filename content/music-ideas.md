@@ -23,7 +23,8 @@ locrian    b  c     d     e  f     g     a     b
 
 #### Diatonic Scale Shapes
 
-We are currently sketching a standard to represent a diatonic scale shape
+We are currently sketching a standard to represent a diatonic scale shape for
+instrument tuned in fifths.
 
 
 ```
