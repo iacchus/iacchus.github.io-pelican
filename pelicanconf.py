@@ -74,7 +74,7 @@ MATH_JAX = {
 }
 
 SHOW_SOURCE_IN_SECTION = True
-# SHOW_SOURCE_ALL_POSTS = True
+SHOW_SOURCE_ALL_POSTS = True
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),

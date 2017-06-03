@@ -1,0 +1,21 @@
+title: testing multiple chunks interoperability
+tags: labs, programming
+
+https://iacchus.github.io/jupyter-notebooks/html/Simple-Str-to-Tables.html
+
+```{python result='asis'}
+def simple_table(str_data):
+
+    from pandas import DataFrame as DF
+
+    lines = [line.split('  ') for line in tabular.splitlines()]
+    return DF(lines).to_html()
+
+tabular = """
+A  B  C
+   2  3
+""".strip()
+
+df = simple_table(tabular)
+print(df)
+```
