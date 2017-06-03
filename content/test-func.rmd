@@ -1,4 +1,7 @@
 title: testing multiple chunks interoperability
+tags: labs, programming
+
+https://iacchus.github.io/jupyter-notebooks/html/Simple-Str-to-Tables.html
 
 ```{python result='asis'}
 def simple_table(str_data):
