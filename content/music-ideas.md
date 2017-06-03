@@ -1,6 +1,8 @@
 title: Brainstorming on music
 tags: music, metanoia
 
+[TOC]
+
 ## Greek Modes
 
 We were thinking about greek modes these days.
