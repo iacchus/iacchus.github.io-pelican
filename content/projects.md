@@ -8,4 +8,6 @@ Here is a list of projects we need to better bring to light.
 * birdears
 * sheet music stuff
 * abc notation edition
-
+* sheetmusic
+  * tunebooks
+  * exercises

@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Sat, 03 Jun 2017 10:09:54 -0300</lastBuildDate><item><title>testing multiple chunks interoperability</title><link>https://iacchus.github.io/site/testing-multiple-chunks-interoperability.html</link><description>&lt;p&gt;https://iacchus.github.io/jupyter-notebooks/html/Simple-Str-to-Tables.html&lt;/p&gt;
+<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Sat, 03 Jun 2017 10:18:26 -0300</lastBuildDate><item><title>Projects</title><link>https://iacchus.github.io/site/projects.html</link><description>&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;musiceditor&lt;/li&gt;
+&lt;li&gt;fretboard-svg&lt;/li&gt;
+&lt;li&gt;birdears&lt;/li&gt;
+&lt;li&gt;sheet music stuff&lt;/li&gt;
+&lt;li&gt;abc notation edition&lt;/li&gt;
+&lt;li&gt;sheetmusic&lt;/li&gt;
+&lt;li&gt;tunebooks&lt;/li&gt;
+&lt;li&gt;exercises&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 10:18:26 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/projects.html</guid><category>projects</category></item><item><title>testing multiple chunks interoperability</title><link>https://iacchus.github.io/site/testing-multiple-chunks-interoperability.html</link><description>&lt;p&gt;https://iacchus.github.io/jupyter-notebooks/html/Simple-Str-to-Tables.html&lt;/p&gt;
 &lt;pre&gt;&lt;code class="python"&gt;def simple_table(str_data):
 
     from pandas import DataFrame as DF
@@ -55,14 +65,7 @@ print(df)
 &lt;h2 id="greek-modes"&gt;Greek Modes&lt;/h2&gt;
 &lt;p&gt;We were thinking about greek modes these days.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;intervals  P1 m2 M2 m3 M3 P4 TT P5 m6 M6 m7 M7 P8
-semitones  00 01 02 03 04 05 …&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 00:30:43 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/brainstorming-on-music.html</guid><category>music</category><category>metanoia</category></item><item><title>Projects</title><link>https://iacchus.github.io/site/projects.html</link><description>&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;musiceditor&lt;/li&gt;
-&lt;li&gt;fretboard-svg&lt;/li&gt;
-&lt;li&gt;birdears&lt;/li&gt;
-&lt;li&gt;sheet music stuff&lt;/li&gt;
-&lt;li&gt;abc notation edition&lt;/li&gt;
-&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 00:15:42 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/projects.html</guid><category>projects</category></item><item><title>Opening the labs</title><link>https://iacchus.github.io/site/opening-the-labs.html</link><description>&lt;p&gt;Here we are. This is our very first post. This is not intended to be a
+semitones  00 01 02 03 04 05 …&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 00:30:43 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/brainstorming-on-music.html</guid><category>music</category><category>metanoia</category></item><item><title>Opening the labs</title><link>https://iacchus.github.io/site/opening-the-labs.html</link><description>&lt;p&gt;Here we are. This is our very first post. This is not intended to be a
 presentational blog, but instead to contain my personal ideas and experiments
 on various subjects.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;formatting sources with vim's &lt;code&gt;gq}&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Fri, 02 Jun 2017 18:50:39 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-02:/site/opening-the-labs.html</guid><category>meta</category><category>tpw</category></item></channel></rss>
