@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/all.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-03T00:14:53-03:00</updated><entry><title>Brainstorming on music</title><link href="https://iacchus.github.io/site/brainstorming-on-music.html" rel="alternate"></link><published>2017-06-03T00:14:53-03:00</published><updated>2017-06-03T00:14:53-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-03:/site/brainstorming-on-music.html</id><summary type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/all.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-03T00:15:42-03:00</updated><entry><title>Projects</title><link href="https://iacchus.github.io/site/projects.html" rel="alternate"></link><published>2017-06-03T00:15:42-03:00</published><updated>2017-06-03T00:15:42-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-03:/site/projects.html</id><summary type="html">&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;musiceditor&lt;/li&gt;
+&lt;li&gt;fretboard-svg&lt;/li&gt;
+&lt;li&gt;birdears&lt;/li&gt;
+&lt;li&gt;sheet music stuff&lt;/li&gt;
+&lt;li&gt;abc notation edition&lt;/li&gt;
+&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;musiceditor&lt;/li&gt;
+&lt;li&gt;fretboard-svg&lt;/li&gt;
+&lt;li&gt;birdears&lt;/li&gt;
+&lt;li&gt;sheet music stuff&lt;/li&gt;
+&lt;li&gt;abc notation edition&lt;/li&gt;
+&lt;/ul&gt;</content><category term="projects"></category></entry><entry><title>Brainstorming on music</title><link href="https://iacchus.github.io/site/brainstorming-on-music.html" rel="alternate"></link><published>2017-06-03T00:14:53-03:00</published><updated>2017-06-03T00:14:53-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-03:/site/brainstorming-on-music.html</id><summary type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#greek-modes"&gt;Greek Modes&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#standard"&gt;Standard&lt;/a&gt;&lt;ul&gt;
@@ -86,13 +100,7 @@ locrian:    0011|1110
 &lt;li&gt;M ─ Descending Perfect Fifth (C, FM)&lt;/li&gt;
 &lt;li&gt;A ─ Descending Major Sixth (C, Eb)&lt;/li&gt;
 &lt;li&gt;L ─ Descending Major Seventh (C, C#)&lt;/li&gt;
-&lt;/ul&gt;</content><category term="music"></category><category term="metanoia"></category></entry><entry><title>Projects</title><link href="https://iacchus.github.io/site/projects.html" rel="alternate"></link><published>2017-06-03T00:09:37-03:00</published><updated>2017-06-03T00:09:37-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-03:/site/projects.html</id><summary type="html">&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
-&lt;p&gt;musiceditor
-fretboard-svg
-birdears&lt;/p&gt;</summary><content type="html">&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
-&lt;p&gt;musiceditor
-fretboard-svg
-birdears&lt;/p&gt;</content><category term="projects"></category></entry><entry><title>Opening the labs</title><link href="https://iacchus.github.io/site/opening-the-labs.html" rel="alternate"></link><published>2017-06-02T18:50:39-03:00</published><updated>2017-06-02T18:50:39-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-02:/site/opening-the-labs.html</id><summary type="html">&lt;p&gt;Here we are. This is our very first post. This is not intended to be a
+&lt;/ul&gt;</content><category term="music"></category><category term="metanoia"></category></entry><entry><title>Opening the labs</title><link href="https://iacchus.github.io/site/opening-the-labs.html" rel="alternate"></link><published>2017-06-02T18:50:39-03:00</published><updated>2017-06-02T18:50:39-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-02:/site/opening-the-labs.html</id><summary type="html">&lt;p&gt;Here we are. This is our very first post. This is not intended to be a
 presentational blog, but instead to contain my personal ideas and experiments
 on various subjects.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;formatting sources with vim's &lt;code&gt;gq}&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Here we are. This is our very first post. This is not intended to be a
