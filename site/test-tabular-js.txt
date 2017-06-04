@@ -11,7 +11,24 @@ text = $(this).text()
 lines=text.split('\n')
 
 table=[]
-for(i=0;lines[i];i++) table[i] = lines[i].split('  ');
-console.log(table)
+
+ttext = "<table border='1'>\n";
+for(i=0;lines[i];i++)
+{
+	if(i==0) ttext += "\t<thead>\n";
+	else ttext += "\t<tbody>\n";
+
+	ttext += "\t\t<tr>\n"
+	table[i] = lines[i].split('  ');
+	for(x=0; table[i][x]; x++) ttext += "\t\t\t<td>"+ table[i][x] +"</td>\n";
+	ttext += "\t\t</tr>\n"
+
+	if(i==0) ttext += "\t</thead>\n";
+	else ttext += "\t</tbody>\n";
+}
+ttext += "</table>\n";
+console.log(ttext)
+
+$(this).parent().insertAfter(ttext)
 })
 ```

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench - misc</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/misc.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-04T00:07:39-03:00</updated><entry><title>test tabular js</title><link href="https://iacchus.github.io/site/test-tabular-js.html" rel="alternate"></link><published>2017-06-04T00:07:39-03:00</published><updated>2017-06-04T00:07:39-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-04:/site/test-tabular-js.html</id><summary type="html">&lt;pre&gt;&lt;code class="tabular"&gt;C  D  E
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench - misc</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/misc.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-04T00:30:37-03:00</updated><entry><title>test tabular js</title><link href="https://iacchus.github.io/site/test-tabular-js.html" rel="alternate"></link><published>2017-06-04T00:30:37-03:00</published><updated>2017-06-04T00:30:37-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-04:/site/test-tabular-js.html</id><summary type="html">&lt;pre&gt;&lt;code class="tabular"&gt;C  D  E
    2  4
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -8,10 +8,15 @@ text = $(this).text()
 lines=text.split('\n')
 
 table=[]
-for(i=0;lines[i];i++) table[i] = lines[i].split('  ');
-console.log(table)
-})
-&lt;/code&gt;&lt;/pre&gt;</summary><content type="html">&lt;pre&gt;&lt;code class="tabular"&gt;C  D  E
+
+ttext = &amp;quot;&amp;lt;table border='1'&amp;gt;\n&amp;quot;;
+for(i=0;lines[i];i++)
+{
+    if(i==0) ttext += &amp;quot;\t&amp;lt;thead&amp;gt;\n&amp;quot;;
+    else ttext += &amp;quot;\t&amp;lt;tbody&amp;gt;\n&amp;quot;;
+
+    ttext += &amp;quot;\t\t&amp;lt;tr&amp;gt;\n&amp;quot;
+    table[i] = lines[i].split …&lt;/code&gt;&lt;/pre&gt;</summary><content type="html">&lt;pre&gt;&lt;code class="tabular"&gt;C  D  E
    2  4
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -20,8 +25,25 @@ text = $(this).text()
 lines=text.split('\n')
 
 table=[]
-for(i=0;lines[i];i++) table[i] = lines[i].split('  ');
-console.log(table)
+
+ttext = &amp;quot;&amp;lt;table border='1'&amp;gt;\n&amp;quot;;
+for(i=0;lines[i];i++)
+{
+    if(i==0) ttext += &amp;quot;\t&amp;lt;thead&amp;gt;\n&amp;quot;;
+    else ttext += &amp;quot;\t&amp;lt;tbody&amp;gt;\n&amp;quot;;
+
+    ttext += &amp;quot;\t\t&amp;lt;tr&amp;gt;\n&amp;quot;
+    table[i] = lines[i].split('  ');
+    for(x=0; table[i][x]; x++) ttext += &amp;quot;\t\t\t&amp;lt;td&amp;gt;&amp;quot;+ table[i][x] +&amp;quot;&amp;lt;/td&amp;gt;\n&amp;quot;;
+    ttext += &amp;quot;\t\t&amp;lt;/tr&amp;gt;\n&amp;quot;
+
+    if(i==0) ttext += &amp;quot;\t&amp;lt;/thead&amp;gt;\n&amp;quot;;
+    else ttext += &amp;quot;\t&amp;lt;/tbody&amp;gt;\n&amp;quot;;
+}
+ttext += &amp;quot;&amp;lt;/table&amp;gt;\n&amp;quot;;
+console.log(ttext)
+
+$(this).parent().insertAfter(ttext)
 })
 &lt;/code&gt;&lt;/pre&gt;</content></entry><entry><title>What is a man</title><link href="https://iacchus.github.io/site/what-is-a-man.html" rel="alternate"></link><published>2017-06-03T18:18:10-03:00</published><updated>2017-06-03T18:18:10-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-03:/site/what-is-a-man.html</id><summary type="html">&lt;p&gt;If you dissaprove the feminist agenda and have some specific point-of-view on
 these issues, then you should know how to categorize the differences between

@@ -155,8 +155,25 @@ text = $(this).text()
 lines=text.split('\n')
 
 table=[]
-for(i=0;lines[i];i++) table[i] = lines[i].split('  ');
-console.log(table)
+
+ttext = &quot;&lt;table border='1'&gt;\n&quot;;
+for(i=0;lines[i];i++)
+{
+    if(i==0) ttext += &quot;\t&lt;thead&gt;\n&quot;;
+    else ttext += &quot;\t&lt;tbody&gt;\n&quot;;
+
+    ttext += &quot;\t\t&lt;tr&gt;\n&quot;
+    table[i] = lines[i].split('  ');
+    for(x=0; table[i][x]; x++) ttext += &quot;\t\t\t&lt;td&gt;&quot;+ table[i][x] +&quot;&lt;/td&gt;\n&quot;;
+    ttext += &quot;\t\t&lt;/tr&gt;\n&quot;
+
+    if(i==0) ttext += &quot;\t&lt;/thead&gt;\n&quot;;
+    else ttext += &quot;\t&lt;/tbody&gt;\n&quot;;
+}
+ttext += &quot;&lt;/table&gt;\n&quot;;
+console.log(ttext)
+
+$(this).parent().insertAfter(ttext)
 })
 </code></pre>
                 </section>
