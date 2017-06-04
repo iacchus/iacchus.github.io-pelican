@@ -31,7 +31,7 @@ PLUGIN_PATHS = [
 PLUGINS = [
     'just_table',
     'liquid_tags.youtube',
-    'pelican-ipynb.markup',
+    'ipynb.markup',
     'pin_to_top',
     # 'post_revision',
     'render_math',
@@ -101,7 +101,7 @@ AUTHORS_BIO = {
     "cover": "https://avatars2.githubusercontent.com/u/881531?v=3&u=ced26c8fd97409f69ee0237da7b87cce1790fb16&s=700",
     "image": "https://avatars2.githubusercontent.com/u/881531?v=3&u=ced26c8fd97409f69ee0237da7b87cce1790fb16&s=400",
     "website": "https://iacchus.github.io",
-    "location": "Querência Amadaa",
+    "location": "Querência Amada",
     "bio": "EE hew. Maybe soon we fill this."
   }
 }
