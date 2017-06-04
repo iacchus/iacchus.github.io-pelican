@@ -30,3 +30,6 @@ $(ttext).insertAfter($(this).parent())
 $(this).parent().remove()
 })
 ```
+
+The algo is major column element plus 2 spaces. It is counted by the first row
+and should be correctly aligned with it.

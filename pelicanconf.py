@@ -20,6 +20,8 @@ DEFAULT_LANG = 'en'
 DEFAULT_DATE = 'fs'
 #SUMMARY_MAX_LENGTH = None
 
+MARKUP = ('md', 'ipynb')
+
 DISPLAY_PAGES_ON_MENU = True
 
 PLUGIN_PATHS = [
@@ -27,6 +29,9 @@ PLUGIN_PATHS = [
 ]
 
 PLUGINS = [
+    'just_table',
+    'liquid_tags.youtube',
+    'pelican-ipynb.markup',
     'pin_to_top',
     # 'post_revision',
     'render_math',

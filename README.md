@@ -15,12 +15,14 @@ isn't in their database, then you simply don't get to go anywhere."
 * abcjs
 * mathjax
 * markdown extra
-  * toc
-  * attrs
+    * toc
+    * attrs
 * oembedall
 * emoji
 * rmd reader
 * post_revision
+* [just_table](https://github.com/burakkose/just_table/)
+* [pelican-ipynb](https://github.com/danielfrg/pelican-ipynb/)
 
 ## Pelican
 
