@@ -163,8 +163,18 @@
                 <div class="clear"></div>
             </header>
                 <section class="post-content">
-                <pre><code class="tabular">C D E
-  2 4
+                <pre><code class="tabular">C  D  E
+   2  4
+</code></pre>
+
+<pre><code>$('code.tabular').each(function(){
+text = $(this).text()
+lines=text.split('\n')
+
+table=[]
+for(i=0;lines[i];i++) table[i] = lines[i].split('  ');
+console.log(table)
+})
 </code></pre>
                 </section>
             </div>
