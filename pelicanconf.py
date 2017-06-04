@@ -30,8 +30,8 @@ PLUGIN_PATHS = [
 
 PLUGINS = [
     'just_table',
-    'liquid_tags.youtube',
-    'ipynb.markup',
+    #'liquid_tags.youtube',
+    #'ipynb.markup',
     'pin_to_top',
     # 'post_revision',
     'render_math',
