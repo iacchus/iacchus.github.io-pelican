@@ -6,29 +6,27 @@ C  D  E
 ```
 
 ```
-$('code.tabular').each(function(){
+$('code.tabular').each(function() {
 text = $(this).text()
 lines=text.split('\n')
 
 table=[]
+ttext = "<table border='1'>";
 
-ttext = "<table border='1'>\n";
 for(i=0;lines[i];i++)
 {
-	if(i==0) ttext += "\t<thead>\n";
-	else ttext += "\t<tbody>\n";
+	ttext += (i==0) ? "<thead>" : "<tbody>";
 
-	ttext += "\t\t<tr>\n"
-	table[i] = lines[i].split('  ');
-	for(x=0; table[i][x]; x++) ttext += "\t\t\t<td>"+ table[i][x] +"</td>\n";
-	ttext += "\t\t</tr>\n"
+	ttext += "<tr>"
+	columns = lines[i].split('  ');
+	for(x=0; columns[x] != null; x++) ttext += "<td>"+ columns[x] +"</td>";
+	ttext += "</tr>";
 
-	if(i==0) ttext += "\t</thead>\n";
-	else ttext += "\t</tbody>\n";
+	ttext += (i==0) ? "</thead>" : "</tbody>";
 }
 ttext += "</table>\n";
-console.log(ttext)
 
-$(this).parent().insertAfter(ttext)
+$(ttext).insertAfter($(this).parent())
+$(this).parent().remove()
 })
 ```
