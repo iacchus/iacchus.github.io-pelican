@@ -1,4 +1,5 @@
 title: test tabular js
+tags: programming, archive
 
 ```tabular
 C  D  E

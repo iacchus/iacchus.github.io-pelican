@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Tue, 06 Jun 2017 20:19:49 -0300</lastBuildDate><item><title>modes</title><link>https://iacchus.github.io/site/modes.html</link><description>&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
-    P5M6M7P8
-
-do: P1M2m3P4
-    P5M6m7P8
-
-ph: P1m2m3P4
-    P5m6m7P8
-
-ly: P1M2M3A4
-    P5M6M7P8
-
-my: P1M2M3P4
-    P5M6m7P8
-
-ae: P1M2m3P4
-    P5m6m7P8
-
-lo: P1m2m3P4
-    d5m6m7P8
-&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Tue, 06 Jun 2017 20:19:49 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-06:/site/modes.html</guid><category>archive</category><category>music</category></item><item><title>test tabular js</title><link>https://iacchus.github.io/site/test-tabular-js.html</link><description>&lt;pre&gt;&lt;code class="tabular"&gt;C  D  E
+<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Tue, 06 Jun 2017 20:54:13 -0300</lastBuildDate><item><title>test tabular js</title><link>https://iacchus.github.io/site/test-tabular-js.html</link><description>&lt;pre&gt;&lt;code class="tabular"&gt;C  D  E
    2  4
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -36,19 +16,7 @@ for(i=0;lines[i];i++)
 
     ttext += &amp;quot;&amp;lt;tr&amp;gt;&amp;quot;
     columns = lines[i].split('  ');
-    for(x=0; columns[x] != null; x++) ttext += &amp;quot;&amp;lt;td&amp;gt;&amp;quot;+ columns[x] +&amp;quot;&amp;lt;/td …&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sun, 04 Jun 2017 03:42:52 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-04:/site/test-tabular-js.html</guid></item><item><title>What is a man</title><link>https://iacchus.github.io/site/what-is-a-man.html</link><description>&lt;p&gt;If you dissaprove the feminist agenda and have some specific point-of-view on
-these issues, then you should know how to categorize the differences between
-what is a men and what is a woman.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 18:18:10 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/what-is-a-man.html</guid><category>metanoia</category></item><item><title>Projects</title><link>https://iacchus.github.io/site/projects.html</link><description>&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;musiceditor&lt;/li&gt;
-&lt;li&gt;fretboard-svg&lt;/li&gt;
-&lt;li&gt;birdears&lt;/li&gt;
-&lt;li&gt;sheet music stuff&lt;/li&gt;
-&lt;li&gt;abc notation edition&lt;/li&gt;
-&lt;li&gt;sheetmusic&lt;/li&gt;
-&lt;li&gt;tunebooks&lt;/li&gt;
-&lt;li&gt;exercises&lt;/li&gt;
-&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 10:18:26 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/projects.html</guid><category>projects</category></item><item><title>testing multiple chunks interoperability</title><link>https://iacchus.github.io/site/testing-multiple-chunks-interoperability.html</link><description>&lt;p&gt;https://iacchus.github.io/jupyter-notebooks/html/Simple-Str-to-Tables.html&lt;/p&gt;
+    for(x=0; columns[x] != null; x++) ttext += &amp;quot;&amp;lt;td&amp;gt;&amp;quot;+ columns[x] +&amp;quot;&amp;lt;/td …&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Tue, 06 Jun 2017 20:54:13 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-06:/site/test-tabular-js.html</guid><category>programming</category><category>archive</category></item><item><title>testing multiple chunks interoperability</title><link>https://iacchus.github.io/site/testing-multiple-chunks-interoperability.html</link><description>&lt;p&gt;https://iacchus.github.io/jupyter-notebooks/html/Simple-Str-to-Tables.html&lt;/p&gt;
 &lt;pre&gt;&lt;code class="python"&gt;def simple_table(str_data):
 
     from pandas import DataFrame as DF
@@ -84,7 +52,39 @@ print(df)
     &lt;tr&gt;
       &lt;th&gt;1&lt;/th&gt;
       &lt;td&gt;&lt;/td&gt;
-      &lt;td&gt;2 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 10:09:54 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/testing-multiple-chunks-interoperability.html</guid><category>labs</category><category>programming</category></item><item><title>Brainstorming on music</title><link>https://iacchus.github.io/site/brainstorming-on-music.html</link><description>&lt;div class="toc"&gt;
+      &lt;td&gt;2 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Tue, 06 Jun 2017 20:53:34 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-06:/site/testing-multiple-chunks-interoperability.html</guid><category>labs</category><category>programming</category><category>archive</category></item><item><title>modes</title><link>https://iacchus.github.io/site/modes.html</link><description>&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
+    P5M6M7P8
+
+do: P1M2m3P4
+    P5M6m7P8
+
+ph: P1m2m3P4
+    P5m6m7P8
+
+ly: P1M2M3A4
+    P5M6M7P8
+
+my: P1M2M3P4
+    P5M6m7P8
+
+ae: P1M2m3P4
+    P5m6m7P8
+
+lo: P1m2m3P4
+    d5m6m7P8
+&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Tue, 06 Jun 2017 20:19:49 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-06:/site/modes.html</guid><category>archive</category><category>music</category></item><item><title>What is a man</title><link>https://iacchus.github.io/site/what-is-a-man.html</link><description>&lt;p&gt;If you dissaprove the feminist agenda and have some specific point-of-view on
+these issues, then you should know how to categorize the differences between
+what is a men and what is a woman.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 18:18:10 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/what-is-a-man.html</guid><category>metanoia</category></item><item><title>Projects</title><link>https://iacchus.github.io/site/projects.html</link><description>&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;musiceditor&lt;/li&gt;
+&lt;li&gt;fretboard-svg&lt;/li&gt;
+&lt;li&gt;birdears&lt;/li&gt;
+&lt;li&gt;sheet music stuff&lt;/li&gt;
+&lt;li&gt;abc notation edition&lt;/li&gt;
+&lt;li&gt;sheetmusic&lt;/li&gt;
+&lt;li&gt;tunebooks&lt;/li&gt;
+&lt;li&gt;exercises&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 10:18:26 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/projects.html</guid><category>projects</category></item><item><title>Brainstorming on music</title><link>https://iacchus.github.io/site/brainstorming-on-music.html</link><description>&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#greek-modes"&gt;Greek Modes&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#standard"&gt;Standard&lt;/a&gt;&lt;ul&gt;

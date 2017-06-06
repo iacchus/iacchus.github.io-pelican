@@ -1,45 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench - Iacchus Mercurius</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/iacchus-mercurius.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-06T20:19:49-03:00</updated><entry><title>modes</title><link href="https://iacchus.github.io/site/modes.html" rel="alternate"></link><published>2017-06-06T20:19:49-03:00</published><updated>2017-06-06T20:19:49-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-06:/site/modes.html</id><summary type="html">&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
-    P5M6M7P8
-
-do: P1M2m3P4
-    P5M6m7P8
-
-ph: P1m2m3P4
-    P5m6m7P8
-
-ly: P1M2M3A4
-    P5M6M7P8
-
-my: P1M2M3P4
-    P5M6m7P8
-
-ae: P1M2m3P4
-    P5m6m7P8
-
-lo: P1m2m3P4
-    d5m6m7P8
-&lt;/code&gt;&lt;/pre&gt;</summary><content type="html">&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
-    P5M6M7P8
-
-do: P1M2m3P4
-    P5M6m7P8
-
-ph: P1m2m3P4
-    P5m6m7P8
-
-ly: P1M2M3A4
-    P5M6M7P8
-
-my: P1M2M3P4
-    P5M6m7P8
-
-ae: P1M2m3P4
-    P5m6m7P8
-
-lo: P1m2m3P4
-    d5m6m7P8
-&lt;/code&gt;&lt;/pre&gt;</content><category term="archive"></category><category term="music"></category></entry><entry><title>test tabular js</title><link href="https://iacchus.github.io/site/test-tabular-js.html" rel="alternate"></link><published>2017-06-04T03:42:52-03:00</published><updated>2017-06-04T03:42:52-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-04:/site/test-tabular-js.html</id><summary type="html">&lt;pre&gt;&lt;code class="tabular"&gt;C  D  E
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench - Iacchus Mercurius</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/iacchus-mercurius.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-06T20:54:13-03:00</updated><entry><title>test tabular js</title><link href="https://iacchus.github.io/site/test-tabular-js.html" rel="alternate"></link><published>2017-06-06T20:54:13-03:00</published><updated>2017-06-06T20:54:13-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-06:/site/test-tabular-js.html</id><summary type="html">&lt;pre&gt;&lt;code class="tabular"&gt;C  D  E
    2  4
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -86,31 +46,7 @@ $(this).parent().remove()
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The algo is major column element plus 2 spaces. It is counted by the first row
-and should be correctly aligned with it.&lt;/p&gt;</content></entry><entry><title>What is a man</title><link href="https://iacchus.github.io/site/what-is-a-man.html" rel="alternate"></link><published>2017-06-03T18:18:10-03:00</published><updated>2017-06-03T18:18:10-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-03:/site/what-is-a-man.html</id><summary type="html">&lt;p&gt;If you dissaprove the feminist agenda and have some specific point-of-view on
-these issues, then you should know how to categorize the differences between
-what is a men and what is a woman.&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you dissaprove the feminist agenda and have some specific point-of-view on
-these issues, then you should know how to categorize the differences between
-what is a men and what is a woman.&lt;/p&gt;</content><category term="metanoia"></category></entry><entry><title>Projects</title><link href="https://iacchus.github.io/site/projects.html" rel="alternate"></link><published>2017-06-03T10:18:26-03:00</published><updated>2017-06-03T10:18:26-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-03:/site/projects.html</id><summary type="html">&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;musiceditor&lt;/li&gt;
-&lt;li&gt;fretboard-svg&lt;/li&gt;
-&lt;li&gt;birdears&lt;/li&gt;
-&lt;li&gt;sheet music stuff&lt;/li&gt;
-&lt;li&gt;abc notation edition&lt;/li&gt;
-&lt;li&gt;sheetmusic&lt;/li&gt;
-&lt;li&gt;tunebooks&lt;/li&gt;
-&lt;li&gt;exercises&lt;/li&gt;
-&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;musiceditor&lt;/li&gt;
-&lt;li&gt;fretboard-svg&lt;/li&gt;
-&lt;li&gt;birdears&lt;/li&gt;
-&lt;li&gt;sheet music stuff&lt;/li&gt;
-&lt;li&gt;abc notation edition&lt;/li&gt;
-&lt;li&gt;sheetmusic&lt;/li&gt;
-&lt;li&gt;tunebooks&lt;/li&gt;
-&lt;li&gt;exercises&lt;/li&gt;
-&lt;/ul&gt;</content><category term="projects"></category></entry><entry><title>testing multiple chunks interoperability</title><link href="https://iacchus.github.io/site/testing-multiple-chunks-interoperability.html" rel="alternate"></link><published>2017-06-03T10:09:54-03:00</published><updated>2017-06-03T10:09:54-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-03:/site/testing-multiple-chunks-interoperability.html</id><summary type="html">&lt;p&gt;https://iacchus.github.io/jupyter-notebooks/html/Simple-Str-to-Tables.html&lt;/p&gt;
+and should be correctly aligned with it.&lt;/p&gt;</content><category term="programming"></category><category term="archive"></category></entry><entry><title>testing multiple chunks interoperability</title><link href="https://iacchus.github.io/site/testing-multiple-chunks-interoperability.html" rel="alternate"></link><published>2017-06-06T20:53:34-03:00</published><updated>2017-06-06T20:53:34-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-06:/site/testing-multiple-chunks-interoperability.html</id><summary type="html">&lt;p&gt;https://iacchus.github.io/jupyter-notebooks/html/Simple-Str-to-Tables.html&lt;/p&gt;
 &lt;pre&gt;&lt;code class="python"&gt;def simple_table(str_data):
 
     from pandas import DataFrame as DF
@@ -186,7 +122,71 @@ print(df)
       &lt;td&gt;3&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><category term="labs"></category><category term="programming"></category></entry><entry><title>Brainstorming on music</title><link href="https://iacchus.github.io/site/brainstorming-on-music.html" rel="alternate"></link><published>2017-06-03T00:30:43-03:00</published><updated>2017-06-03T00:30:43-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-03:/site/brainstorming-on-music.html</id><summary type="html">&lt;div class="toc"&gt;
+&lt;/table&gt;</content><category term="labs"></category><category term="programming"></category><category term="archive"></category></entry><entry><title>modes</title><link href="https://iacchus.github.io/site/modes.html" rel="alternate"></link><published>2017-06-06T20:19:49-03:00</published><updated>2017-06-06T20:19:49-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-06:/site/modes.html</id><summary type="html">&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
+    P5M6M7P8
+
+do: P1M2m3P4
+    P5M6m7P8
+
+ph: P1m2m3P4
+    P5m6m7P8
+
+ly: P1M2M3A4
+    P5M6M7P8
+
+my: P1M2M3P4
+    P5M6m7P8
+
+ae: P1M2m3P4
+    P5m6m7P8
+
+lo: P1m2m3P4
+    d5m6m7P8
+&lt;/code&gt;&lt;/pre&gt;</summary><content type="html">&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
+    P5M6M7P8
+
+do: P1M2m3P4
+    P5M6m7P8
+
+ph: P1m2m3P4
+    P5m6m7P8
+
+ly: P1M2M3A4
+    P5M6M7P8
+
+my: P1M2M3P4
+    P5M6m7P8
+
+ae: P1M2m3P4
+    P5m6m7P8
+
+lo: P1m2m3P4
+    d5m6m7P8
+&lt;/code&gt;&lt;/pre&gt;</content><category term="archive"></category><category term="music"></category></entry><entry><title>What is a man</title><link href="https://iacchus.github.io/site/what-is-a-man.html" rel="alternate"></link><published>2017-06-03T18:18:10-03:00</published><updated>2017-06-03T18:18:10-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-03:/site/what-is-a-man.html</id><summary type="html">&lt;p&gt;If you dissaprove the feminist agenda and have some specific point-of-view on
+these issues, then you should know how to categorize the differences between
+what is a men and what is a woman.&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you dissaprove the feminist agenda and have some specific point-of-view on
+these issues, then you should know how to categorize the differences between
+what is a men and what is a woman.&lt;/p&gt;</content><category term="metanoia"></category></entry><entry><title>Projects</title><link href="https://iacchus.github.io/site/projects.html" rel="alternate"></link><published>2017-06-03T10:18:26-03:00</published><updated>2017-06-03T10:18:26-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-03:/site/projects.html</id><summary type="html">&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;musiceditor&lt;/li&gt;
+&lt;li&gt;fretboard-svg&lt;/li&gt;
+&lt;li&gt;birdears&lt;/li&gt;
+&lt;li&gt;sheet music stuff&lt;/li&gt;
+&lt;li&gt;abc notation edition&lt;/li&gt;
+&lt;li&gt;sheetmusic&lt;/li&gt;
+&lt;li&gt;tunebooks&lt;/li&gt;
+&lt;li&gt;exercises&lt;/li&gt;
+&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;musiceditor&lt;/li&gt;
+&lt;li&gt;fretboard-svg&lt;/li&gt;
+&lt;li&gt;birdears&lt;/li&gt;
+&lt;li&gt;sheet music stuff&lt;/li&gt;
+&lt;li&gt;abc notation edition&lt;/li&gt;
+&lt;li&gt;sheetmusic&lt;/li&gt;
+&lt;li&gt;tunebooks&lt;/li&gt;
+&lt;li&gt;exercises&lt;/li&gt;
+&lt;/ul&gt;</content><category term="projects"></category></entry><entry><title>Brainstorming on music</title><link href="https://iacchus.github.io/site/brainstorming-on-music.html" rel="alternate"></link><published>2017-06-03T00:30:43-03:00</published><updated>2017-06-03T00:30:43-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-03:/site/brainstorming-on-music.html</id><summary type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#greek-modes"&gt;Greek Modes&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#standard"&gt;Standard&lt;/a&gt;&lt;ul&gt;

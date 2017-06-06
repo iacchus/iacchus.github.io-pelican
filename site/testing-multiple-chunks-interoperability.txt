@@ -1,5 +1,5 @@
 title: testing multiple chunks interoperability
-tags: labs, programming
+tags: labs, programming, archive
 
 https://iacchus.github.io/jupyter-notebooks/html/Simple-Str-to-Tables.html
 
