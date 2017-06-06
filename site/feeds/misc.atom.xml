@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench - misc</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/misc.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-04T03:42:52-03:00</updated><entry><title>test tabular js</title><link href="https://iacchus.github.io/site/test-tabular-js.html" rel="alternate"></link><published>2017-06-04T03:42:52-03:00</published><updated>2017-06-04T03:42:52-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-04:/site/test-tabular-js.html</id><summary type="html">&lt;pre&gt;&lt;code class="tabular"&gt;C  D  E
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench - misc</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/misc.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-06T07:53:44-03:00</updated><entry><title>modes</title><link href="https://iacchus.github.io/site/modes.html" rel="alternate"></link><published>2017-06-06T07:53:44-03:00</published><updated>2017-06-06T07:53:44-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-06:/site/modes.html</id><summary type="html">&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
+    P5M6M7P8
+
+do: P1M2m3P4
+    P5M6m7P8
+
+ph: P1m2m3P4
+    P5m6m7P8
+
+ly: P1M2M3A4
+    P5M6M7P8
+
+my: P1M2M3P4
+    P5M6m7P8
+
+ae: P1M2m3P4
+    P5m6m7P8
+
+lo: P1m2m3P4
+    d5m6m7P8
+&lt;/code&gt;&lt;/pre&gt;</summary><content type="html">&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
+    P5M6M7P8
+
+do: P1M2m3P4
+    P5M6m7P8
+
+ph: P1m2m3P4
+    P5m6m7P8
+
+ly: P1M2M3A4
+    P5M6M7P8
+
+my: P1M2M3P4
+    P5M6m7P8
+
+ae: P1M2m3P4
+    P5m6m7P8
+
+lo: P1m2m3P4
+    d5m6m7P8
+&lt;/code&gt;&lt;/pre&gt;</content></entry><entry><title>test tabular js</title><link href="https://iacchus.github.io/site/test-tabular-js.html" rel="alternate"></link><published>2017-06-04T03:42:52-03:00</published><updated>2017-06-04T03:42:52-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-04:/site/test-tabular-js.html</id><summary type="html">&lt;pre&gt;&lt;code class="tabular"&gt;C  D  E
    2  4
 &lt;/code&gt;&lt;/pre&gt;
 
