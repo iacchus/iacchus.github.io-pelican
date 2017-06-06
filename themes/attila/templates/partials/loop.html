@@ -3,6 +3,7 @@
     </div>
 
     {% for article in articles_page.object_list %}
+    {% if output_file == 'index.html' and not 'archive' in article.tags %}
         <article class="post">
         <div class="inner">
             <header class="post-header">         
@@ -60,6 +61,7 @@
             {% include 'partials/comments_count.html' %}
             </div>
         </article>
+	{% endif %}
     {% endfor %}
 
     {% include "partials/pagination.html" %}
