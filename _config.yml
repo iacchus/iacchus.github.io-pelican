@@ -2,3 +2,4 @@ exclude:
         - plugins/ipynb/tests
         - plugins/ipynb/README.md
         - plugins/liquid_tags/test_data
+        - plugins/liquid_tags/Readme.md
