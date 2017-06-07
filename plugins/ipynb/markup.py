@@ -56,28 +56,29 @@ class IPythonNB(BaseReader):
             # process using Pelican MD Reader
             md_reader = MarkdownReader(self.settings)
             _content, metadata = md_reader.read(metadata_filepath)
-        else:
-            # Load metadata from ipython notebook file
-            ipynb_file = open(filepath)
-            notebook_metadata = json.load(ipynb_file)['metadata']
-
-            # Change to standard pelican metadata
-            for key, value in notebook_metadata.items():
-                key = key.lower()
-                if key in ("title", "date", "category", "tags", "slug", "author"):
-                    metadata[key] = self.process_metadata(key, value)
+        #else:
+        #    # Load metadata from ipython notebook file
+        #    ipynb_file = open(filepath)
+        #    notebook_metadata = json.load(ipynb_file)['metadata']
+        #
+        #    # Change to standard pelican metadata
+        #    for key, value in notebook_metadata.items():
+        #        key = key.lower()
+        #        if key in ("title", "date", "category", "tags", "slug", "author"):
+        #            metadata[key] = self.process_metadata(key, value)
 
         keys = [k.lower() for k in metadata.keys()]
         #if not set(['title', 'date']).issubset(set(keys)):
         if not set(['title']).issubset(set(keys)):
+            metadata['title'] = filename
             # Probably using ipynb.liquid mode
-            md_filename = filename.split('.')[0] + '.md'
-            md_filepath = os.path.join(filedir, md_filename)
-            if not os.path.exists(md_filepath):
-                raise Exception("Could not find metadata in `.ipynb-meta`, inside `.ipynb` or external `.md` file.")
-            else:
-                raise Exception("Could not find metadata in `.ipynb-meta` or inside `.ipynb` but found `.md` file, "
-                      "assuming that this notebook is for liquid tag usage if true ignore this error")
+            #md_filename = filename.split('.')[0] + '.md'
+            #md_filepath = os.path.join(filedir, md_filename)
+            #if not os.path.exists(md_filepath):
+            #    raise Exception("Could not find metadata in `.ipynb-meta`, inside `.ipynb` or external `.md` file.")
+            #else:
+            #    raise Exception("Could not find metadata in `.ipynb-meta` or inside `.ipynb` but found `.md` file, "
+            #          "assuming that this notebook is for liquid tag usage if true ignore this error")
 
         content, info = get_html_from_filepath(filepath)
 
