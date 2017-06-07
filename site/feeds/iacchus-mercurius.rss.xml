@@ -37,7 +37,7 @@
 &lt;li&gt;&lt;a href="https://jiffyclub.github.io/palettable"&gt;palettable&lt;/a&gt; / &lt;a href="https://github.com/jiffyclub/palettable"&gt;source&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://pypi.python.org/pypi/palette"&gt;pallete (pypi)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://pypi.python.org/pypi/colour"&gt;colour (pypi)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://ethanschoonover.com/solarized"&gt;Solarized Color Scheme&lt;/a&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Wed, 07 Jun 2017 19:05:37 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-07:/site/testing-ipynb.html</guid></item><item><title>modes</title><link>https://iacchus.github.io/site/modes.html</link><description>&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
+&lt;li&gt;&lt;a href="http://ethanschoonover.com/solarized"&gt;Solarized Color Scheme&lt;/a&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Wed, 07 Jun 2017 19:05:37 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-07:/site/testing-ipynb.html</guid><category>archive</category><category>jupyter</category></item><item><title>modes</title><link>https://iacchus.github.io/site/modes.html</link><description>&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
     P5M6M7P8
 
 do: P1M2m3P4

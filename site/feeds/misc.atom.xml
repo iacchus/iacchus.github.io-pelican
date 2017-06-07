@@ -1633,7 +1633,7 @@ h6:hover .anchor-link {
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content></entry><entry><title>modes</title><link href="https://iacchus.github.io/site/modes.html" rel="alternate"></link><published>2017-06-07T18:58:29-03:00</published><updated>2017-06-07T18:58:29-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-07:/site/modes.html</id><summary type="html">&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
+</content><category term="archive"></category><category term="jupyter"></category></entry><entry><title>modes</title><link href="https://iacchus.github.io/site/modes.html" rel="alternate"></link><published>2017-06-07T18:58:29-03:00</published><updated>2017-06-07T18:58:29-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-07:/site/modes.html</id><summary type="html">&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
     P5M6M7P8
 
 do: P1M2m3P4
