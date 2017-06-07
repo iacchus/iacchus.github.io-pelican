@@ -1,5 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench - misc</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/misc.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-06T20:54:13-03:00</updated><entry><title>test tabular js</title><link href="https://iacchus.github.io/site/test-tabular-js.html" rel="alternate"></link><published>2017-06-06T20:54:13-03:00</published><updated>2017-06-06T20:54:13-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-06:/site/test-tabular-js.html</id><summary type="html">&lt;pre&gt;&lt;code class="tabular"&gt;C  D  E
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench - misc</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/misc.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-07T18:58:29-03:00</updated><entry><title>modes</title><link href="https://iacchus.github.io/site/modes.html" rel="alternate"></link><published>2017-06-07T18:58:29-03:00</published><updated>2017-06-07T18:58:29-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-07:/site/modes.html</id><summary type="html">&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
+    P5M6M7P8
+
+do: P1M2m3P4
+    P5M6m7P8
+
+ph: P1m2m3P4
+    P5m6m7P8
+
+ly: P1M2M3A4
+    P5M6M7P8
+
+my: P1M2M3P4
+    P5M6m7P8
+
+ae: P1M2m3P4
+    P5m6m7P8
+
+lo: P1m2m3P4
+    d5m6m7P8
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;first finger:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;io: P5M6M7P8
+    P1M2M3P4
+
+io: P8
+    P4P5M6M7 
+      P1M2M3
+
+io: M7P8
+    M3P4P5M6 
+        P1M2
+
+io: M6M7P8
+    M2M3P4P5 
+          P1
+&lt;/code&gt;&lt;/pre&gt;</summary><content type="html">&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
+    P5M6M7P8
+
+do: P1M2m3P4
+    P5M6m7P8
+
+ph: P1m2m3P4
+    P5m6m7P8
+
+ly: P1M2M3A4
+    P5M6M7P8
+
+my: P1M2M3P4
+    P5M6m7P8
+
+ae: P1M2m3P4
+    P5m6m7P8
+
+lo: P1m2m3P4
+    d5m6m7P8
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;first finger:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;io: P5M6M7P8
+    P1M2M3P4
+
+io: P8
+    P4P5M6M7 
+      P1M2M3
+
+io: M7P8
+    M3P4P5M6 
+        P1M2
+
+io: M6M7P8
+    M2M3P4P5 
+          P1
+&lt;/code&gt;&lt;/pre&gt;</content><category term="archive"></category><category term="music"></category></entry><entry><title>test tabular js</title><link href="https://iacchus.github.io/site/test-tabular-js.html" rel="alternate"></link><published>2017-06-06T20:54:13-03:00</published><updated>2017-06-06T20:54:13-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-06:/site/test-tabular-js.html</id><summary type="html">&lt;pre&gt;&lt;code class="tabular"&gt;C  D  E
    2  4
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -122,47 +196,7 @@ print(df)
       &lt;td&gt;3&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><category term="labs"></category><category term="programming"></category><category term="archive"></category></entry><entry><title>modes</title><link href="https://iacchus.github.io/site/modes.html" rel="alternate"></link><published>2017-06-06T20:19:49-03:00</published><updated>2017-06-06T20:19:49-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-06:/site/modes.html</id><summary type="html">&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
-    P5M6M7P8
-
-do: P1M2m3P4
-    P5M6m7P8
-
-ph: P1m2m3P4
-    P5m6m7P8
-
-ly: P1M2M3A4
-    P5M6M7P8
-
-my: P1M2M3P4
-    P5M6m7P8
-
-ae: P1M2m3P4
-    P5m6m7P8
-
-lo: P1m2m3P4
-    d5m6m7P8
-&lt;/code&gt;&lt;/pre&gt;</summary><content type="html">&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
-    P5M6M7P8
-
-do: P1M2m3P4
-    P5M6m7P8
-
-ph: P1m2m3P4
-    P5m6m7P8
-
-ly: P1M2M3A4
-    P5M6M7P8
-
-my: P1M2M3P4
-    P5M6m7P8
-
-ae: P1M2m3P4
-    P5m6m7P8
-
-lo: P1m2m3P4
-    d5m6m7P8
-&lt;/code&gt;&lt;/pre&gt;</content><category term="archive"></category><category term="music"></category></entry><entry><title>What is a man</title><link href="https://iacchus.github.io/site/what-is-a-man.html" rel="alternate"></link><published>2017-06-03T18:18:10-03:00</published><updated>2017-06-03T18:18:10-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-03:/site/what-is-a-man.html</id><summary type="html">&lt;p&gt;If you dissaprove the feminist agenda and have some specific point-of-view on
+&lt;/table&gt;</content><category term="labs"></category><category term="programming"></category><category term="archive"></category></entry><entry><title>What is a man</title><link href="https://iacchus.github.io/site/what-is-a-man.html" rel="alternate"></link><published>2017-06-03T18:18:10-03:00</published><updated>2017-06-03T18:18:10-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-03:/site/what-is-a-man.html</id><summary type="html">&lt;p&gt;If you dissaprove the feminist agenda and have some specific point-of-view on
 these issues, then you should know how to categorize the differences between
 what is a men and what is a woman.&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you dissaprove the feminist agenda and have some specific point-of-view on
 these issues, then you should know how to categorize the differences between

@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Tue, 06 Jun 2017 20:54:13 -0300</lastBuildDate><item><title>test tabular js</title><link>https://iacchus.github.io/site/test-tabular-js.html</link><description>&lt;pre&gt;&lt;code class="tabular"&gt;C  D  E
+<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Wed, 07 Jun 2017 18:58:29 -0300</lastBuildDate><item><title>modes</title><link>https://iacchus.github.io/site/modes.html</link><description>&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
+    P5M6M7P8
+
+do: P1M2m3P4
+    P5M6m7P8
+
+ph: P1m2m3P4
+    P5m6m7P8
+
+ly: P1M2M3A4
+    P5M6M7P8
+
+my: P1M2M3P4
+    P5M6m7P8
+
+ae: P1M2m3P4
+    P5m6m7P8
+
+lo: P1m2m3P4
+    d5m6m7P8
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;first finger:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;io: P5M6M7P8
+    P1M2M3P4
+
+io: P8
+    P4P5M6M7 
+      P1M2M3
+
+io: M7P8
+    M3P4P5M6 
+        P1M2
+
+io: M6M7P8
+    M2M3P4P5 
+          P1
+&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Wed, 07 Jun 2017 18:58:29 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-07:/site/modes.html</guid><category>archive</category><category>music</category></item><item><title>test tabular js</title><link>https://iacchus.github.io/site/test-tabular-js.html</link><description>&lt;pre&gt;&lt;code class="tabular"&gt;C  D  E
    2  4
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -52,27 +89,7 @@ print(df)
     &lt;tr&gt;
       &lt;th&gt;1&lt;/th&gt;
       &lt;td&gt;&lt;/td&gt;
-      &lt;td&gt;2 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Tue, 06 Jun 2017 20:53:34 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-06:/site/testing-multiple-chunks-interoperability.html</guid><category>labs</category><category>programming</category><category>archive</category></item><item><title>modes</title><link>https://iacchus.github.io/site/modes.html</link><description>&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
-    P5M6M7P8
-
-do: P1M2m3P4
-    P5M6m7P8
-
-ph: P1m2m3P4
-    P5m6m7P8
-
-ly: P1M2M3A4
-    P5M6M7P8
-
-my: P1M2M3P4
-    P5M6m7P8
-
-ae: P1M2m3P4
-    P5m6m7P8
-
-lo: P1m2m3P4
-    d5m6m7P8
-&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Tue, 06 Jun 2017 20:19:49 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-06:/site/modes.html</guid><category>archive</category><category>music</category></item><item><title>What is a man</title><link>https://iacchus.github.io/site/what-is-a-man.html</link><description>&lt;p&gt;If you dissaprove the feminist agenda and have some specific point-of-view on
+      &lt;td&gt;2 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Tue, 06 Jun 2017 20:53:34 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-06:/site/testing-multiple-chunks-interoperability.html</guid><category>labs</category><category>programming</category><category>archive</category></item><item><title>What is a man</title><link>https://iacchus.github.io/site/what-is-a-man.html</link><description>&lt;p&gt;If you dissaprove the feminist agenda and have some specific point-of-view on
 these issues, then you should know how to categorize the differences between
 what is a men and what is a woman.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 18:18:10 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/what-is-a-man.html</guid><category>metanoia</category></item><item><title>Projects</title><link>https://iacchus.github.io/site/projects.html</link><description>&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
 &lt;ul&gt;

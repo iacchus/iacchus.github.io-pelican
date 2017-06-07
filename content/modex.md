@@ -23,3 +23,21 @@ ae: P1M2m3P4
 lo: P1m2m3P4
     d5m6m7P8
 ```
+first finger:
+
+```
+io: P5M6M7P8
+    P1M2M3P4
+
+io: P8
+    P4P5M6M7 
+      P1M2M3
+
+io: M7P8
+    M3P4P5M6 
+        P1M2
+
+io: M6M7P8
+    M2M3P4P5 
+          P1
+```
