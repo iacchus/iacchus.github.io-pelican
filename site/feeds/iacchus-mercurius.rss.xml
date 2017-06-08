@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Wed, 07 Jun 2017 18:58:29 -0300</lastBuildDate><item><title>modes</title><link>https://iacchus.github.io/site/modes.html</link><description>&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
+<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Thu, 08 Jun 2017 06:28:43 -0300</lastBuildDate><item><title>Projects</title><link>https://iacchus.github.io/site/projects.html</link><description>&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://iacchus.github.io/abc-music-notation-standard/"&gt;musiceditor&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;sheet music editor which uses &lt;a href="https://iacchus.github.io/abc-music-notation-standard/"&gt;abc notation&lt;/a&gt; standard.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://iacchus.github.io/fretboard-svg/"&gt;fretboard-svg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;fretboard note, scale and chord picker&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/iacchus/birdears/"&gt;birdears&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;birdears&lt;/em&gt; is an ear training software written in Python.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/iacchus/sheet-music-stuff/"&gt;sheet-music-stuff&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Various resources on music.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://iacchus.github.io/abc-music-notation-standard/"&gt;abc notation edition&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;An edition of …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Thu, 08 Jun 2017 06:28:43 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-08:/site/projects.html</guid><category>projects</category><category>archive</category></item><item><title>modes</title><link>https://iacchus.github.io/site/modes.html</link><description>&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
     P5M6M7P8
 
 do: P1M2m3P4
@@ -91,17 +111,7 @@ print(df)
       &lt;td&gt;&lt;/td&gt;
       &lt;td&gt;2 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Tue, 06 Jun 2017 20:53:34 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-06:/site/testing-multiple-chunks-interoperability.html</guid><category>labs</category><category>programming</category><category>archive</category></item><item><title>What is a man</title><link>https://iacchus.github.io/site/what-is-a-man.html</link><description>&lt;p&gt;If you dissaprove the feminist agenda and have some specific point-of-view on
 these issues, then you should know how to categorize the differences between
-what is a men and what is a woman.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 18:18:10 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/what-is-a-man.html</guid><category>metanoia</category></item><item><title>Projects</title><link>https://iacchus.github.io/site/projects.html</link><description>&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;musiceditor&lt;/li&gt;
-&lt;li&gt;fretboard-svg&lt;/li&gt;
-&lt;li&gt;birdears&lt;/li&gt;
-&lt;li&gt;sheet music stuff&lt;/li&gt;
-&lt;li&gt;abc notation edition&lt;/li&gt;
-&lt;li&gt;sheetmusic&lt;/li&gt;
-&lt;li&gt;tunebooks&lt;/li&gt;
-&lt;li&gt;exercises&lt;/li&gt;
-&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 10:18:26 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/projects.html</guid><category>projects</category></item><item><title>Brainstorming on music</title><link>https://iacchus.github.io/site/brainstorming-on-music.html</link><description>&lt;div class="toc"&gt;
+what is a men and what is a woman.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 18:18:10 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/what-is-a-man.html</guid><category>metanoia</category></item><item><title>Brainstorming on music</title><link>https://iacchus.github.io/site/brainstorming-on-music.html</link><description>&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#greek-modes"&gt;Greek Modes&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#standard"&gt;Standard&lt;/a&gt;&lt;ul&gt;
