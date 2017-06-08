@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Thu, 08 Jun 2017 06:28:43 -0300</lastBuildDate><item><title>Projects</title><link>https://iacchus.github.io/site/projects.html</link><description>&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
+<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Thu, 08 Jun 2017 08:08:15 -0300</lastBuildDate><item><title>Brainstorming on music</title><link>https://iacchus.github.io/site/brainstorming-on-music.html</link><description>&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#greek-modes"&gt;Greek Modes&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#standard"&gt;Standard&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#diatonic-scale-shapes"&gt;Diatonic Scale Shapes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#mode-abbreviations"&gt;Mode Abbreviations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#mnemonics"&gt;Mnemonics&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#formulating-mode-from-major-degree"&gt;Formulating mode from major degree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#formulating-key-from-enharmonic-tonic"&gt;Formulating key from enharmonic tonic&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 id="greek-modes"&gt;Greek Modes&lt;/h2&gt;
+&lt;p&gt;We were thinking about greek modes these days.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;intervals  P1 m2 M2 m3 M3 P4 TT P5 m6 M6 m7 M7 P8
+semitones  00 01 02 03 04 05 …&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Thu, 08 Jun 2017 08:08:15 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-08:/site/brainstorming-on-music.html</guid><category>music</category><category>metanoia</category><category>drafts</category></item><item><title>Projects</title><link>https://iacchus.github.io/site/projects.html</link><description>&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://iacchus.github.io/abc-music-notation-standard/"&gt;musiceditor&lt;/a&gt;&lt;/p&gt;
@@ -19,7 +39,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://iacchus.github.io/abc-music-notation-standard/"&gt;abc notation edition&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;An edition of …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Thu, 08 Jun 2017 06:28:43 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-08:/site/projects.html</guid><category>projects</category><category>archive</category></item><item><title>modes</title><link>https://iacchus.github.io/site/modes.html</link><description>&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
+&lt;p&gt;An edition of …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Thu, 08 Jun 2017 08:06:26 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-08:/site/projects.html</guid><category>projects</category><category>drafts</category></item><item><title>modes</title><link>https://iacchus.github.io/site/modes.html</link><description>&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
     P5M6M7P8
 
 do: P1M2m3P4
@@ -56,24 +76,7 @@ io: M7P8
 io: M6M7P8
     M2M3P4P5 
           P1
-&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Wed, 07 Jun 2017 18:58:29 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-07:/site/modes.html</guid><category>archive</category><category>music</category></item><item><title>test tabular js</title><link>https://iacchus.github.io/site/test-tabular-js.html</link><description>&lt;pre&gt;&lt;code class="tabular"&gt;C  D  E
-   2  4
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$('code.tabular').each(function() {
-text = $(this).text()
-lines=text.split('\n')
-
-table=[]
-ttext = &amp;quot;&amp;lt;table border='1'&amp;gt;&amp;quot;;
-
-for(i=0;lines[i];i++)
-{
-    ttext += (i==0) ? &amp;quot;&amp;lt;thead&amp;gt;&amp;quot; : &amp;quot;&amp;lt;tbody&amp;gt;&amp;quot;;
-
-    ttext += &amp;quot;&amp;lt;tr&amp;gt;&amp;quot;
-    columns = lines[i].split('  ');
-    for(x=0; columns[x] != null; x++) ttext += &amp;quot;&amp;lt;td&amp;gt;&amp;quot;+ columns[x] +&amp;quot;&amp;lt;/td …&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Tue, 06 Jun 2017 20:54:13 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-06:/site/test-tabular-js.html</guid><category>programming</category><category>archive</category></item><item><title>testing multiple chunks interoperability</title><link>https://iacchus.github.io/site/testing-multiple-chunks-interoperability.html</link><description>&lt;p&gt;https://iacchus.github.io/jupyter-notebooks/html/Simple-Str-to-Tables.html&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Thu, 08 Jun 2017 08:05:43 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-08:/site/modes.html</guid><category>music</category><category>drafts</category></item><item><title>testing multiple chunks interoperability</title><link>https://iacchus.github.io/site/testing-multiple-chunks-interoperability.html</link><description>&lt;p&gt;https://iacchus.github.io/jupyter-notebooks/html/Simple-Str-to-Tables.html&lt;/p&gt;
 &lt;pre&gt;&lt;code class="python"&gt;def simple_table(str_data):
 
     from pandas import DataFrame as DF
@@ -111,27 +114,7 @@ print(df)
       &lt;td&gt;&lt;/td&gt;
       &lt;td&gt;2 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Tue, 06 Jun 2017 20:53:34 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-06:/site/testing-multiple-chunks-interoperability.html</guid><category>labs</category><category>programming</category><category>archive</category></item><item><title>What is a man</title><link>https://iacchus.github.io/site/what-is-a-man.html</link><description>&lt;p&gt;If you dissaprove the feminist agenda and have some specific point-of-view on
 these issues, then you should know how to categorize the differences between
-what is a men and what is a woman.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 18:18:10 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/what-is-a-man.html</guid><category>metanoia</category></item><item><title>Brainstorming on music</title><link>https://iacchus.github.io/site/brainstorming-on-music.html</link><description>&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#greek-modes"&gt;Greek Modes&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#standard"&gt;Standard&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#diatonic-scale-shapes"&gt;Diatonic Scale Shapes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#mode-abbreviations"&gt;Mode Abbreviations&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="#mnemonics"&gt;Mnemonics&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#formulating-mode-from-major-degree"&gt;Formulating mode from major degree&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#formulating-key-from-enharmonic-tonic"&gt;Formulating key from enharmonic tonic&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h2 id="greek-modes"&gt;Greek Modes&lt;/h2&gt;
-&lt;p&gt;We were thinking about greek modes these days.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;intervals  P1 m2 M2 m3 M3 P4 TT P5 m6 M6 m7 M7 P8
-semitones  00 01 02 03 04 05 …&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 00:30:43 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/brainstorming-on-music.html</guid><category>music</category><category>metanoia</category></item><item><title>Opening the labs</title><link>https://iacchus.github.io/site/opening-the-labs.html</link><description>&lt;p&gt;Here we are. This is our very first post. This is not intended to be a
+what is a men and what is a woman.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 18:18:10 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/what-is-a-man.html</guid><category>metanoia</category></item><item><title>Opening the labs</title><link>https://iacchus.github.io/site/opening-the-labs.html</link><description>&lt;p&gt;Here we are. This is our very first post. This is not intended to be a
 presentational blog, but instead to contain my personal ideas and experiments
 on various subjects.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;formatting sources with vim's &lt;code&gt;gq}&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Fri, 02 Jun 2017 18:50:39 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-02:/site/opening-the-labs.html</guid><category>meta</category><category>tpw</category></item></channel></rss>

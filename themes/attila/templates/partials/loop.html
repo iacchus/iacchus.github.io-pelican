@@ -2,7 +2,7 @@
         {% include "partials/pagination.html" %}
     </div>
 
-    {% for article in articles_page.object_list if not ('archive' in article.tags and output_file == 'index.html') %}
+    {% for article in articles_page.object_list if not ('drafts' in article.tags and output_file == 'index.html') %}
         <article class="post">
         <div class="inner">
             <header class="post-header">         

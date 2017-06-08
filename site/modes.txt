@@ -1,5 +1,5 @@
 title: modes
-tags: archive, music
+tags: music, drafts
 
 ```
 io: P1M2M3P4

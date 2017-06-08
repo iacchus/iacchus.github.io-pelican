@@ -1,5 +1,5 @@
 title: Projects
-tags: projects, archive
+tags: projects, drafts
 
 Here is a list of projects we need to better bring to light.
 
