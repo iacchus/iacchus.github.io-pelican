@@ -26,3 +26,7 @@ Here is a list of projects we need to better bring to light.
 * sheetmusic
     * tunebooks
     * exercises
+
+* [jupyter-notebooks](https://iacchus.github.io/jupyter-notebooks/)
+
+    Collection of code experiments madde with Jupyter.
