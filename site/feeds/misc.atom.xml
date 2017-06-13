@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench - misc</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/misc.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-13T16:53:02-03:00</updated><entry><title>Fretboard unicode chord generator</title><link href="https://iacchus.github.io/site/fretboard-unicode-chord-generator.html" rel="alternate"></link><published>2017-06-13T16:53:02-03:00</published><updated>2017-06-13T16:53:02-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-13:/site/fretboard-unicode-chord-generator.html</id><summary type="html">&lt;p&gt;Remember to make a little fretboard script which draws a fretboard from command.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench - misc</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/misc.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-13T16:57:55-03:00</updated><entry><title>Fretboard unicode chord generator</title><link href="https://iacchus.github.io/site/fretboard-unicode-chord-generator.html" rel="alternate"></link><published>2017-06-13T16:57:55-03:00</published><updated>2017-06-13T16:57:55-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-13:/site/fretboard-unicode-chord-generator.html</id><summary type="html">&lt;p&gt;Remember to make a little fretboard script which draws a fretboard from command.&lt;/p&gt;
 &lt;p&gt;Maybe this can help&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;─
                                     .            .             .                     :          
 C
 E5 0├─────┼─────┼─────┼─────┼─
-C5 3├─────┼─────┼──o──┼─────┼─
-G4 2├─────┼──o──┼─────┼─────┼─
+C5 3├─────┼─────┼──ａ──┼─────┼─
+G4 2├─────┼──ａ──┼─────┼─────┼─
 G3 0├─────┼─────┼─────┼─────┼─
-            fr 2
+＿＿＿＿＿ fr 2
 
 
 E5  ├──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────
@@ -30,10 +30,10 @@ G3  ├──────┼──────┼──────┼───�
                                     .            .             .                     :          
 C
 E5 0├─────┼─────┼─────┼─────┼─
-C5 3├─────┼─────┼──o──┼─────┼─
-G4 2├─────┼──o──┼─────┼─────┼─
+C5 3├─────┼─────┼──ａ──┼─────┼─
+G4 2├─────┼──ａ──┼─────┼─────┼─
 G3 0├─────┼─────┼─────┼─────┼─
-            fr 2
+＿＿＿＿＿ fr 2
 
 
 E5  ├──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────
