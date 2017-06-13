@@ -1,5 +1,250 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench - Iacchus Mercurius</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/iacchus-mercurius.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-09T21:18:45-03:00</updated><entry><title>testing discord widget</title><link href="https://iacchus.github.io/site/testing-discord-widget.html" rel="alternate"></link><published>2017-06-09T21:18:45-03:00</published><updated>2017-06-09T21:18:45-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-09:/site/testing-discord-widget.html</id><summary type="html">&lt;iframe src="https://discordapp.com/widget?id=322889507294806028&amp;theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"&gt;&lt;/iframe&gt;</summary><content type="html">&lt;iframe src="https://discordapp.com/widget?id=322889507294806028&amp;theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"&gt;&lt;/iframe&gt;</content></entry><entry><title>Projects</title><link href="https://iacchus.github.io/site/projects.html" rel="alternate"></link><published>2017-06-08T08:25:31-03:00</published><updated>2017-06-08T08:25:31-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-08:/site/projects.html</id><summary type="html">&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench - Iacchus Mercurius</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/iacchus-mercurius.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-13T02:29:41-03:00</updated><entry><title>solfeggio</title><link href="https://iacchus.github.io/site/solfeggio.html" rel="alternate"></link><published>2017-06-13T02:29:41-03:00</published><updated>2017-06-13T02:29:41-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-13:/site/solfeggio.html</id><summary type="html">&lt;pre&gt;&lt;code class="abc"&gt;X: 1
+K: C
+M: 3/4
+L: 1/4
+&amp;quot;_du&amp;quot;  _C &amp;quot;do&amp;quot;  C &amp;quot;_da&amp;quot;  ^C ||\
+&amp;quot;_ra&amp;quot;  _D &amp;quot;re&amp;quot;  D &amp;quot;_ri&amp;quot;  ^D ||\
+&amp;quot;_me&amp;quot;  _E &amp;quot;mi&amp;quot;  E &amp;quot;_mis&amp;quot; ^E ||\
+&amp;quot;_fo&amp;quot;  _F &amp;quot;fa&amp;quot;  F &amp;quot;_fe&amp;quot;  ^F ||\
+&amp;quot;_sul&amp;quot; _G &amp;quot;sol&amp;quot; G &amp;quot;_sal&amp;quot; ^G ||\
+&amp;quot;_lo&amp;quot;  _A &amp;quot;la&amp;quot;  A &amp;quot;_le&amp;quot;  ^A ||\
+&amp;quot;_se&amp;quot;  _B &amp;quot;si&amp;quot;  B …&lt;/code&gt;&lt;/pre&gt;</summary><content type="html">&lt;pre&gt;&lt;code class="abc"&gt;X: 1
+K: C
+M: 3/4
+L: 1/4
+&amp;quot;_du&amp;quot;  _C &amp;quot;do&amp;quot;  C &amp;quot;_da&amp;quot;  ^C ||\
+&amp;quot;_ra&amp;quot;  _D &amp;quot;re&amp;quot;  D &amp;quot;_ri&amp;quot;  ^D ||\
+&amp;quot;_me&amp;quot;  _E &amp;quot;mi&amp;quot;  E &amp;quot;_mis&amp;quot; ^E ||\
+&amp;quot;_fo&amp;quot;  _F &amp;quot;fa&amp;quot;  F &amp;quot;_fe&amp;quot;  ^F ||\
+&amp;quot;_sul&amp;quot; _G &amp;quot;sol&amp;quot; G &amp;quot;_sal&amp;quot; ^G ||\
+&amp;quot;_lo&amp;quot;  _A &amp;quot;la&amp;quot;  A &amp;quot;_le&amp;quot;  ^A ||\
+&amp;quot;_se&amp;quot;  _B &amp;quot;si&amp;quot;  B &amp;quot;_sis&amp;quot; ^B ||\
+&amp;quot;_du&amp;quot;  _c &amp;quot;do&amp;quot;  c &amp;quot;_da&amp;quot;  ^c |]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align="center"&gt;English&lt;/th&gt;
+&lt;th align="center"&gt;Romance&lt;/th&gt;
+&lt;th align="center"&gt;Hullah (mnemonic)&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://en.wikipedia.org/wiki/Pitch_class"&gt;Pitch Class&lt;/a&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;C♭♭&lt;/td&gt;
+&lt;td align="center"&gt;Do♭♭&lt;/td&gt;
+&lt;td align="center"&gt;duf&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;C♭&lt;/td&gt;
+&lt;td align="center"&gt;Do♭&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;du&lt;/strong&gt; (&lt;em&gt;C♭&lt;/em&gt;)&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;C&lt;/td&gt;
+&lt;td align="center"&gt;Do&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;do&lt;/strong&gt;  (C♮)&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;C♯&lt;/td&gt;
+&lt;td align="center"&gt;Do♯&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;da&lt;/strong&gt; (&lt;strong&gt;C♯&lt;/strong&gt;)&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Cx&lt;/td&gt;
+&lt;td align="center"&gt;Dox&lt;/td&gt;
+&lt;td align="center"&gt;das&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;D♭♭&lt;/td&gt;
+&lt;td align="center"&gt;Re♭♭&lt;/td&gt;
+&lt;td align="center"&gt;raf&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;D♭&lt;/td&gt;
+&lt;td align="center"&gt;Re♭&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;ra&lt;/strong&gt; (&lt;em&gt;D♭&lt;/em&gt;)&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;D&lt;/td&gt;
+&lt;td align="center"&gt;Re&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;re&lt;/strong&gt; (D♮)&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;D♯&lt;/td&gt;
+&lt;td align="center"&gt;Re♯&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;ri&lt;/strong&gt; (&lt;strong&gt;D♯&lt;/strong&gt;)&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Dx&lt;/td&gt;
+&lt;td align="center"&gt;Rex&lt;/td&gt;
+&lt;td align="center"&gt;ris&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;E♭♭&lt;/td&gt;
+&lt;td align="center"&gt;Mi♭♭&lt;/td&gt;
+&lt;td align="center"&gt;mef&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;E♭&lt;/td&gt;
+&lt;td align="center"&gt;Mi♭&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;me&lt;/strong&gt; (&lt;em&gt;E♭&lt;/em&gt;)&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;E&lt;/td&gt;
+&lt;td align="center"&gt;Mi&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;mi&lt;/strong&gt; (E♮)&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;E♯&lt;/td&gt;
+&lt;td align="center"&gt;Mi♯&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;mis&lt;/strong&gt; (&lt;strong&gt;E♯&lt;/strong&gt;)&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Ex&lt;/td&gt;
+&lt;td align="center"&gt;Mix&lt;/td&gt;
+&lt;td align="center"&gt;mish&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;F♭♭&lt;/td&gt;
+&lt;td align="center"&gt;Fa♭♭&lt;/td&gt;
+&lt;td align="center"&gt;fof&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;F♭&lt;/td&gt;
+&lt;td align="center"&gt;Fa♭&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;fo&lt;/strong&gt; (&lt;em&gt;F♭&lt;/em&gt;)&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;F&lt;/td&gt;
+&lt;td align="center"&gt;Fa&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;fa&lt;/strong&gt; (F♮)&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;F♯&lt;/td&gt;
+&lt;td align="center"&gt;Fa♯&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;fe&lt;/strong&gt; (&lt;strong&gt;F♯&lt;/strong&gt;)&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Fx&lt;/td&gt;
+&lt;td align="center"&gt;Fax&lt;/td&gt;
+&lt;td align="center"&gt;fes&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;G♭♭&lt;/td&gt;
+&lt;td align="center"&gt;Sol♭♭&lt;/td&gt;
+&lt;td align="center"&gt;sulf&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;G♭&lt;/td&gt;
+&lt;td align="center"&gt;Sol♭&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;sul&lt;/strong&gt; (&lt;em&gt;G♭&lt;/em&gt;)&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;G&lt;/td&gt;
+&lt;td align="center"&gt;Sol&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;sol&lt;/strong&gt; (G♮)&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;G♯&lt;/td&gt;
+&lt;td align="center"&gt;Sol♯&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;sal&lt;/strong&gt; (&lt;strong&gt;G♯&lt;/strong&gt;)&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Gx&lt;/td&gt;
+&lt;td align="center"&gt;Solx&lt;/td&gt;
+&lt;td align="center"&gt;sals&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;A♭♭&lt;/td&gt;
+&lt;td align="center"&gt;La♭♭&lt;/td&gt;
+&lt;td align="center"&gt;lof&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;A♭&lt;/td&gt;
+&lt;td align="center"&gt;La♭&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;lo&lt;/strong&gt; (&lt;em&gt;A♭&lt;/em&gt;)&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;A&lt;/td&gt;
+&lt;td align="center"&gt;La&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;la&lt;/strong&gt; (A♮)&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;A♯&lt;/td&gt;
+&lt;td align="center"&gt;La♯&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;le&lt;/strong&gt; (&lt;strong&gt;A♯&lt;/strong&gt;)&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Ax&lt;/td&gt;
+&lt;td align="center"&gt;Lax&lt;/td&gt;
+&lt;td align="center"&gt;les&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;B♭♭&lt;/td&gt;
+&lt;td align="center"&gt;Si♭♭&lt;/td&gt;
+&lt;td align="center"&gt;sef&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;B♭&lt;/td&gt;
+&lt;td align="center"&gt;Si♭&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;se&lt;/strong&gt; (&lt;em&gt;B♭&lt;/em&gt;)&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;B&lt;/td&gt;
+&lt;td align="center"&gt;Si&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;si&lt;/strong&gt; (B♮)&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;B♯&lt;/td&gt;
+&lt;td align="center"&gt;Si♯&lt;/td&gt;
+&lt;td align="center"&gt;&lt;strong&gt;sis&lt;/strong&gt; (&lt;strong&gt;B♯&lt;/strong&gt;)&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Bx&lt;/td&gt;
+&lt;td align="center"&gt;Six&lt;/td&gt;
+&lt;td align="center"&gt;sish&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</content></entry><entry><title>Projects</title><link href="https://iacchus.github.io/site/projects.html" rel="alternate"></link><published>2017-06-08T08:25:31-03:00</published><updated>2017-06-08T08:25:31-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-08:/site/projects.html</id><summary type="html">&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://iacchus.github.io/abc-music-notation-standard/"&gt;musiceditor&lt;/a&gt;&lt;/p&gt;
