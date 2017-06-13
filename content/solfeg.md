@@ -1,4 +1,5 @@
 title: solfeggio
+tags: music, drafts
 
 ```abc
 X: 1

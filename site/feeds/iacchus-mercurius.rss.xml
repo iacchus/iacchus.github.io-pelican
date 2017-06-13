@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Tue, 13 Jun 2017 02:29:41 -0300</lastBuildDate><item><title>solfeggio</title><link>https://iacchus.github.io/site/solfeggio.html</link><description>&lt;pre&gt;&lt;code class="abc"&gt;X: 1
+<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Tue, 13 Jun 2017 02:35:55 -0300</lastBuildDate><item><title>solfeggio</title><link>https://iacchus.github.io/site/solfeggio.html</link><description>&lt;pre&gt;&lt;code class="abc"&gt;X: 1
 K: C
 M: 3/4
 L: 1/4
@@ -9,7 +9,7 @@ L: 1/4
 &amp;quot;_fo&amp;quot;  _F &amp;quot;fa&amp;quot;  F &amp;quot;_fe&amp;quot;  ^F ||\
 &amp;quot;_sul&amp;quot; _G &amp;quot;sol&amp;quot; G &amp;quot;_sal&amp;quot; ^G ||\
 &amp;quot;_lo&amp;quot;  _A &amp;quot;la&amp;quot;  A &amp;quot;_le&amp;quot;  ^A ||\
-&amp;quot;_se&amp;quot;  _B &amp;quot;si&amp;quot;  B …&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Tue, 13 Jun 2017 02:29:41 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-13:/site/solfeggio.html</guid></item><item><title>Projects</title><link>https://iacchus.github.io/site/projects.html</link><description>&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
+&amp;quot;_se&amp;quot;  _B &amp;quot;si&amp;quot;  B …&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Tue, 13 Jun 2017 02:35:55 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-13:/site/solfeggio.html</guid><category>music</category><category>drafts</category></item><item><title>Projects</title><link>https://iacchus.github.io/site/projects.html</link><description>&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://iacchus.github.io/abc-music-notation-standard/"&gt;musiceditor&lt;/a&gt;&lt;/p&gt;

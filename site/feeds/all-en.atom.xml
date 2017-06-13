@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/all-en.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-13T02:29:41-03:00</updated><entry><title>solfeggio</title><link href="https://iacchus.github.io/site/solfeggio.html" rel="alternate"></link><published>2017-06-13T02:29:41-03:00</published><updated>2017-06-13T02:29:41-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-13:/site/solfeggio.html</id><summary type="html">&lt;pre&gt;&lt;code class="abc"&gt;X: 1
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/all-en.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-06-13T02:35:55-03:00</updated><entry><title>solfeggio</title><link href="https://iacchus.github.io/site/solfeggio.html" rel="alternate"></link><published>2017-06-13T02:35:55-03:00</published><updated>2017-06-13T02:35:55-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-13:/site/solfeggio.html</id><summary type="html">&lt;pre&gt;&lt;code class="abc"&gt;X: 1
 K: C
 M: 3/4
 L: 1/4
@@ -244,7 +244,7 @@ L: 1/4
 &lt;td&gt;1&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</content></entry><entry><title>Projects</title><link href="https://iacchus.github.io/site/projects.html" rel="alternate"></link><published>2017-06-08T08:25:31-03:00</published><updated>2017-06-08T08:25:31-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-08:/site/projects.html</id><summary type="html">&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
+&lt;/table&gt;</content><category term="music"></category><category term="drafts"></category></entry><entry><title>Projects</title><link href="https://iacchus.github.io/site/projects.html" rel="alternate"></link><published>2017-06-08T08:25:31-03:00</published><updated>2017-06-08T08:25:31-03:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-06-08:/site/projects.html</id><summary type="html">&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://iacchus.github.io/abc-music-notation-standard/"&gt;musiceditor&lt;/a&gt;&lt;/p&gt;
