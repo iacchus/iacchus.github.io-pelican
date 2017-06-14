@@ -1,5 +1,5 @@
 title: Fretboard unicode chord generator 
-tags: music
+tags: music, drafts
 
 Remember to make a little fretboard script which draws a fretboard from command.
 
