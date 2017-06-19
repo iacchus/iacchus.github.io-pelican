@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Wed, 14 Jun 2017 08:45:39 -0300</lastBuildDate><item><title>Thw Wise and the Fool</title><link>https://iacchus.github.io/site/thw-wise-and-the-fool.html</link><description>&lt;p&gt;'Wise' is a precise characteristic: a man is it or he isn't.
+<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Mon, 19 Jun 2017 13:15:20 -0300</lastBuildDate><item><title>testing multiple chunks interoperability</title><link>https://iacchus.github.io/site/testing-multiple-chunks-interoperability.html</link><description>&lt;p&gt;https://iacchus.github.io/jupyter-notebooks/html/Simple-Str-to-Tables.html&lt;/p&gt;
+&lt;pre&gt;&lt;code class="python"&gt;def simple_table(str_data):
+
+    from pandas import DataFrame as DF
+
+    lines = [line.split('  ') for line in tabular.splitlines()]
+    return DF(lines).to_html()
+
+tabular = &amp;quot;&amp;quot;&amp;quot;
+A  B  C
+   2  3
+&amp;quot;&amp;quot;&amp;quot;.strip()
+
+df = simple_table(tabular)
+print(df)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;table border="1" class="dataframe"&gt;
+  &lt;thead&gt;
+    &lt;tr style="text-align: right;"&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;0&lt;/th&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;th&gt;2&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;0&lt;/th&gt;
+      &lt;td&gt;A&lt;/td&gt;
+      &lt;td&gt;B&lt;/td&gt;
+      &lt;td&gt;C&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;2 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Mon, 19 Jun 2017 13:15:20 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-19:/site/testing-multiple-chunks-interoperability.html</guid><category>labs</category><category>programming</category><category>drafts</category></item><item><title>Thw Wise and the Fool</title><link>https://iacchus.github.io/site/thw-wise-and-the-fool.html</link><description>&lt;p&gt;'Wise' is a precise characteristic: a man is it or he isn't.
 The fool never changes.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Wed, 14 Jun 2017 08:45:39 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-14:/site/thw-wise-and-the-fool.html</guid></item><item><title>Fretboard unicode chord generator</title><link>https://iacchus.github.io/site/fretboard-unicode-chord-generator.html</link><description>&lt;p&gt;Remember to make a little fretboard script which draws a fretboard from command.&lt;/p&gt;
 &lt;p&gt;Maybe this can help&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;─
@@ -114,43 +150,7 @@ io: M7P8
 io: M6M7P8
     M2M3P4P5 
           P1
-&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Thu, 08 Jun 2017 08:05:43 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-08:/site/modes.html</guid><category>music</category><category>drafts</category></item><item><title>testing multiple chunks interoperability</title><link>https://iacchus.github.io/site/testing-multiple-chunks-interoperability.html</link><description>&lt;p&gt;https://iacchus.github.io/jupyter-notebooks/html/Simple-Str-to-Tables.html&lt;/p&gt;
-&lt;pre&gt;&lt;code class="python"&gt;def simple_table(str_data):
-
-    from pandas import DataFrame as DF
-
-    lines = [line.split('  ') for line in tabular.splitlines()]
-    return DF(lines).to_html()
-
-tabular = &amp;quot;&amp;quot;&amp;quot;
-A  B  C
-   2  3
-&amp;quot;&amp;quot;&amp;quot;.strip()
-
-df = simple_table(tabular)
-print(df)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;table border="1" class="dataframe"&gt;
-  &lt;thead&gt;
-    &lt;tr style="text-align: right;"&gt;
-      &lt;th&gt;&lt;/th&gt;
-      &lt;th&gt;0&lt;/th&gt;
-      &lt;th&gt;1&lt;/th&gt;
-      &lt;th&gt;2&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;th&gt;0&lt;/th&gt;
-      &lt;td&gt;A&lt;/td&gt;
-      &lt;td&gt;B&lt;/td&gt;
-      &lt;td&gt;C&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;1&lt;/th&gt;
-      &lt;td&gt;&lt;/td&gt;
-      &lt;td&gt;2 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Tue, 06 Jun 2017 20:53:34 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-06:/site/testing-multiple-chunks-interoperability.html</guid><category>labs</category><category>programming</category><category>archive</category></item><item><title>What is a man</title><link>https://iacchus.github.io/site/what-is-a-man.html</link><description>&lt;p&gt;If you dissaprove the feminist agenda and have some specific point-of-view on
+&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Thu, 08 Jun 2017 08:05:43 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-08:/site/modes.html</guid><category>music</category><category>drafts</category></item><item><title>What is a man</title><link>https://iacchus.github.io/site/what-is-a-man.html</link><description>&lt;p&gt;If you dissaprove the feminist agenda and have some specific point-of-view on
 these issues, then you should know how to categorize the differences between
 what is a men and what is a woman.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 18:18:10 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/what-is-a-man.html</guid><category>metanoia</category></item><item><title>Opening the labs</title><link>https://iacchus.github.io/site/opening-the-labs.html</link><description>&lt;p&gt;Here we are. This is our very first post. This is not intended to be a
 presentational blog, but instead to contain my personal ideas and experiments
