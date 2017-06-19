@@ -1,41 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Mon, 19 Jun 2017 13:15:20 -0300</lastBuildDate><item><title>testing multiple chunks interoperability</title><link>https://iacchus.github.io/site/testing-multiple-chunks-interoperability.html</link><description>&lt;p&gt;https://iacchus.github.io/jupyter-notebooks/html/Simple-Str-to-Tables.html&lt;/p&gt;
-&lt;pre&gt;&lt;code class="python"&gt;def simple_table(str_data):
-
-    from pandas import DataFrame as DF
-
-    lines = [line.split('  ') for line in tabular.splitlines()]
-    return DF(lines).to_html()
-
-tabular = &amp;quot;&amp;quot;&amp;quot;
-A  B  C
-   2  3
-&amp;quot;&amp;quot;&amp;quot;.strip()
-
-df = simple_table(tabular)
-print(df)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;table border="1" class="dataframe"&gt;
-  &lt;thead&gt;
-    &lt;tr style="text-align: right;"&gt;
-      &lt;th&gt;&lt;/th&gt;
-      &lt;th&gt;0&lt;/th&gt;
-      &lt;th&gt;1&lt;/th&gt;
-      &lt;th&gt;2&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;th&gt;0&lt;/th&gt;
-      &lt;td&gt;A&lt;/td&gt;
-      &lt;td&gt;B&lt;/td&gt;
-      &lt;td&gt;C&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;1&lt;/th&gt;
-      &lt;td&gt;&lt;/td&gt;
-      &lt;td&gt;2 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Mon, 19 Jun 2017 13:15:20 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-19:/site/testing-multiple-chunks-interoperability.html</guid><category>labs</category><category>programming</category><category>drafts</category></item><item><title>Thw Wise and the Fool</title><link>https://iacchus.github.io/site/thw-wise-and-the-fool.html</link><description>&lt;p&gt;'Wise' is a precise characteristic: a man is it or he isn't.
+<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Mon, 19 Jun 2017 13:21:44 -0300</lastBuildDate><item><title>Opening the labs</title><link>https://iacchus.github.io/site/opening-the-labs.html</link><description>&lt;p&gt;Here we are. This is our very first post. This is not intended to be a
+presentational blog, but instead to contain my personal ideas and experiments
+on various subjects.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;formatting sources with vim's &lt;code&gt;gq}&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Mon, 19 Jun 2017 13:21:44 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-19:/site/opening-the-labs.html</guid><category>meta</category><category>tpw</category></item><item><title>Thw Wise and the Fool</title><link>https://iacchus.github.io/site/thw-wise-and-the-fool.html</link><description>&lt;p&gt;'Wise' is a precise characteristic: a man is it or he isn't.
 The fool never changes.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Wed, 14 Jun 2017 08:45:39 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-14:/site/thw-wise-and-the-fool.html</guid></item><item><title>Fretboard unicode chord generator</title><link>https://iacchus.github.io/site/fretboard-unicode-chord-generator.html</link><description>&lt;p&gt;Remember to make a little fretboard script which draws a fretboard from command.&lt;/p&gt;
 &lt;p&gt;Maybe this can help&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;─
@@ -63,96 +30,6 @@ G3  ├──────┼──────┼──────┼───�
 
 ━ 0x2501 | │ 0x2502 | ┃ 0x2503 | ┄ 0x2504 | ┅ 0x2505 | ┆ 0x2506 | ┇ 0x2507 | ┈ 0x2508 | ┉ 0x2509 | ┊ 0x250a | ┋ 0x250b | ┌ 0x250c | ┍ 0x250d …&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Wed, 14 Jun 2017 00:06:16 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-14:/site/fretboard-unicode-chord-generator.html</guid><category>music</category><category>drafts</category></item><item><title>Technology as War Tools</title><link>https://iacchus.github.io/site/technology-as-war-tools.html</link><description>&lt;p&gt;It seems to me that tecnology and philosophy should be treated as war tools. Be
 it for attack, be it for defense, but when you bring them closer while being
-out of war, then you stain what is naturally perfect and immaculate. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Tue, 13 Jun 2017 07:22:58 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-13:/site/technology-as-war-tools.html</guid><category>philosophy</category><category>metanoia</category></item><item><title>solfeggio</title><link>https://iacchus.github.io/site/solfeggio.html</link><description>&lt;pre&gt;&lt;code class="abc"&gt;X: 1
-K: C
-M: 3/4
-L: 1/4
-&amp;quot;_du&amp;quot;  _C &amp;quot;do&amp;quot;  C &amp;quot;_da&amp;quot;  ^C ||\
-&amp;quot;_ra&amp;quot;  _D &amp;quot;re&amp;quot;  D &amp;quot;_ri&amp;quot;  ^D ||\
-&amp;quot;_me&amp;quot;  _E &amp;quot;mi&amp;quot;  E &amp;quot;_mis&amp;quot; ^E ||\
-&amp;quot;_fo&amp;quot;  _F &amp;quot;fa&amp;quot;  F &amp;quot;_fe&amp;quot;  ^F ||\
-&amp;quot;_sul&amp;quot; _G &amp;quot;sol&amp;quot; G &amp;quot;_sal&amp;quot; ^G ||\
-&amp;quot;_lo&amp;quot;  _A &amp;quot;la&amp;quot;  A &amp;quot;_le&amp;quot;  ^A ||\
-&amp;quot;_se&amp;quot;  _B &amp;quot;si&amp;quot;  B …&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Tue, 13 Jun 2017 02:35:55 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-13:/site/solfeggio.html</guid><category>music</category><category>drafts</category></item><item><title>Projects</title><link>https://iacchus.github.io/site/projects.html</link><description>&lt;p&gt;Here is a list of projects we need to better bring to light.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://iacchus.github.io/abc-music-notation-standard/"&gt;musiceditor&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;sheet music editor which uses &lt;a href="https://iacchus.github.io/abc-music-notation-standard/"&gt;abc notation&lt;/a&gt; standard.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://iacchus.github.io/fretboard-svg/"&gt;fretboard-svg&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;fretboard note, scale and chord picker&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/iacchus/birdears/"&gt;birdears&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;birdears&lt;/em&gt; is an ear training software written in Python.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/iacchus/sheet-music-stuff/"&gt;sheet-music-stuff&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Various resources on music.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://iacchus.github.io/abc-music-notation-standard/"&gt;abc notation edition&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;An edition of …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Thu, 08 Jun 2017 08:25:31 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-08:/site/projects.html</guid><category>projects</category><category>drafts</category></item><item><title>Brainstorming on music</title><link>https://iacchus.github.io/site/brainstorming-on-music.html</link><description>&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#greek-modes"&gt;Greek Modes&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#standard"&gt;Standard&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#diatonic-scale-shapes"&gt;Diatonic Scale Shapes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#mode-abbreviations"&gt;Mode Abbreviations&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="#mnemonics"&gt;Mnemonics&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#formulating-mode-from-major-degree"&gt;Formulating mode from major degree&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#formulating-key-from-enharmonic-tonic"&gt;Formulating key from enharmonic tonic&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h2 id="greek-modes"&gt;Greek Modes&lt;/h2&gt;
-&lt;p&gt;We were thinking about greek modes these days.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;intervals  P1 m2 M2 m3 M3 P4 TT P5 m6 M6 m7 M7 P8
-semitones  00 01 02 03 04 05 …&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Thu, 08 Jun 2017 08:08:15 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-08:/site/brainstorming-on-music.html</guid><category>music</category><category>metanoia</category><category>drafts</category></item><item><title>modes</title><link>https://iacchus.github.io/site/modes.html</link><description>&lt;pre&gt;&lt;code&gt;io: P1M2M3P4
-    P5M6M7P8
-
-do: P1M2m3P4
-    P5M6m7P8
-
-ph: P1m2m3P4
-    P5m6m7P8
-
-ly: P1M2M3A4
-    P5M6M7P8
-
-my: P1M2M3P4
-    P5M6m7P8
-
-ae: P1M2m3P4
-    P5m6m7P8
-
-lo: P1m2m3P4
-    d5m6m7P8
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;first finger:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;io: P5M6M7P8
-    P1M2M3P4
-
-io: P8
-    P4P5M6M7 
-      P1M2M3
-
-io: M7P8
-    M3P4P5M6 
-        P1M2
-
-io: M6M7P8
-    M2M3P4P5 
-          P1
-&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Thu, 08 Jun 2017 08:05:43 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-08:/site/modes.html</guid><category>music</category><category>drafts</category></item><item><title>What is a man</title><link>https://iacchus.github.io/site/what-is-a-man.html</link><description>&lt;p&gt;If you dissaprove the feminist agenda and have some specific point-of-view on
+out of war, then you stain what is naturally perfect and immaculate. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Tue, 13 Jun 2017 07:22:58 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-13:/site/technology-as-war-tools.html</guid><category>philosophy</category><category>metanoia</category></item><item><title>What is a man</title><link>https://iacchus.github.io/site/what-is-a-man.html</link><description>&lt;p&gt;If you dissaprove the feminist agenda and have some specific point-of-view on
 these issues, then you should know how to categorize the differences between
-what is a men and what is a woman.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 18:18:10 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/what-is-a-man.html</guid><category>metanoia</category></item><item><title>Opening the labs</title><link>https://iacchus.github.io/site/opening-the-labs.html</link><description>&lt;p&gt;Here we are. This is our very first post. This is not intended to be a
-presentational blog, but instead to contain my personal ideas and experiments
-on various subjects.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;formatting sources with vim's &lt;code&gt;gq}&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Fri, 02 Jun 2017 18:50:39 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-02:/site/opening-the-labs.html</guid><category>meta</category><category>tpw</category></item></channel></rss>
+what is a men and what is a woman.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sat, 03 Jun 2017 18:18:10 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-06-03:/site/what-is-a-man.html</guid><category>metanoia</category></item></channel></rss>

@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 
-  <title>The Philosopher's Workbench - Tag labs</title>
+  <title>Projects</title>
 
 
   <meta name="HandheldFriendly" content="True" />
@@ -75,18 +75,16 @@
     <div class="menulabel">pages</div>
     <ul>
               <li role="presentation"><a href="https://iacchus.github.io/site/pages/about-me.html">About me</a></li>
+              <li class="nav-projects active" role="presentation"><a href="https://iacchus.github.io/site/pages/projects.html">Projects</a></li>
     </ul>
     <div class="menulabel">tags</div>
     <ul>
-	<li class="nav-labs active" role="presentation"><a href="https://iacchus.github.io/site/tag/labs.html">labs</a></li>
-	<li role="presentation"><a href="https://iacchus.github.io/site/tag/programming.html">programming</a></li>
-	<li role="presentation"><a href="https://iacchus.github.io/site/tag/drafts.html">drafts</a></li>
-	<li role="presentation"><a href="https://iacchus.github.io/site/tag/music.html">music</a></li>
-	<li role="presentation"><a href="https://iacchus.github.io/site/tag/philosophy.html">philosophy</a></li>
-	<li role="presentation"><a href="https://iacchus.github.io/site/tag/metanoia.html">metanoia</a></li>
-	<li role="presentation"><a href="https://iacchus.github.io/site/tag/projects.html">projects</a></li>
 	<li role="presentation"><a href="https://iacchus.github.io/site/tag/meta.html">meta</a></li>
 	<li role="presentation"><a href="https://iacchus.github.io/site/tag/tpw.html">tpw</a></li>
+	<li role="presentation"><a href="https://iacchus.github.io/site/tag/music.html">music</a></li>
+	<li role="presentation"><a href="https://iacchus.github.io/site/tag/drafts.html">drafts</a></li>
+	<li role="presentation"><a href="https://iacchus.github.io/site/tag/philosophy.html">philosophy</a></li>
+	<li role="presentation"><a href="https://iacchus.github.io/site/tag/metanoia.html">metanoia</a></li>
     </ul>
     <div class="menulabel">categories</div>
     <ul>
@@ -99,7 +97,7 @@
 </nav>
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header id="blog-header" class="has-cover">
+    <header id="post-header" class="has-cover">
       <div class="inner">
         <nav id="navigation">
             <span id="home-button" class="nav-button">
@@ -109,97 +107,56 @@
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-        <h1 class="post-title">Tag labs</h1>
-        <span class="blog-description">Posts: 1</span>
+        <h1 class="post-title">Projects</h1>
             <div class="post-cover cover" style="background-image: url('https://iacchus.github.io/site/theme/images/post-bg.jpg')">
       </div>
     </header>
 
   <section id="wrapper">
     <a class="hidden-close"></a>
-
-<div id="index" class="container">
+  <!-- Post content -->
   <main class="content" role="main">
-    <div class="extra-pagination">
-<nav class="pagination" role="pagination">
-  <div class="inner">
-    <span class="pagination-info">Page 1 / 1</span>
-    <div class="clear"></div>
-  </div>
-</nav>
-    </div>
-
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">         
-                <h2 class="post-title"><a href="https://iacchus.github.io/site/testing-multiple-chunks-interoperability.html" rel="bookmark" title="Permalink to testing multiple chunks interoperability">testing multiple chunks interoperability</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="https://iacchus.github.io/site/author/iacchus-mercurius.html">Iacchus mercurius</a>
-                    | <time datetime="Mon 19 June 2017">Mon 19 June 2017</time>
-                <!-- </span>
-		<span class="post-meta"> -->
- |
-		    <a href="https://iacchus.github.io/site/tag/labs.html">labs</a>, 		    <a href="https://iacchus.github.io/site/tag/programming.html">programming</a>, 		    <a href="https://iacchus.github.io/site/tag/drafts.html">drafts</a>                </span>
-                <span class="post-meta-right">
-		    <a href="https://iacchus.github.io/site/testing-multiple-chunks-interoperability.txt">Show source</a>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-content">
-                <p>https://iacchus.github.io/jupyter-notebooks/html/Simple-Str-to-Tables.html</p>
-<pre><code class="python">def simple_table(str_data):
-
-    from pandas import DataFrame as DF
-
-    lines = [line.split('  ') for line in tabular.splitlines()]
-    return DF(lines).to_html()
-
-tabular = &quot;&quot;&quot;
-A  B  C
-   2  3
-&quot;&quot;&quot;.strip()
-
-df = simple_table(tabular)
-print(df)
-</code></pre>
-
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>0</th>
-      <th>1</th>
-      <th>2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>A</td>
-      <td>B</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td></td>
-      <td>2</td>
-      <td>3</td>
-    </tr>
-  </tbody>
-</table>
-                </section>
-            </div>
-        </article>
-
-<nav class="pagination" role="pagination">
-  <div class="inner">
-    <span class="pagination-info">Page 1 / 1</span>
-    <div class="clear"></div>
-  </div>
-</nav>
+      <article class="post">
+      <div class="inner">
+          <section class="post-content">
+              <p>Here is a list of projects we need to better bring to light.</p>
+<ul>
+<li>
+<p><a href="https://iacchus.github.io/abc-music-notation-standard/">musiceditor</a></p>
+<p>sheet music editor which uses <a href="https://iacchus.github.io/abc-music-notation-standard/">abc notation</a> standard.</p>
+</li>
+<li>
+<p><a href="https://iacchus.github.io/fretboard-svg/">fretboard-svg</a></p>
+<p>fretboard note, scale and chord picker</p>
+</li>
+<li>
+<p><a href="https://github.com/iacchus/birdears/">birdears</a></p>
+<p><em>birdears</em> is an ear training software written in Python.</p>
+</li>
+<li>
+<p><a href="https://github.com/iacchus/sheet-music-stuff/">sheet-music-stuff</a></p>
+<p>Various resources on music.</p>
+</li>
+<li>
+<p><a href="https://iacchus.github.io/abc-music-notation-standard/">abc notation edition</a></p>
+<p>An edition of the open ABC Music Notation standard.</p>
+</li>
+<li>
+<p>sheetmusic</p>
+<ul>
+<li>tunebooks</li>
+<li>exercises</li>
+</ul>
+</li>
+<li>
+<p><a href="https://iacchus.github.io/jupyter-notebooks/">jupyter-notebooks</a></p>
+<p>Collection of code experiments madde with Jupyter.</p>
+</li>
+</ul>
+          </section>
+      </div>
+      </article>
   </main>
-</div>
       <!-- TODO : Body class -->
     <div id="body-class" style="display: none;" class=""></div>
   
