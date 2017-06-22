@@ -494,7 +494,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
-    color: #000000;
+    color: #333;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -915,7 +915,7 @@ img {
     z-index: 10;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Open Sans Condensed', 'Roboto Condensed', sans-serif;
     font-weight: 700;
     font-size: 2em;
     line-height: 1em;
@@ -944,6 +944,8 @@ img {
     padding: 0;
     font-size: 1em;
     line-height: 1.5em
+
+    font-family: 'Old Standard TT', 'Roboto', serif;
 }
 
 .home-template .blog-description {
