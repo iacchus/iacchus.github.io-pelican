@@ -1,4 +1,4 @@
-title: free breezes ans universes
+title: free breezes and universes
 tags: philosophy, metanoia, leetcraft
 
 All the breezes that need physical or concrete objects like musical videoclips are subject to the limitations of any other universes. I mean, they are universes like any other, their metareality only change to "high" or "low" by the characteristic of karma, merit or lack of merit.
