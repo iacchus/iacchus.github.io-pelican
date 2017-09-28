@@ -6,3 +6,7 @@ Ancient sigil.. Both I.M. and K.M.
 ☘ L.O.C.K.I. ( . )( . ) ☘
 
 GRACE
+
+Always link everything.
+
+
