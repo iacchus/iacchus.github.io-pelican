@@ -9,4 +9,4 @@ GRACE
 
 Always link everything.
 
-
+[A Dança dos Espíritos](https://bitbucket.org/mercvrivs/adancadosespiritos/raw/edf239bcf6bfc72e1a8b69ce4130e2528c653b0b/bin/adancadosespiritos.oneside.pdf) [pdf, book, portuguese]
