@@ -1,13 +1,33 @@
 title: Words
 tags: twp, tecnologia mágicka, leetcraft
 
+## This.
+
 Ancient sigil.. Both I.M. and K.M.
+
+## KMLockiIM
+
+fellin' locki? 
 
 ```
 (K.M. ☘ L.O.C.K.I. (  . )(  . ) ☘ I.M.)
 ```
 
+## GRACE
+
+```
 GRACE
+```
+
+## KMSpiderWebIM
+
+hexagram
+
+the spiderweb itself
+
+(already inside it)
+
+## more
 
 Always link everything.
 
