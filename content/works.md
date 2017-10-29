@@ -5,21 +5,19 @@ tags: twp, tecnologia mágicka, leetcraft
 
 Ancient sigil.. Both I.M. and K.M.
 
-## KMLockiIM
-
-fellin' locki? 
+## a wind that blows
 
 ```
 (K.M. ☘ L.O.C.K.I. (  . )(  . ) ☘ I.M.)
 ```
 
-## GRACE
+## Oh the lion
 
 ```
 GRACE
 ```
 
-## KMSpiderWebIM
+## A spiderweb
 
 hexagram
 
