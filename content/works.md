@@ -5,6 +5,8 @@ tags: twp, tecnologia mágicka, leetcraft
 
 Ancient sigil.. Both I.M. and K.M.
 
+Equilibrate the mandala mirroring it, and also mirror each of the beings in the mandala..
+
 ## a wind that blows
 
 ```
