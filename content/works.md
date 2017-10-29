@@ -7,6 +7,10 @@ Ancient sigil.. Both I.M. and K.M.
 
 Equilibrate the mandala mirroring it, and also mirror each of the beings in the mandala..
 
+Reduct like in the roleplaying, the power of powerful beings (QQ), and also
+create antidotes for each of the roots which sustain/strong them. Do this with
+art and science.
+
 ## a wind that blows
 
 ```
