@@ -17,6 +17,8 @@ art and science.
 (K.M. ☘ L.O.C.K.I. (  . )(  . ) ☘ I.M.)
 ```
 
+Maybe more like a pear, juicy.
+
 ## Oh the lion
 
 ```
@@ -33,7 +35,9 @@ the spiderweb itself
 
 ## ARTS
 
-ssomethin somethin
+ssomethin someothin
+
+`impressionit`
 
 ## cheapgood stuff
 
