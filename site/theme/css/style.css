@@ -1455,13 +1455,9 @@ img {
     z-index: 10;
     display: inline-block;
     //margin-bottom: 1.333em;
-    //font-family: 'Fira Sans', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
-    //font-size: 0.75em;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 400;
-    //font-weight: 300;
-    //line-height: 1.333em;
     opacity: 0.5
 }
 
