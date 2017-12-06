@@ -2,7 +2,7 @@
  * Main JS file for GhostScroll behaviours
  */
 
-var $post = $('.post');
+var $post = $('article');
 var $first = $('.post.first'); 
 var $last = $('.post.last'); 
 var $fnav = $('.fixed-nav');
@@ -77,7 +77,7 @@ var $authorhead = $('#author-head');
 					//var a = $(this).parent('.post-holder').prev('.post').find('.post-after');
 					var a = $(this).parent('.post').prev('.post').find('.post-after');
 
-					$(this).attr('item_index', t);
+					//$(this).attr('item_index', t);
 
 					if(w >= f && w<=b) {
 						i.addClass('active');
