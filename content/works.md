@@ -11,6 +11,8 @@ Reduct like in the roleplaying, the power of powerful beings (QQ), and also
 create antidotes for each of the roots which sustain/strong them. Do this with
 art and science.
 
+![I.M.FORMULA](images/iacchus-mercurius-formula-coitus.png)
+
 ## a wind that blows
 
 ```
