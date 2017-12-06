@@ -33,7 +33,7 @@ var $authorhead = $('#author-head');
 	$('#header-arrow').click(function () { srcTo($first); });
         $('#totop-arrow').click(function () { srcTo($sitehead); });*/
 
-		$('.post-title').each(function () {
+		$('.post-title > a').each(function () {
 			var t = $(this).text();
 			//var index = $(this).parents('.post-holder').index();
 			//var index = $(this).parents('.post').index();
@@ -87,7 +87,7 @@ var $authorhead = $('#author-head');
 			});
 		}
 
-		$('.fixed-nav').append("<div id='about-side'></div>")
+		//$('.fixed-nav').append("<div id='about-side'></div>")
 		//$('#about-side').load('about-side.html');	
 
 
