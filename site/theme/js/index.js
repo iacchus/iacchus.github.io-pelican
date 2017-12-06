@@ -6,9 +6,10 @@ var $post = $('.post');
 var $first = $('.post.first'); 
 var $last = $('.post.last'); 
 var $fnav = $('.fixed-nav');
-var $postholder = $('.post-holder');
+//var $postholder = $('.post-holder');
+var $postholder = $('.post');
 var $postafter = $('.post-after');
-var $sitehead = $('#site-head');
+var $sitehead = $('#blog-header');
 
 var $authorhead = $('#author-head');
 
@@ -66,9 +67,10 @@ var $authorhead = $('#author-head');
 				$post.each(function () {
 					var f = $(this).offset().top;
 					var b = $(this).offset().top + $(this).height();
-					var t = $(this).parent('.post-holder').index();
+					//var t = $(this).parent('.post-holder').index();
+					var t = $(this).parent('.post').index();
 					var i = $(".fn-item[item_index='"+t+"']");
-					var a = $(this).parent('.post-holder').prev('.post-holder').find('.post-after');
+					var a = $(this).parent('.post-holder').prev('.post').find('.post-after');
 
 					$(this).attr('item_index', t);
 
@@ -84,7 +86,7 @@ var $authorhead = $('#author-head');
 		}
 
 		$('.fixed-nav').append("<div id='about-side'></div>")
-		$('#about-side').load('about-side.html');	
+		//$('#about-side').load('about-side.html');	
 
 
 	});
