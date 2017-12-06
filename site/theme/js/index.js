@@ -36,10 +36,11 @@ var $authorhead = $('#author-head');
 		$('.post-title').each(function () {
 			var t = $(this).text();
 			//var index = $(this).parents('.post-holder').index();
-			var index = $(this).parents('.post').index();
+			//var index = $(this).parents('.post').index();
+			var index = $(this).parents('article').index();
 			$fnav.append("<a class='fn-item' item_index='"+index+"'>"+t+"</a>")
 			//$(this).parents('article').attr('id',t.toLowerCase().split(' ').join('-'));
-			$(this).attr('id',t.toLowerCase().split(' ').join('-'));
+			$(this).parents('article').attr('id',t.toLowerCase().split(' ').join('-'));
 			$('.fn-item').last().click(function () {
 				var i = $(this).attr('item_index');
 				var s = $(".post[item_index='"+i+"']");
