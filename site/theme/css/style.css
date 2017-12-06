@@ -1482,6 +1482,11 @@ img {
     //font-weight: 500;
 }
 
+.post-meta * {
+    text-decoration: underline !important;
+    color: #777;
+}
+
 .has-cover .post-meta {
     color: #fff;
     opacity: 0.75
