@@ -1484,7 +1484,7 @@ img {
 
 .post-meta * {
     text-decoration: underline !important;
-    color: #777;
+    color: #777 !important;
 }
 
 .has-cover .post-meta {
