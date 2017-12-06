@@ -70,9 +70,10 @@ var $authorhead = $('#author-head');
 					var f = $(this).offset().top;
 					var b = $(this).offset().top + $(this).height();
 					//var t = $(this).parent('.post-holder').index();
-					var t = $(this).parent('.post').index();
+					var t = $(this).parent('article').index();
 					var i = $(".fn-item[item_index='"+t+"']");
-					var a = $(this).parent('.post-holder').prev('.post').find('.post-after');
+					//var a = $(this).parent('.post-holder').prev('.post').find('.post-after');
+					var a = $(this).parent('.post').prev('.post').find('.post-after');
 
 					$(this).attr('item_index', t);
 
