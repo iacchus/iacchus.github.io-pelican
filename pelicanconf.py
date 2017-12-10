@@ -29,14 +29,14 @@ PLUGIN_PATHS = [
 ]
 
 PLUGINS = [
-    'just_table',
+    #'just_table',
     'liquid_tags.youtube',
-    'liquid_tags.notebook',
-    'ipynb.markup',
+    #'liquid_tags.notebook',
+    #'ipynb.markup',
     'pin_to_top',
     # 'post_revision',
-    'render_math',
-    'rmd_reader',
+    #'render_math',
+    #'rmd_reader',
     'show_source',
     # 'summary',
 ]
