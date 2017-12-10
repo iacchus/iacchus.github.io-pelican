@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Sun, 10 Dec 2017 08:29:27 -0200</lastBuildDate><item><title>testing fa</title><link>https://iacchus.github.io/site/testing-fa.html</link><description>&lt;!--user icon in two different styles--&gt;
+<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>giving substractum to ideas</description><lastBuildDate>Sun, 10 Dec 2017 08:47:41 -0200</lastBuildDate><item><title></title><link>https://iacchus.github.io/site/.html</link><description>&lt;p&gt;emojify&lt;/p&gt;
+&lt;p&gt;this is :octocat: a test :)&lt;/p&gt;
+&lt;p&gt;ok.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sun, 10 Dec 2017 08:47:41 -0200</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2017-12-10:/site/.html</guid></item><item><title>testing fa</title><link>https://iacchus.github.io/site/testing-fa.html</link><description>&lt;!--user icon in two different styles--&gt;
 
 &lt;p&gt;&lt;i class="fas fa-user"&gt;&lt;/i&gt;
 &lt;i class="far fa-user"&gt;&lt;/i&gt;

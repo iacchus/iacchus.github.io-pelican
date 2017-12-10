@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/all-en.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-12-10T08:29:27-02:00</updated><entry><title>testing fa</title><link href="https://iacchus.github.io/site/testing-fa.html" rel="alternate"></link><published>2017-12-10T08:29:27-02:00</published><updated>2017-12-10T08:29:27-02:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-12-10:/site/testing-fa.html</id><summary type="html">&lt;!--user icon in two different styles--&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Philosopher's Workbench</title><link href="https://iacchus.github.io/site/" rel="alternate"></link><link href="https://iacchus.github.io/site/feeds/all-en.atom.xml" rel="self"></link><id>https://iacchus.github.io/site/</id><updated>2017-12-10T08:47:41-02:00</updated><entry><title></title><link href="https://iacchus.github.io/site/.html" rel="alternate"></link><published>2017-12-10T08:47:41-02:00</published><updated>2017-12-10T08:47:41-02:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-12-10:/site/.html</id><summary type="html">&lt;p&gt;emojify&lt;/p&gt;
+&lt;p&gt;this is :octocat: a test :)&lt;/p&gt;
+&lt;p&gt;ok.&lt;/p&gt;</summary><content type="html">&lt;p&gt;emojify&lt;/p&gt;
+&lt;p&gt;this is :octocat: a test :)&lt;/p&gt;
+&lt;p&gt;ok.&lt;/p&gt;</content></entry><entry><title>testing fa</title><link href="https://iacchus.github.io/site/testing-fa.html" rel="alternate"></link><published>2017-12-10T08:29:27-02:00</published><updated>2017-12-10T08:29:27-02:00</updated><author><name>Iacchus Mercurius</name></author><id>tag:iacchus.github.io,2017-12-10:/site/testing-fa.html</id><summary type="html">&lt;!--user icon in two different styles--&gt;
 
 &lt;p&gt;&lt;i class="fas fa-user"&gt;&lt;/i&gt;
 &lt;i class="far fa-user"&gt;&lt;/i&gt;
