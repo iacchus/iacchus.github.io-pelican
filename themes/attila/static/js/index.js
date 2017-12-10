@@ -9,7 +9,8 @@ var $fnav = $('.fixed-nav');
 //var $postholder = $('.post-holder');
 var $postholder = $('.post');
 var $postafter = $('.post-after');
-var $sitehead = $('#blog-header');
+//var $sitehead = $('#blog-header');
+var $sitehead = $('div.blog-cover');
 
 var $authorhead = $('#author-head');
 
@@ -35,12 +36,8 @@ var $authorhead = $('#author-head');
 
 		$('.post-title > a').each(function () {
 			var t = $(this).text();
-			//var index = $(this).parents('.post-holder').index();
-			//var index = $(this).parents('.post').index();
-			//var index = $(this).parents('article').index();
 			var index = $(this).parents('article').index();
 			$fnav.append("<a class='fn-item' item_index='"+index+"'>"+t+"</a>")
-			//$(this).parents('article').attr('id',t.toLowerCase().split(' ').join('-'));
 			$(this).parents('article').attr('id',t.toLowerCase().split(' ').join('-'));
 			$(this).parents('article').attr('item_index',index);
 			$('.fn-item').last().click(function () {
@@ -59,7 +56,8 @@ var $authorhead = $('#author-head');
 			$(window).scroll( function () {
 				var w = $(window).scrollTop();
 				var g = $sitehead.offset().top;
-				var h = $sitehead.offset().top + $(this).height()-100;
+				//var h = $sitehead.offset().top + $(this).height()-100;
+				var h = $sitehead.offset().top + $sitehead.height()-100;
 				
                 
 				if(w >= g && w<=h) {
@@ -71,14 +69,9 @@ var $authorhead = $('#author-head');
 				$post.each(function () {
 					var f = $(this).offset().top;
 					var b = $(this).offset().top + $(this).height();
-					//var t = $(this).parent('.post-holder').index();
-					//var t = $(this).parent('article').index();
 					var t = $(this).index();
 					var i = $(".fn-item[item_index='"+t+"']");
-					//var a = $(this).parent('.post-holder').prev('.post').find('.post-after');
 					var a = $(this).parent('.post').prev('.post').find('.post-after');
-
-					//$(this).attr('item_index', t);
 
 					if(w >= f && w<=b) {
 						i.addClass('active');
