@@ -14,8 +14,9 @@
                     | <time datetime="{{ article.locale_date }}">{{ article.locale_date }}</time>
                 <!-- </span>
 		<span class="post-meta"> -->
-		    {# % if article.tags  % #} |
+		    {# % if article.tags  % #}
 		    {% for tag in article.tags %}
+		    {%if loop.first%} | {%endif%}
 		    <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{%if not loop.last%}, {%endif%}
 		    {% endfor %}
 		    {#% endif %#}
