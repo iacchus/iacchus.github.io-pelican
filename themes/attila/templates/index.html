@@ -41,7 +41,24 @@
 
 <div id="index" class="container">
   <main class="content" role="main">
-    {% include "partials/loop.html" %}
+    <div id='main-container'>
+	    <div class='fixed-nav'>
+	      <a class="social" href="#" alt="Back Home"><span class="fa-stack fa-lg">
+		<i class="fa fa-square-o fa-stack-2x"></i>
+		<i class="fa fa-home fa-stack-1x"></i>
+	      </span></a>
+	      <a id="totop-arrow"><span class="fa-stack fa-lg">
+		<i class="fa fa-square-o fa-stack-2x"></i>
+		<i class="fa fa-angle-up fa-stack-1x"></i>
+	      </span></a>
+	      <a id="subscribe" href="https://feeds.feedburner.com/adancaa"><span class="fa-stack fa-lg">
+		<i class="fa fa-square-o fa-stack-2x"></i>
+		<i class="fa fa-envelope-o fa-stack-1x"></i>
+	      </span></a>
+
+	    </div>
+      {% include "partials/loop.html" %}
+    </div>
   </main>
 </div>
 {% endblock content %}    
