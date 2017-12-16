@@ -13,10 +13,10 @@ art and science.
 
 ![I.M.FORMULA](images/iacchus-mercurius-formula-coitus.png)
 
-## a wind that blows
+## A Wind that Blows
 
 ```
-(K.M. ☘ L.O.C.K.I. (  . )(  . ) ☘ I.M.)
+(K.M. ☘ L.U.C.K.Y. ( .  )(  . ) ☘ I.M.)
 ```
 
 Maybe more like a pear, juicy.
