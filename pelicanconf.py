@@ -103,7 +103,7 @@ AUTHORS_BIO = {
     "image": "https://avatars2.githubusercontent.com/u/881531?v=3&u=ced26c8fd97409f69ee0237da7b87cce1790fb16&s=400",
     "website": "https://iacchus.github.io",
     "location": "Querência Amada",
-    "bio": "EE hew. Maybe soon we fill this."
+    "bio": "My interests are in the fields of philosophy as well as arts & culture; I love music; very interested in e-learning; Also like spirituality, and humanities."
   }
 }
 
