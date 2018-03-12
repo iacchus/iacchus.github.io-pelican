@@ -1,6 +1,6 @@
 title: Words
 tags: twp, tecnologia mágicka, leetcraft
-pinned: yep
+pin: yep
 
 ## This.
 
