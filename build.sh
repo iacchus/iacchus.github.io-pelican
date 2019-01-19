@@ -3,7 +3,9 @@
 # exit on error
 set -e
 
-source ~/git-stuff/jupyter-venv/venv/bin/activate
+#source ~/git-stuff/jupyter-venv/venv/bin/activate
+source ~/git-stuff/VENV/bin/activate
+
 
 make clean
 make publish
