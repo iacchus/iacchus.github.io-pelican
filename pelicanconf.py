@@ -110,17 +110,4 @@ AUTHORS_BIO = {
 
 GOOGLE_ANALYTICS = "UA-100408965-1"
 
-# dopetrope
 
-ADDRESS = "nope"
-MAIL = 'frk@no!'
-PHONE = 'nos'
-TWITTER_USER = 'nope'
-GOOGLEPLUS_USER = 'no'
-LINKEDIN_USER = 'n o n e'
-FACEBOOK_USER = 'n o n e'
-ABOUT_TEXT  = AUTHORS_BIO['iacchus mercurius']['bio']
-ABOUT_IMAGE ="okay"
-ABOUT_LINK = "nope"
-COPYRIGHT = "Sure."
-SHOW_COPYRIGHT = True
