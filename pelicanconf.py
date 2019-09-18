@@ -11,8 +11,8 @@ SITESUBTITLE = 'giving substractum to ideas'
 PATH = 'content'
 OUTPUT_PATH = 'site' # also in Makefile
 
-#THEME = 'themes/attila'
-THEME = 'themes/html5-dopetrope'
+THEME = 'themes/attila'
+#THEME = 'themes/html5-dopetrope'
 
 TIMEZONE = 'America/Sao_Paulo'
 
