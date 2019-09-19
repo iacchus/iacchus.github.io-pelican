@@ -4,6 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i);
 
 * {
+    box-sizing: border-box;
     text-rendering: optimizeLegibility;
   }
 
@@ -1246,6 +1247,13 @@ img {
     z-index: 8;
     content: '';
     background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.5) 100%)
+}
+
+article {
+    margin: 50px 0 !important;
+    padding: 12px 50px !important;
+    border-left: 3px #336 solid;
+    border-radius: 3px;
 }
 
 .post {
