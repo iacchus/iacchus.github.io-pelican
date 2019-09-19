@@ -11,5 +11,5 @@ make clean
 make publish
 git add .
 git commit -a -m 'okz'
-git push
+proxychains git push
 
