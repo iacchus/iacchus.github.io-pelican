@@ -465,7 +465,7 @@ blockquote {
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
     border: 1px solid #eee;
-    border-left: 3rem solid #669;
+    border-left: 0.5rem solid #669;
 }
 
 blockquote p {
