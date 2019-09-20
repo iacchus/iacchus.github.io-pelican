@@ -18,7 +18,7 @@ TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_LANG = 'en'
 
-#DEFAULT_DATE = 'fs'
+DEFAULT_DATE = 'fs'
 DEFAULT_DATE_FORMAT = '%a %e %b %Y %r %z'
 
 #SUMMARY_MAX_LENGTH = None
