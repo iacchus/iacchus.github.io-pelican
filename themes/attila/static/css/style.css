@@ -1163,7 +1163,7 @@ img {
 
 #main-container {
 	//width: 860px;
-	width: 1060px;
+	width: 1160px;
 	margin: 0 auto;
 }
 
@@ -1345,16 +1345,14 @@ article.post {
 
 div.toc:before {
     display: block;
-    content: 'Index Publicationis';
+    content: 'Contents';
     font-size: large;
-    font-family: 'Roboto Condensed';
     font-weight: 600;
-    margin-bottom: 13px;
+    margin: 1.6rem 0;
 }
 
 div.toc {
-   font-family: 'Roboto Condensed';
-   font-size: 14px;
+   font-size: 1.4rem;
 }
 
 div.toc a {
@@ -1362,7 +1360,7 @@ div.toc a {
 }
 
 div.toc li {
-    margin: 7px 11px;
+    margin: .7rem 1.1rem;
 }
 
 .post-excerpt p {
