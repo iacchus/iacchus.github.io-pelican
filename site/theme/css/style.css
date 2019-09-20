@@ -519,11 +519,10 @@ dl dd {
 }
 
 mark {
-    background-color: #ffc336
+    background-color: #ffc336;
 }
 
-code,
-tt {
+code, tt {
     padding: 1px 2px;
 ￼   font-family: 'Inconsolata', monospace, sans-serif;
 ￼   font-size: 1.4rem;
@@ -536,9 +535,6 @@ tt {
 ￼   color: rgba(255,255,255,0.9);
 }
 ￼
-
-}
-
 pre {
     position: relative;
     margin: 2em auto;
