@@ -19,7 +19,7 @@ TIMEZONE = 'America/Sao_Paulo'
 DEFAULT_LANG = 'en'
 
 DEFAULT_DATE = 'fs'
-DEFAULT_DATE_FORMAT = '%a, %d %b %Y; %H:%M:%S'
+DEFAULT_DATE_FORMAT = '%a %d %b %Y %H:%M:%S'
 ARTICLE_ORDER_BY = 'reversed-modified'
 
 
