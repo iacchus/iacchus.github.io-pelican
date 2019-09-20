@@ -465,7 +465,7 @@ blockquote {
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
     border: 1px solid #eee;
-    border-left: 0.5rem solid #669;
+    border-left: 0.3rem solid #669;
 }
 
 blockquote p {
@@ -524,15 +524,15 @@ mark {
 
 code, tt {
     padding: 1px 2px;
-￼   font-family: 'Inconsolata', monospace, sans-serif;
-￼   font-size: 1.4rem;
-￼   line-height: normal;
-￼   white-space: pre;
-￼   background-color: #333;
-￼   //color: #fff;
-￼   border-radius: 3px;
-￼   font-weight: bold;
-￼   color: rgba(255,255,255,0.9);
+    font-family: 'Inconsolata', monospace, sans-serif;
+    font-size: 1.4rem;
+    line-height: normal;
+    white-space: normal;
+    background-color: #333;
+    //color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    color: rgba(255,255,255,0.9);
 }
 ￼
 pre {
@@ -540,10 +540,11 @@ pre {
     margin: 2em auto;
     padding: 1em;
     overflow: hidden;
-    font-family: 'Inconsolata', monospace, sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 14px;
     line-height: normal;
-    white-space: pre;
+    //white-space: pre;
+    white-space: normal;
     //background: #faf9f7;
     background-color: #eee;
     //border: 1px solid #e5e4e1;
