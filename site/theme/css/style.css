@@ -1252,7 +1252,7 @@ img {
 article {
     margin: 50px 0 !important;
     padding: 12px 50px !important;
-    border-left: 3px #336 solid;
+    //border-left: 3px #336 solid;
     border-radius: 3px;
 }
 

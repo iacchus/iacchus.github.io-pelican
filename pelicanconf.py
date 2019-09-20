@@ -6,7 +6,7 @@ import os
 AUTHOR = 'Iacchus Mercurius'
 SITENAME = "The Philosopher's Workbench"
 SITEURL = 'https://iacchus.github.io/site'
-SITESUBTITLE = 'TELECURSO 2000 + MÚSICA BARROCA'
+SITESUBTITLE = 'Playing around with ideas'
 
 PATH = 'content'
 OUTPUT_PATH = 'site' # also in Makefile
