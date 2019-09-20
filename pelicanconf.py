@@ -6,7 +6,7 @@ import os
 AUTHOR = 'Iacchus Mercurius'
 SITENAME = "The Philosopher's Workbench"
 SITEURL = 'https://iacchus.github.io/site'
-SITESUBTITLE = 'giving substractum to ideas'
+SITESUBTITLE = 'TELECURSO 2000 + MÚSICA BARROCA'
 
 PATH = 'content'
 OUTPUT_PATH = 'site' # also in Makefile
@@ -18,7 +18,9 @@ TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_LANG = 'en'
 
-DEFAULT_DATE = 'fs'
+#DEFAULT_DATE = 'fs'
+DEFAULT_DATE_FORMAT = '%a %e %b %Y %r %z'
+
 #SUMMARY_MAX_LENGTH = None
 
 MARKUP = ('md', 'ipynb')
