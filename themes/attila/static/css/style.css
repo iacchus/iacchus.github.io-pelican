@@ -458,10 +458,14 @@ blockquote {
     margin: 2em auto;
     padding: 1em;
     box-sizing: border-box;
-    border-left: 0.25em solid #e5e4e1;
+    border-left: 0.25em solid #669;
     font-weight: 400;
-    color: #45484d;
-    background: #faf9f7
+    color: #000;
+    background: #fefefe;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border: 1px solid #eee;
+    border-left: 3rem solid #669;
 }
 
 blockquote p {
