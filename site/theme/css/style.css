@@ -524,14 +524,19 @@ mark {
 
 code,
 tt {
-    padding: 0px 2px;
-    font-family: 'Inconsolata', monospace, sans-serif;
-    font-size: 14px;
-    line-height: normal;
-    white-space: pre;
-    background-color: #333;
-    color: #fff;
-    border-radius: 2px;
+    padding: 1px 2px;
+￼   font-family: 'Inconsolata', monospace, sans-serif;
+￼   font-size: 1.4rem;
+￼   line-height: normal;
+￼   white-space: pre;
+￼   background-color: #333;
+￼   //color: #fff;
+￼   border-radius: 3px;
+￼   font-weight: bold;
+￼   color: rgba(255,255,255,0.9);
+}
+￼
+
 }
 
 pre {
@@ -578,7 +583,7 @@ pre tt {
     overflow: scroll;
     font-size: 14px;
     line-height: normal;
-    white-space: pre;
+    white-space: normal;
     background: transparent;
     border: none;
     vertical-align: inherit;
