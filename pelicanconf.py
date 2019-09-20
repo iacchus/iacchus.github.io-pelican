@@ -18,7 +18,7 @@ TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_LANG = 'en'
 
-#DEFAULT_DATE = 'fs'
+DEFAULT_DATE = 'fs'
 #DEFAULT_DATE_FORMAT = '%a %e %b %Y %r %z'
 
 #SUMMARY_MAX_LENGTH = None
@@ -94,7 +94,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 # Social widget
 SOCIAL = (('github','https://github.com/iacchus/'),)
 
-DEFAULT_PAGINATION = 11
+DEFAULT_PAGINATION = 17
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
