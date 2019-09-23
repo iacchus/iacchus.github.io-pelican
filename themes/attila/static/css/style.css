@@ -1950,3 +1950,8 @@ a.fn-item.active {
     padding-left: 7px;
 
 }
+
+.footnote > ol:before {
+    content: 'Notes';
+
+}

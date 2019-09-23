@@ -75,6 +75,8 @@ MARKDOWN = {
                 'markdown.extensions.extra': {},
                 'markdown.extensions.meta': {},
                 'markdown.extensions.toc': {},
+                # https://pyembed.github.io/usage/markdown/#basics
+                'pyembed.markdown': {},
             },
         'extensions': ['extra', 'meta', 'toc']
 
