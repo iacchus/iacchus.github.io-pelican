@@ -77,6 +77,8 @@ MARKDOWN = {
                 'markdown.extensions.toc': {},
                 # https://pyembed.github.io/usage/markdown/#basics
                 'pyembed.markdown': {},
+                #'markdown.extensions.codehilite': {'css_class': 'highlight'},
+                'markdown.extensions.codehilite': {'css_class': 'python'},
             },
         'extensions': ['extra', 'meta', 'toc']
 
