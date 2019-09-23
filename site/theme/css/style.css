@@ -1432,6 +1432,11 @@ div.toc li {
 
 }
 
+.oembedall-container > a, .oembedall-container > br,
+.oembedall-container > span {
+    display: none;
+}
+
 .post-content a {
     //border-bottom: 1px solid #f26a3d
 }
