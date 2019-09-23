@@ -60,7 +60,7 @@ a:hover {
 }
 
 abbr[title] {
-    border-bottom: 1px dotted
+    border-bottom: 0.1rem dotted;
 }
 
 b,
@@ -111,7 +111,7 @@ svg:not(:root) {
 }
 
 figure {
-    margin: 1em 40px
+    margin: 1em 4.0rem;
 }
 
 hr {
@@ -122,7 +122,7 @@ hr {
 pre {
     overflow: auto
     background-color: #fefefe;
-    border: 1px solid #eee;
+    border: 0.1rem solid #eee;
     padding: 0.1rem 0.9rem;
 }
 
@@ -198,8 +198,8 @@ input[type=search]::-webkit-search-decoration {
 }
 
 fieldset {
-    border: 1px solid silver;
-    margin: 0 2px;
+    border: 0.1rem solid silver;
+    margin: 0 0.2rem;
     padding: .35em .625em .75em
 }
 
@@ -358,13 +358,15 @@ h6 {
 h1 {
     font-size: 2.8rem;
     line-height: 1em;
-    text-indent: -1px;
+    line-height: 2.8rem;
+    text-indent: -0.1rem;
 }
 
 h2 {
     font-size: 2.6rem;
-    line-height: 1.111em;
-    text-indent: -1px;
+    //line-height: 1.111em;
+    line-height: 2.6rem;
+    text-indent: -0.1rem;
 }
 
 h3 {
@@ -426,7 +428,7 @@ ol>li:before {
     //font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-align: right;
-    padding-right: 3px;
+    padding-right: 0.3rem;
     color: #000;
 }
 
@@ -450,7 +452,7 @@ ol ol,
 ul ul,
 ul ol,
 ol ul {
-    padding-left: 14px;
+    padding-left: 1.4rem;
     margin:  0;
 }
 
@@ -460,7 +462,7 @@ li {
 
 hr {
     display: block;
-    height: 1px;
+    height: 0.1rem;
     margin: 2em 0;
     padding: 0;
     background: #e5e4e1;
@@ -475,9 +477,9 @@ blockquote {
     font-weight: 400;
     color: #000;
     background: #fefefe;
-    border-bottom-left-radius: 3px;
-    border-top-left-radius: 3px;
-    border: 1px solid #eee;
+    border-bottom-left-radius: 0.3rem;
+    border-top-left-radius: 0.3rem;
+    border: 0.1rem solid #eee;
     border-left: 0.3rem solid #669;
 }
 
@@ -515,24 +517,24 @@ small {
 }
 
 dl {
-    margin: 20px 0
+    margin: 2.0rem 0;
 }
 
 dl dt {
     float: left;
-    width: 180px;
+    width: 18.0rem;
     overflow: hidden;
     clear: left;
     text-align: right;
     text-overflow: ellipsis;
     white-space: nowrap;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 1.0rem;
 }
 
 dl dd {
-    margin-left: 200px;
-    margin-bottom: 12px;
+    margin-left: 20.0rem;
+    margin-bottom: 1.2rem;
 }
 
 mark {
@@ -540,18 +542,18 @@ mark {
 }
 
 code, tt {
-    padding: 1px 2px;
+    padding: 0.1rem 0.2rem;
     font-family: 'Inconsolata', monospace, sans-serif;
     font-size: 1.4rem;
     line-height: normal;
     white-space: normal;
     background-color: #333;
     //color: #fff;
-    border-radius: 3px;
+    border-radius: 0.3rem;
     font-weight: bold;
-    color: rgba(255,255,255,0.9);
+    color: #fff;
 }
-￼
+
 pre {
     position: relative;
     margin: 2em auto;
@@ -565,7 +567,7 @@ pre {
     //background: #faf9f7;
     background-color: #eee;
     //border: 1px solid #e5e4e1;
-    border: 1px solid #ddd;
+    border: 0.1rem solid #ddd;
     box-sizing: border-box;
 }
 
@@ -576,7 +578,7 @@ pre .lines {
     left: 0;
     top: 0;
     padding: 1.333em 0;
-    border-right: 1px solid #e5e4e1;
+    border-right: 0.1rem solid #e5e4e1;
     font-size: 1.4rem;
     line-height: normal;
     text-align: right;
@@ -607,15 +609,15 @@ pre tt {
 kbd {
     display: inline-block;
     margin-bottom: 0.5em;
-    padding: 1px 8px;
-    border: #e5e4e1 1px solid;
+    padding: 0.1rem 0.8rem;
+    border: #e5e4e1 0.1rem solid;
     color: #45484d;
-    text-shadow: #fff 0 1px 0;
+    text-shadow: #fff 0 0.1rem 0;
     font-size: 0.9em;
     font-weight: bold;
     background: #faf9f7;
-    border-radius: 4px;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 #fff inset
+    border-radius: 0.4rem;
+    box-shadow: 0 0.1rem 0 rgba(0, 0, 0, 0.2), 0 0.1rem 0 0 #fff inset
 }
 
 table {
@@ -623,7 +625,7 @@ table {
     max-width: 100%;
     margin: 2em 0;
     background-color: transparent;
-    border: 1px solid #e5e4e1
+    border: 0.1rem solid #e5e4e1
 }
 
 table th,
@@ -632,7 +634,7 @@ table td {
     padding: 0.5em;
     line-height: 0.95em;
     text-align: left;
-    border: 1px solid #e5e4e1
+    border: 0.1rem solid #e5e4e1
 }
 
 table th {
@@ -648,9 +650,9 @@ table td:after {
     position: absolute;
     width: 100%;
     height: 100%;
-    left: -1px;
-    top: -1px;
-    padding: 1px;
+    left: -0.1rem;
+    top: -0.1rem;
+    padding: 0.1rem;
     z-index: -1;
     content: '';
     background: #faf9f7
@@ -689,11 +691,11 @@ img {
 #blog-header:after {
     position: absolute;
     width: 32em;
-    height: 1px;
+    height: 0.1rem;
     left: 50%;
     bottom: 0;
     //margin-left: -16em;
-    margin-left: -270px;
+    margin-left: -27.0rem;
     content: '';
     background: #e5e4e1
 }
@@ -702,7 +704,7 @@ img {
     padding: 9em 0 10em;
     background: #000;
     overflow: hidden;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1)
+    text-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1)
 }
 
 .author-template #blog-header:after,
@@ -820,7 +822,7 @@ img {
 
 .menu-active #wrapper {
     //padding-right: 16em
-    padding-right: 270px;
+    padding-right: 27.0rem;
 }
 
 .menu-active #wrapper .hidden-close {
@@ -829,7 +831,7 @@ img {
 
 .inner {
     //max-width: 32em;
-    max-width: 720px;
+    max-width: 72.0rem;
     margin: 0 auto;
     padding: 0 2em
 }
@@ -854,8 +856,8 @@ img {
     height: 1.5em;
     margin-bottom: 1em;
     padding: 0.5em 1.25em;
-    border: 1px solid #c2c7cc;
-    font-family: 'Fira Sans', sans-serif;
+    border: 0.1rem solid #c2c7cc;
+    //font-family: 'Fira Sans', sans-serif;
     font-size: 0.75em;
     line-height: 1.666em;
     text-shadow: none;
@@ -892,7 +894,7 @@ img {
 .nav-button a i:before {
     position: relative;
     width: auto;
-    top: -2px;
+    top: -0.2rem;
     margin: auto;
     font-size: 0.625em;
     line-height: 1.6em
@@ -901,20 +903,20 @@ img {
 #menu {
     position: fixed;
     //width: 16em;
-    width: 270px;
+    width: 27.0rem;
     height: 100%;
     top: 0;
     right: 0;
     background: #f2f2f0;
-    border-left: 1px solid #e5e4e1;
+    border-left: 0.1rem solid #e5e4e1;
     z-index: 400;
     overflow: hidden;
     //font-family: 'Fira Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-size: 1.4rem;
-    box-shadow: inset -2px 0 7px rgba(0, 0, 0, 0.1);
+    box-shadow: inset -0.2rem 0 0.7rem rgba(0, 0, 0, 0.1);
     //transform: translate3d(16em, 0, 0);
-    transform: translate3d(270px, 0, 0);
+    transform: translate3d(27.0rem, 0, 0);
     transition: all ease-out 0.25s;
 }
 
@@ -929,7 +931,7 @@ img {
     top: 0;
     right: 0;
     margin: 1em;
-    border: 1px solid #c2c7cc;
+    border: 0.1rem solid #c2c7cc;
     color: transparent;
     cursor: pointer;
     transition: all ease 0.3s;
@@ -948,7 +950,7 @@ img {
 #menu .close-button:before {
     position: absolute;
     width: 1em;
-    height: 1px;
+    height: 0.1rem;
     left: 50%;
     top: 50%;
     margin-left: -0.5em;
@@ -984,7 +986,7 @@ img {
 #menu .nav-label {
     display: block;
     //padding: 1.666em 2em;
-    margin: 13px 7%;
+    margin: 1.3rem 7%;
     opacity: 0.5;
     //font-size: 0.75em;
     font-size: 1.2rem;
@@ -1005,7 +1007,7 @@ img {
 #menu li:before {
     position: absolute;
     width: 100%;
-    height: 1px;
+    height: 0.1rem;
     left: 1.5em;
     bottom: 0;
     margin: auto;
@@ -1030,17 +1032,17 @@ img {
 #menu .menulabel {
     background-color: #333;
     color: #ddd;
-    padding: 2px 4px;
+    padding: 0.2rem 0.4rem;
     //font-size: 12px;
     text-align: center;
     text-transform: capitalize;
     margin: 0 7%;
-    border-radius: 3px;
+    border-radius: 0.3rem;
 }
 
 #menu li a {
     display: block;
-    padding: 2px 4px;
+    padding: 0.2rem 0.4rem;
     color: #212226;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -1069,12 +1071,12 @@ img {
 .progress-container {
     position: fixed;
     width: 100%;
-    height: 4px;
+    height: 0.4rem;
     left: 0;
     top: 0;
     z-index: 1000;
     background: transparent;
-    transition: opacity ease-out 1s
+    transition: opacity ease-out 1s;
 }
 
 .progress-container.ready {
@@ -1084,9 +1086,9 @@ img {
 .progress-bar {
     display: block;
     width: 0;
-    height: 1px;
+    height: 0.1rem;
     background: #f26a3d;
-    box-shadow: 0 0 1px #f26a3d, 0 0 3px #f26a3d
+    box-shadow: 0 0 0.1rem #f26a3d, 0 0 0.3rem #f26a3d;
 }
 
 #footer {
@@ -1132,11 +1134,11 @@ img {
 #blog-author:after {
     position: absolute;
     width: 32em;
-    height: 1px;
+    height: 0.1rem;
     left: 50%;
     bottom: 0;
     //margin-left: -16em;
-    margin-left: -270px;
+    margin-left: -27.0rem;
     content: '';
     background: #e5e4e1
 }
@@ -1153,7 +1155,7 @@ img {
 }
 
 #blog-author.has-cover .post-author-avatar {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1)
 }
 
 #blog-author.has-cover .post-author-avatar img {
@@ -1165,7 +1167,7 @@ img {
     font-family: 'Roboto Condensed', sans-serif;
     padding: 0.333em 0 0;
     font-size: 2.4rem;
-    line-height: 32px;
+    line-height: 3.2rem;
     font-weight: 800 !important;
 }
 
@@ -1187,7 +1189,7 @@ img {
 
 #main-container {
 	//width: 860px;
-	width: 1160px;
+	width: 116.0rem;
     max-width: 100%;
 	margin: 0 auto;
 }
@@ -1199,13 +1201,13 @@ img {
 .container .post:after {
     position: absolute;
     width: 32em;
-    height: 1px;
+    height: 0.1rem;
     left: 50%;
     bottom: 0;
     //margin-left: -16em;
-    margin-left: -270px;
+    margin-left: -27.0rem;
     content: '';
-    background: #e5e4e1
+    background: #e5e4e1;
 }
 
 .container .post.featured .post-title:after {
@@ -1222,23 +1224,23 @@ img {
     content: '\e800';
     color: inherit;
     text-align: center;
-    color: #e5e4e1
+    color: #e5e4e1;
 }
 
 .post.page {
-    padding-bottom: 4em
+    padding-bottom: 4em;
 }
 
 .page-template #footer:after {
     position: absolute;
     width: 32em;
-    height: 1px;
+    height: 0.1rem;
     left: 50%;
     top: 0;
     //margin-left: -16em;
-    margin-left: -270px;
+    margin-left: -27.0rem;
     content: '';
-    background: #e5e4e1
+    background: #e5e4e1;
 }
 
 #post-header {
@@ -1250,7 +1252,7 @@ img {
     padding: 16em 0 2em;
     background: #000;
     overflow: hidden;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1)
+    text-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1)
 }
 
 .post-cover {
@@ -1277,11 +1279,11 @@ img {
 
 article.post {
     position: relative;
-    margin: 50px 0 !important;
+    margin: 5.0rem 0 !important;
     //padding: 12px 50px !important;
     padding: 1.2rem 3.0rem;
     //border-left: 3px #336 solid;
-    border-radius: 3px;
+    border-radius: 0.3rem;
     //padding-top: 2em;
     z-index: 1000;
     width: 850px;
