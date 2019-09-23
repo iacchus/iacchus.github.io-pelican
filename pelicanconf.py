@@ -80,7 +80,7 @@ MARKDOWN = {
                 #'markdown.extensions.codehilite': {'css_class': 'highlight'},
                 'markdown.extensions.codehilite': {'css_class': 'python'},
             },
-        'extensions': ['extra', 'meta', 'toc', 'codehighlight', 'pyembed']
+        'extensions': ['extra', 'meta', 'toc', 'codehilite', 'pyembed.markdown']
 
         }
 
