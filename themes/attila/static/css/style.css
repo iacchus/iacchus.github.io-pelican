@@ -356,27 +356,34 @@ h6 {
 }
 
 h1 {
-    //font-size: 2em;
-    font-size: 2.6rem;
+    font-size: 2.8rem;
     line-height: 1em;
     text-indent: -1px;
 }
 
 h2 {
-    //font-size: 1.75em;
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     line-height: 1.111em;
     text-indent: -1px;
 }
 
 h3 {
-    //font-size: 1.5em;
     font-size: 2.2rem;
     line-height: 1.333em;
 }
 
 h4 {
-    font-size: 1.25em;
+    font-size: 2.0rem;
+    line-height: 1.2em;
+}
+
+h5 {
+    font-size: 1.9rem;
+    line-height: 1.2em;
+}
+
+h4 {
+    font-size: 1.8rem;
     line-height: 1.2em;
 }
 
