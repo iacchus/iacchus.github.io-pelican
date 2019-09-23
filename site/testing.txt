@@ -1,0 +1,22 @@
+title: testing..
+date: Mon 23 Sep 2019 06:17:17 AM -03
+tags: freak
+
+okay
+
+```abc
+X: 1
+T: Anne Lacey's
+R: reel
+M: 4/4
+L: 1/8
+K: Gdor
+G2GF GBGA|BGFD CB,DF|G2GF GBdc|BGFD CB,B,=B,|
+C2CB, CDFG|BGFD GDF^F|GG,~G,2 G,B,DG|1 BGFD GDF^F:|2 BGFD G4||
+|:g3f dcBc|dcBc dg~g2|ecfc gcfg|bgfd cBdf|
+g3f- fcBc|dcBG FDGD|C2CB, CDFG|BGFD GDF^F:|
+```
+
+```python
+print('code block')
+```

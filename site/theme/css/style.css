@@ -557,17 +557,21 @@ code, tt {
 pre {
     position: relative;
     margin: 2em auto;
-    padding: 1em;
+    //padding: 1em;
+    padding: 0.7rem;
     overflow: hidden;
     font-family: 'Inconsolata', monospace;
-    font-size: 1.4rem;
-    line-height: normal;
+    //font-size: 1.4rem;
+    font-size: 1.6rem;
+    //line-height: normal;
+    line-height: 1.6rem;
     //white-space: pre;
     white-space: normal;
     //background: #faf9f7;
-    background-color: #eee;
+    //background-color: #eee;
+    background-color: #fefefe;
     //border: 1px solid #e5e4e1;
-    border: 0.1rem solid #ddd;
+    border: 0.1rem solid #eee;
     box-sizing: border-box;
 }
 
@@ -595,10 +599,11 @@ pre .lines .line {
 pre code,
 pre tt {
     padding: 0;
-    color: #333;
+    //color: #333;
+    color: #000;
     overflow: scroll;
     //font-size: 14px;
-    font-size: 1.4rem;
+    //font-size: 1.4rem;
     line-height: normal;
     white-space: normal;
     background: transparent;
