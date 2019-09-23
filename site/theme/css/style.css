@@ -1366,6 +1366,11 @@ article.post {
     border-bottom: 1px solid transparent
 }
 
+.post-meta strong {
+    /* pinned post */
+    font-style: oblique;
+}
+
 .post-meta a:hover,
 .post-meta a:focus {
     border-color: rgba(0, 0, 0, 0.5)
