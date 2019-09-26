@@ -921,7 +921,8 @@ img {
     right: 0;
     background: #f2f2f0;
     border-left: 0.1rem solid #e5e4e1;
-    z-index: 400;
+    //z-index: 400;
+    z-index: 99999;
     overflow: hidden;
     //font-family: 'Fira Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
