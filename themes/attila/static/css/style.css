@@ -382,7 +382,7 @@ h4 {
 h5 {
     font-size: 1.9rem;
     line-height: 1.9rem;
-    margin: 3.0rem;
+    margin: 3.0rem 0;
 }
 
 h6 {
@@ -611,6 +611,9 @@ pre tt {
     background: transparent;
     border: none;
     vertical-align: inherit;
+    font-family: 'Inconsolata', monospace, sans-serif;
+    font-size: 1.6rem;
+    font-weight: normal;
 }
 
 kbd {

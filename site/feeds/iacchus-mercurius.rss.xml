@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>Playing around with ideas</description><lastBuildDate>Mon, 23 Sep 2019 07:47:06 -0300</lastBuildDate><item><title>md test one</title><link>https://iacchus.github.io/site/md-test-one.html</link><description>&lt;div class="toc"&gt;
+<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>Playing around with ideas</description><lastBuildDate>Thu, 26 Sep 2019 12:11:40 -0300</lastBuildDate><item><title>Code Test</title><link>https://iacchus.github.io/site/code-test.html</link><description>&lt;p&gt;&lt;code class="code-orange"&gt;test code&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class="style-two"&gt;test two&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Okay&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Thu, 26 Sep 2019 12:11:40 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2019-09-26:/site/code-test.html</guid><category>freak</category></item><item><title>md test one</title><link>https://iacchus.github.io/site/md-test-one.html</link><description>&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lorem-ipsum-header1"&gt;Lorem Ipsum ─ Header1&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#header-2"&gt;Header 2&lt;/a&gt;&lt;ul&gt;
