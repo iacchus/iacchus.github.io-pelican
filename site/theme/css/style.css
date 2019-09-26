@@ -863,19 +863,21 @@ img {
 
 .nav-button a {
     display: block;
-    height: 1.5em;
+    //height: 1.5em;
     margin-bottom: 1em;
-    padding: 0.5em 1.25em;
+    //padding: 0.5em 1.25em;
+    padding: 0.3rem 2rem 0.1rem;
     border: 0.1rem solid #c2c7cc;
     //font-family: 'Fira Sans', sans-serif;
-    font-size: 0.75em;
-    line-height: 1.666em;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
     text-shadow: none;
     color: #8a9199;
     cursor: pointer;
     background: #fff;
     transition: color, border-color ease 0.3s;
-    border-radius: 2em
+    //border-radius: 2em;
+    border-radius: 0.3rem;
 }
 
 .nav-button a:hover,
@@ -1041,14 +1043,18 @@ img {
 }
 
 #menu .menulabel {
-    background-color: #333;
-    color: #ddd;
+    //background-color: #333;
+    //background-color: #333;
+    //color: #ddd;
+    color: #444;
     padding: 0.2rem 0.4rem;
     //font-size: 12px;
-    text-align: center;
+    //text-align: center;
     text-transform: capitalize;
-    margin: 0 7%;
+    //margin: 0 7%;
+    margin: 0 1rem;
     border-radius: 0.3rem;
+    font-weight: bold;
 }
 
 #menu li a {
