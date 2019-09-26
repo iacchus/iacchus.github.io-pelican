@@ -1437,6 +1437,10 @@ div.toc li {
     display: none;
 }
 
+.oembedall-container > #content :first-child {
+    margin-top: 1.0rem;
+}
+
 .post-content a {
     //border-bottom: 1px solid #f26a3d
 }
