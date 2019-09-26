@@ -990,7 +990,8 @@ img {
     height: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
-    box-sizing: border-box
+    box-sizing: border-box;
+    z-index: 99999;
 }
 
 #menu .nav-label {
@@ -1205,7 +1206,8 @@ img {
 }
 
 .container .post {
-    padding: 4em 0
+    //padding: 4em 0
+    padding: 2.2rem 0;
 }
 
 .container .post:after {
@@ -1453,6 +1455,8 @@ div.toc li {
 
 .post-content a {
     //border-bottom: 1px solid #f26a3d
+    font-weight: bold;
+    color: #669;
 }
 
 .post-content a:hover,
@@ -1950,7 +1954,7 @@ div.toc li {
     top: 0px;
     padding-top: 40px;
     right: calc(50% - 480px); /* 860px(#main-container)/2 */
-    z-index: 99999;
+    z-index: 99998;
     font-family: 'Open Sans Condensed', sans-serif;
     text-transform: uppercase;
     font-size: 1.2rem;
