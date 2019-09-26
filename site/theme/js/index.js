@@ -10,7 +10,8 @@ var $fnav = $('.fixed-nav');
 var $postholder = $('.post');
 var $postafter = $('.post-after');
 //var $sitehead = $('#blog-header');
-var $sitehead = $('div.blog-cover');
+//var $sitehead = $('div.blog-cover');
+var $sitehead = $('div.cover');
 
 var $authorhead = $('#author-head');
 
