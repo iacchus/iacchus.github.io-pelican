@@ -1867,11 +1867,15 @@ div.toc li {
     #blog-author {
         margin: auto
     }
+    div.toc {
+        width: auto;
+        float: none;
+    }
 }
 
 @media only screen and (max-width: 640px) {
     html {
-        font-size: 50%
+        //font-size: 50%
     }
     .post-share,
     .post-tags {
@@ -1881,7 +1885,7 @@ div.toc li {
     }
     .post-share a {
         margin-left: 0;
-        margin-right: 0.666em
+        margin-right: 0.666em;
     }
     .post-nav i {
         font-size: 1.5em
