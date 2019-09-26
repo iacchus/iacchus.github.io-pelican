@@ -1430,7 +1430,7 @@ div.toc li {
     border-left: 0.5rem solid orange;
     border-radius: 3px;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.9);
-    margin: 0rem 2.2rem;
+    //margin: 0rem 2.2rem;
     margin: 0rem 4rem 0rem 0rem;
 }
 
@@ -1444,7 +1444,11 @@ div.toc li {
 }
 
 .oembedall-container > #content :first-child {
-    margin-top: 1.0rem;
+    margin-top: 0rem;
+}
+
+.oembedall-container > #content {
+    padding: 1rem 0rem;
 }
 
 .post-content a {
@@ -1453,7 +1457,7 @@ div.toc li {
 
 .post-content a:hover,
 .post-content a:focus {
-    color: #f26a3d
+    //color: #f26a3d
 }
 
 .post-content img,
@@ -1465,12 +1469,12 @@ div.toc li {
 
 .post-info {
     margin-top: 6em;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .post-share {
     max-width: 25%;
-    float: right
+    float: right;
 }
 
 .post-share a {
@@ -1486,7 +1490,7 @@ div.toc li {
     text-decoration: none;
     color: #fff;
     border-radius: 2px;
-    transition: all ease 0.3s
+    transition: all ease 0.3s;
 }
 
 .post-share a:hover,
