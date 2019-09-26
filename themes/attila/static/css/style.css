@@ -1274,6 +1274,10 @@ img {
     text-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1)
 }
 
+#post-header > .inner > .post-meta {
+    color: #ffffff;
+}
+
 .post-cover {
     position: absolute;
     width: 100%;
