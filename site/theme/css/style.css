@@ -1870,6 +1870,7 @@ div.toc li {
     div.toc {
         width: auto;
         float: none;
+        margin: 2rem 0;
     }
 }
 
