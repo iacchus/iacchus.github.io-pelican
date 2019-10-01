@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>Playing around with ideas</description><lastBuildDate>Fri, 27 Sep 2019 05:24:03 -0300</lastBuildDate><item><title>First post</title><link>https://iacchus.github.io/site/first-post.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Fri, 27 Sep 2019 05:24:03 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2019-09-27:/site/first-post.html</guid></item></channel></rss>
+<rss version="2.0"><channel><title>The Philosopher's Workbench - Iacchus Mercurius</title><link>https://iacchus.github.io/site/</link><description>Playing around with ideas</description><lastBuildDate>Tue, 01 Oct 2019 03:56:33 -0300</lastBuildDate><item><title>First post</title><link>https://iacchus.github.io/site/first-post.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Fri, 27 Sep 2019 05:24:03 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2019-09-27:/site/first-post.html</guid></item><item><title>test-one-checkpoint.ipynb</title><link>https://iacchus.github.io/site/test-one-checkpointipynb.html</link><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h1 id="testing-jupyter-notebook-embed"&gt;testing jupyter notebook embed&lt;a class="anchor-link" href="#testing-jupyter-notebook-embed"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Tue, 01 Oct 2019 03:56:33 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2019-10-01:/site/test-one-checkpointipynb.html</guid></item><item><title>test-one.ipynb</title><link>https://iacchus.github.io/site/test-oneipynb.html</link><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h1 id="testing-jupyter-notebook-embed"&gt;testing jupyter notebook embed&lt;a class="anchor-link" href="#testing-jupyter-notebook-embed"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Tue, 01 Oct 2019 03:56:33 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2019-10-01:/site/test-oneipynb.html</guid></item><item><title>Untitled-checkpoint.ipynb</title><link>https://iacchus.github.io/site/untitled-checkpointipynb.html</link><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iacchus Mercurius</dc:creator><pubDate>Sun, 22 Sep 2019 23:27:00 -0300</pubDate><guid isPermaLink="false">tag:iacchus.github.io,2019-09-22:/site/untitled-checkpointipynb.html</guid></item></channel></rss>

@@ -37,7 +37,7 @@ PLUGINS = [
     #'just_table',
     'liquid_tags.youtube',
     #'liquid_tags.notebook',
-    #'ipynb.markup',
+    'ipynb.markup',
     'pin_to_top',
     #'post_revision',
     #'render_math',
