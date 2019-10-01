@@ -25,7 +25,8 @@ ARTICLE_ORDER_BY = 'reversed-modified'
 
 #SUMMARY_MAX_LENGTH = None
 
-MARKUP = ('md', 'ipynb')
+#MARKUP = ('md', 'ipynb')
+MARKUP = ('md')
 
 DISPLAY_PAGES_ON_MENU = True
 
@@ -37,7 +38,7 @@ PLUGINS = [
     #'just_table',
     'liquid_tags.youtube',
     #'liquid_tags.notebook',
-    'ipynb.markup',
+    #'ipynb.markup',
     'pin_to_top',
     #'post_revision',
     #'render_math',
