@@ -5,4 +5,4 @@ tags:
 summary: 
 status: published
 
-I really <i class="nf nf-fa-heart"></i> <i class="nf nf-custom-vim"></i>
+*I really*{: .nf .nf-fa-heart} {: .nf .nf-custom-vim}
