@@ -5,4 +5,4 @@ tags:
 summary: 
 status: published
 
-*I really*{: .nf .nf-fa-heart .nf .nf-custom-vim}
+`I really`{: .nf .nf-fa-heart} ``{: .nf .nf-custom-vim}
