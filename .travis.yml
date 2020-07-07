@@ -21,9 +21,11 @@ install:
 # build our blog
 script:
   - mkdir .ssh/
-  - echo -e "${GH_DEPLOY_KEY}" | base64 -d > ~/.ssh/id_rsa
+    #- echo -e "${GH_DEPLOY_KEY}" | base64 -d > ~/.ssh/id_rsa
+  - echo -e $GH_DEPLOY_KEY | base64 -d > ~/.ssh/id_rsa
   - chmod 600 ~/.ssh/id_rsa
-  - echo -e "${GH_PUBKEY}" | base64 -d > ~/.ssh/id_rsa.pub
+  - echo -e $GH_PUBKEY | base64 -d > ~/.ssh/id_rsa.pub
+    #- echo -e "${GH_PUBKEY}" | base64 -d > ~/.ssh/id_rsa.pub
   - chmod 600 ~/.ssh/id_rsa.pub
   - git config --global push.default matching
   - git config --global user.name = 'Iacchus Mercurius'
