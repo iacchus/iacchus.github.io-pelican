@@ -20,6 +20,7 @@ install:
   - sudo apt install python git make
   - pip install --upgrade pip
   - pip install pelican
+  - pip install markdown
 
 # build our blog
 script:
@@ -30,7 +31,7 @@ script:
   - cd iacchus.github.io-pelican
   - make clean
   - chmod +x build.sh
-  - ./build.sh
+  - PYTHONPATH=~/build/iacchus.github.io-pelican ./build.sh
 
 deploy:
   repo: iacchus/iacchus.github.io
