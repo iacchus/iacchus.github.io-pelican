@@ -5,11 +5,11 @@ import os
 
 AUTHOR = 'Iacchus Mercurius'
 SITENAME = "The Philosopher's Workbench"
-SITEURL = 'https://iacchus.github.io/site'
+SITEURL = 'https://iacchus.github.io/'
 SITESUBTITLE = 'Playing around with ideas'
 
 PATH = 'content'
-OUTPUT_PATH = 'site' # also in Makefile
+OUTPUT_PATH = '../iacchus.github.io' # also in Makefile
 
 THEME = 'themes/attila'
 #THEME = 'themes/html5-dopetrope'

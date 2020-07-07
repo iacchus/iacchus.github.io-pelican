@@ -12,7 +12,7 @@ from pelicanconf import *
 
 # https://github.com/arulrajnet/attila
 
-SITEURL = 'https://iacchus.github.io/site'
+SITEURL = 'https://iacchus.github.io'
 RELATIVE_URLS = False
 #RELATIVE_URLS = True
 
