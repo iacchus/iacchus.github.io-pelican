@@ -12,9 +12,10 @@ branches:
   - master
 
 install:
-  #- sudo apt update -y
+  sudo apt update -y
   #- sudo apt upgrade -y
   - sudo apt install python git make # python3-venv
+  - sudo apt install fortune-mod cowsay
   - pip install --upgrade pip
   - pip install pelican ghp-import Markdown
 
@@ -42,7 +43,10 @@ script:
   - cd iacchus.github.io-pelican
   - make clean
   - chmod +x build.sh
-  - bash build.sh
+    #- bash build.sh
+  - ./build.sh
+  - fortune | cowsay
+  - echo -e '\n\nAlso, visit https://iacchus.github.io'
 
     #deploy:
     #  repo: iacchus/iacchus.github.io
