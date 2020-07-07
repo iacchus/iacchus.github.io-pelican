@@ -17,15 +17,17 @@ cache: pip
 
 # install dependencies
 install:
-  - sudo apt install python git make
+  - sudo apt install python git make python-virtualenv
   - pip install --upgrade pip
-  - pip install pelican
   - pip install markdown
 
 # build our blog
 script:
   - mkdir build
   - cd build
+  - virtualenv -p python3.8.1 VENV
+  - source VENV/bin/activate
+  - pip install pelican markdown
   - git clone https://github.com/iacchus/iacchus.github.io
   - git clone https://github.com/iacchus/iacchus.github.io-pelican
   - cd iacchus.github.io-pelican
