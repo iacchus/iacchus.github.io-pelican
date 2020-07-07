@@ -9,4 +9,17 @@ This is a test!
 
 ```
 fortune | cowsay
+ _________________________________________ 
+/ The function of the expert is not to be \
+| more right than other people, but to be |
+| wrong for more sophisticated reasons.   |
+|                                         |
+| -- Dr. David Butler, British            |
+\ psephologist                            /
+ ----------------------------------------- 
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
 ```
