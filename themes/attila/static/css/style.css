@@ -607,7 +607,7 @@ pre tt {
     //font-size: 14px;
     //font-size: 1.4rem;
     line-height: normal;
-    white-space: normal;
+    white-space: pre;
     background: transparent;
     border: none;
     vertical-align: inherit;
