@@ -6,44 +6,49 @@ dist: bionic
 language: python
 python:
   - 3.8
-# Cache Dependencies
-cache: pip
-# we need two Linux packages for the optimize_images plugin
-#addons:
-#  apt:
-#    packages:
-#    - optipng
-#    - libjpeg-progs
 
-# install dependencies
+branches:
+  only:
+  - master
+
 install:
-  - sudo apt update -y
-  - sudo apt upgrade -y
-  - sudo apt install python git make python3-venv
+  #- sudo apt update -y
+  #- sudo apt upgrade -y
+  - sudo apt install python git make # python3-venv
   - pip install --upgrade pip
-  - pip install markdown
+  - pip install pelican ghp-import Markdown
 
 # build our blog
 script:
+  - mkdir .ssh/
+  - echo -e "${GH_DEPLOY_KEY}" > ~/.ssh/id_rsa
+  - chmod 600 ~/.ssh/id_rsa
+  - echo -e "${GH_PUBKEY}" > ~/.ssh/id_rsa.pub
+  - chmod 600 ~/.ssh/id_rsa.pub
+  - git config --global push.default matching
+  - git config --global user.name = 'Iacchus Mercurius'
+  - git config --global user.email = 'kassivs.@gmail.com'
   - mkdir build
   - cd build
-  - virtualenv -p python3.8.1 VENV
-  - source VENV/bin/activate
-  - pip install pelican markdown
-  - git clone https://github.com/iacchus/iacchus.github.io
+  - git clone git@github.com:iacchus/iacchus.github.io
   - git clone https://github.com/iacchus/iacchus.github.io-pelican
+    #- virtualenv -p python3.8.1 VENV
+    #- source VENV/bin/activate
+    #- pip install pelican markdown
+    #- git clone https://github.com/iacchus/iacchus.github.io
+    #- git clone https://github.com/iacchus/iacchus.github.io-pelican
   - cd iacchus.github.io-pelican
   - make clean
   - chmod +x build.sh
-  - PYTHONPATH=~/build/iacchus.github.io-pelican ./build.sh
+  - bash build.sh
 
-deploy:
-  repo: iacchus/iacchus.github.io
-  local_dir: ../iacchus.github.io
-  target-branch: master
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep_history: true
-  on:
-    branch: master
+    #deploy:
+    #  repo: iacchus/iacchus.github.io
+    #  local_dir: ../iacchus.github.io
+    #  target-branch: master
+    #  provider: pages
+    #  skip_cleanup: true
+    #  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+    #  keep_history: true
+    #  on:
+    #    branch: master
