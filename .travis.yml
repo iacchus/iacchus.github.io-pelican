@@ -1,5 +1,7 @@
 # .travis.yml
 
+dist: bionic
+
 # build using Python 3.6
 language: python
 python:
@@ -18,26 +20,18 @@ install:
   - sudo apt install python git make
   - pip install --upgrade pip
   - pip install pelican
+
 # build our blog
 script:
-  #- invoke publish_carefully
   - mkdir build
   - cd build
   - git clone https://github.com/iacchus/iacchus.github.io
   - git clone https://github.com/iacchus/iacchus.github.io-pelican
+  - cd iacchus.github.io-pelican
+  - make clean
+  - chmod +x build.sh
+  - ./build.sh
 
-
-# deploy to GitHub pages
-#deploy:
-#  provider: pages
-#  local_dir: ../blog.minchin.ca-master/
-#  target-branch: master
-#  skip_cleanup: true
-#  github_token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard
-  # only deploy on "main" branch
-  #  on:
-  #  branch: pelican
-  #
 deploy:
   repo: iacchus/iacchus.github.io
   local_dir: ../iacchus.github.io
