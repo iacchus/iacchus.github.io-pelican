@@ -17,7 +17,7 @@ cache: pip
 install:
   - sudo apt install python git make
   - pip install --upgrade pip
-  - pip install -r requirements.txt
+  - pip install pelican
 # build our blog
 script:
   #- invoke publish_carefully
