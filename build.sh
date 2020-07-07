@@ -9,7 +9,10 @@ set -e
 
 make clean
 make publish
+
+cd ../iacchus.github.io
 git add .
 git commit -a -m 'okz'
 git push
 
+cd -
