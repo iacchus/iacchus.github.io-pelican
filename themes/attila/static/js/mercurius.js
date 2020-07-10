@@ -36,8 +36,10 @@ $(this).parent().remove()
 
   // autoembed
   $(".post-content .autoembed").each(function(){
-    $(this).attr("src", $(this).text());
-    $this.oembed();
+    $(this).after(
+        $("a").attr("src", $(this).text()).attr("class", "autoembed").oembed();
+    );
+   // $this.oembed();
   });
 
   // abcjs 
