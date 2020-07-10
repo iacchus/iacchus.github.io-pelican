@@ -16,3 +16,5 @@ git commit -a -m 'okz'
 git push
 
 cd -
+
+fortune | cowsay

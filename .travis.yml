@@ -22,11 +22,9 @@ install:
 # build our blog
 script:
   - mkdir .ssh/
-    #- echo -e "${GH_DEPLOY_KEY}" | base64 -d > ~/.ssh/id_rsa
   - echo -e $GH_DEPLOY_KEY | base64 -d > ~/.ssh/id_rsa
   - chmod 600 ~/.ssh/id_rsa
   - echo -e $GH_PUBKEY | base64 -d > ~/.ssh/id_rsa.pub
-    #- echo -e "${GH_PUBKEY}" | base64 -d > ~/.ssh/id_rsa.pub
   - chmod 600 ~/.ssh/id_rsa.pub
   - git config --global push.default matching
   - git config --global user.name = 'Iacchus Mercurius'
@@ -35,26 +33,9 @@ script:
   - cd build
   - git clone git@github.com:iacchus/iacchus.github.io
   - git clone https://github.com/iacchus/iacchus.github.io-pelican
-    #- virtualenv -p python3.8.1 VENV
-    #- source VENV/bin/activate
-    #- pip install pelican markdown
-    #- git clone https://github.com/iacchus/iacchus.github.io
-    #- git clone https://github.com/iacchus/iacchus.github.io-pelican
   - cd iacchus.github.io-pelican
   - make clean
   - chmod +x build.sh
-    #- bash build.sh
   - ./build.sh
-  - fortune | cowsay
   - echo -e '\n\nAlso, visit https://iacchus.github.io'
 
-    #deploy:
-    #  repo: iacchus/iacchus.github.io
-    #  local_dir: ../iacchus.github.io
-    #  target-branch: master
-    #  provider: pages
-    #  skip_cleanup: true
-    #  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-    #  keep_history: true
-    #  on:
-    #    branch: master
