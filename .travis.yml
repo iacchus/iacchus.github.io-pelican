@@ -1,6 +1,6 @@
 # .travis.yml
 
-dist: bionic
+#dist: bionic
 
 # build using Python 3.6
 language: python
@@ -14,8 +14,7 @@ branches:
 install:
   sudo apt update -y
   #- sudo apt upgrade -y
-  - sudo apt install python git make # python3-venv
-  - sudo apt install fortune-mod cowsay
+  - sudo apt install git make # python3-venv
   - pip install --upgrade pip
   - pip install pelican ghp-import Markdown
 
