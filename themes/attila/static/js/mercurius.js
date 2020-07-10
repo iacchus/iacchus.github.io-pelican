@@ -35,8 +35,8 @@ $(this).parent().remove()
 	});
 
   // autoembed
-  $(".post-content .autoembed").each(function(){
-    $this.oembed();
+  $(".post-content a.autoembed").each(function(){
+    $(this).oembed();
   });
 
   // abcjs 
