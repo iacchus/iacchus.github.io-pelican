@@ -35,7 +35,10 @@ $(this).parent().remove()
 	});
 
   // autoembed
-  $(".post-content a.autoembed").each(function(){$(this).oembed()});
+  $(".post-content a.autoembed").each(function(){
+    $(this).attr("src", $(this).text());
+    $(this).oembed();
+  });
 
   // abcjs 
   function is_it_abc(elem) {
