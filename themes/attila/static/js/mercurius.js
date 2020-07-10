@@ -11,7 +11,7 @@ lines=text.split('\n')
 table=[]
 ttext = "<table border='1'>";
 
-for(i=0;lines[i];i++)
+for(i=0; lines[i]; i++)
 {
         ttext += (i==0) ? "<thead>" : "<tbody>";
 
@@ -35,7 +35,7 @@ $(this).parent().remove()
 	});
 
   // autoembed
-  $(".post-content a.autoembed").each(function(){
+  $(".post-content .autoembed").each(function(){
     $(this).attr("src", $(this).text());
     $(this).oembed();
   });
