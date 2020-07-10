@@ -36,8 +36,7 @@ $(this).parent().remove()
 
   // autoembed
   $(".post-content .autoembed").each(function(){
-    $(this).attr("src", $(this).text());
-    $(this).oembed();
+    $(this).attr("src", $(this).text().oembed();
   });
 
   // abcjs 

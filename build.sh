@@ -17,4 +17,3 @@ git push
 
 cd -
 
-fortune | cowsay
