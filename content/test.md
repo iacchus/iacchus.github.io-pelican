@@ -26,4 +26,4 @@ fortune | cowsay
 
 :cake: :tophat: :)
 
-[](https://en.wikipedia.org/wiki/Giuseppe_Martucci){: .autoembed}
+`https://en.wikipedia.org/wiki/Giuseppe_Martucci`{: .autoembed}
