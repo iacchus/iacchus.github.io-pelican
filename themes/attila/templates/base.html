@@ -54,15 +54,10 @@
   {% endfor %}
 
   <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/style.css" type="text/css" rel="stylesheet" />
+  <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/highlightjs-org-styles/gruvbox-dark.css" type="text/css" rel="stylesheet" />
   <!--<link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/nerd-fonts-generated.min.css" type="text/css" rel="stylesheet" />-->
   <!--<link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/jupyter-custom.css" type="text/css" rel="stylesheet" />-->
 
-  <!-- Code highlight color scheme -->
-  {% if COLOR_SCHEME_CSS %}
-      <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/code_blocks/{{ COLOR_SCHEME_CSS }}" rel="stylesheet">
-  {% else %}
-      <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/code_blocks/github.css" rel="stylesheet">
-  {% endif %}
   <link rel="stylesheet" href="https://rawgit.com/iacchus/jquery-oembed-all/master/jquery.oembed.css"  />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/css/basic/emojify.min.css" />
 
@@ -103,13 +98,14 @@
     <footer id="footer">
       <div class="inner">
         <section class="credits">
-          <span class="credits-theme">Theme <a href="https://github.com/arulrajnet/attila" rel="nofollow">Attila</a></span>
+          <span class="credits-theme">Theme <a href="https://iacchus.github.io" rel="nofollow">NiVoL4bS</a></span>
           <span class="credits-software">Published with <a href="https://github.com/getpelican/pelican" rel="nofollow">Pelican</a></span>
         </section>
       </div>
     </footer>
   </section>
 
+  <script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/highlight.pack.js"></script>
   <script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/script.js"></script>
   <script src="https://cdn.rawgit.com/iacchus/abcjs/master/bin/abcjs_plugin_3.1.2-hotfix-min.js"></script>
 
