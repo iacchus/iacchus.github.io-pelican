@@ -7,7 +7,7 @@ status: published
 
 Ummah, omma somma of ma wokwok
 
-```
+```hl
 #!/usr/bin/env python3
 
 # https://en.wikipedia.org/wiki/Standard_52-card_deck
@@ -95,5 +95,4 @@ if __name__ == "__main__":
 
     import pprint
     pprint.pprint(a.cards)
-
 ```

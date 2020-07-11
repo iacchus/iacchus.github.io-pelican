@@ -598,6 +598,31 @@ pre .lines .line {
     color: #45484d
 }
 
+pre.hljs {
+        width: 100%;
+    //max-width: 620px;
+    //padding: 0.3rem 4rem;
+    //border: 1px solid #eee;
+    border: none;
+    //border-left: 0.5rem solid #666699;
+    /border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08), 
+                0 2px 2px rgba(0,0,0,0.12), 
+                0 4px 4px rgba(0,0,0,0.16), 
+                0 8px 8px rgba(0,0,0,0.20);
+    //margin: 0rem 2.2rem;
+    /margin: 0rem 2.5rem;
+    //margin: 0rem 4rem 0rem 0rem;
+    border-radius: 1px;
+}
+
+code.hljs {
+    border-radius: 0;
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-weight: 900;
+}
+
 pre code,
 pre tt {
     padding: 0;
@@ -612,8 +637,9 @@ pre tt {
     border: none;
     vertical-align: inherit;
     font-family: 'Inconsolata', monospace, sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: normal;
+    overflow: auto;
 }
 
 kbd {
@@ -1192,7 +1218,7 @@ img {
 #blog-author.has-cover .post-author-name {
     padding: 0.333em 0;
     font-weight: 500;
-    letter-spacing: 0.025em;
+    //letter-spacing: 0.025em;
     line-height: 1.333em;
     color: #fff
 }
@@ -1304,7 +1330,8 @@ article.post {
     position: relative;
     margin: 5.0rem 0 !important;
     //padding: 12px 50px !important;
-    padding: 1.2rem 3.0rem;
+    //padding: 1.2rem 3.0rem;
+    padding: 1.2rem 1.5rem;
     //border-left: 3px #336 solid;
     border-radius: 0.3rem;
     //padding-top: 2em;
@@ -1433,11 +1460,11 @@ div.toc li {
 }
 
 .post-content {
-    letter-spacing: .1px;
-    word-spacing: .5px;
+    //letter-spacing: .1px;
+    //word-spacing: .5px;
 }
 
-.oembedall-container {
+/*.oembedall-container {
     width: 100%;
     max-width: 620px;
     padding: 0.3rem 4rem;
@@ -1451,6 +1478,25 @@ div.toc li {
     //margin: 0rem 2.2rem;
     margin: 0rem 2.5rem;
     //margin: 0rem 4rem 0rem 0rem;
+}*/
+ 
+.oembedall-container {
+  width: 100%;
+  //max-width: 620px;
+  padding: 0.3rem 4rem;
+  padding: 0.3rem 1.6rem;
+  /border: 1px solid #eee;
+
+  border-left: 0.5rem solid orange;
+  border-left-color: #996666;
+  /border-radius: 3px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.08),
+              0 2px 2px rgba(0,0,0,0.12),
+              0 4px 4px rgba(0,0,0,0.16),
+              0 8px 8px rgba(0,0,0,0.20);
+  //margin: 0rem 2.2rem;
+  /margin: 0rem 2.5rem;
+  //margin: 0rem 4rem 0rem 0rem;
 }
 
 .post-content .oembedall-container > .content {

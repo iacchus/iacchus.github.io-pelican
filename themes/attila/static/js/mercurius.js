@@ -3,41 +3,55 @@ window.ABCJS.plugin.auto_render = false;
 
 $(document).ready(function(){
 
-// tabular tables
-$('code.tabular').each(function() {
-text = $(this).text()
-lines=text.split('\n')
+  // tabular tables
+  $('code.tabular').each(function() {
+    text = $(this).text()
+    lines = text.split('\n')
 
-table=[]
-ttext = "<table border='1'>";
+    table = []
+    ttext = "<table border='1'>";
 
-for(i=0; lines[i]; i++)
-{
-        ttext += (i==0) ? "<thead>" : "<tbody>";
+    for(i=0; lines[i]; i++)
+    {
+      ttext += (i==0) ? "<thead>" : "<tbody>";
 
-        ttext += "<tr>"
-        columns = lines[i].split('  ');
-        for(x=0; columns[x] != null; x++) ttext += "<td>"+ columns[x] +"</td>";
-        ttext += "</tr>";
+      ttext += "<tr>"
+      columns = lines[i].split('  ');
+      for(x=0; columns[x] != null; x++) ttext += "<td>"+ columns[x] +"</td>";
+      ttext += "</tr>";
 
-        ttext += (i==0) ? "</thead>" : "</tbody>";
-}
-ttext += "</table>\n";
+      ttext += (i==0) ? "</thead>" : "</tbody>";
+    }
+    ttext += "</table>\n";
 
-$(ttext).insertAfter($(this).parent())
-$(this).parent().remove()
-})
+    $(ttext).insertAfter($(this).parent());
+    $(this).parent().remove();
+  });
 
   // emojify
   emojify.setConfig({ignore_emoticons : true});
-	$(".post-content").each(function(){
-		$(this).html(emojify.replace($(this).html()))
-	});
+  $(".post-content").each(function(){
+    $(this).html(emojify.replace($(this).html()))
+  });
 
   // autoembed
   $(".post-content a.autoembed").each(function(){
     $(this).oembed();
   });
+
+  // highlightjs
+  //$(document).hljs.initHighlighting();
+  //$('code.hljs').parent('pre').css({'border': '0px solid #000'})
+  
+  //$(".hl").each(function(){
+  //  hljs.highlightBlock($(this));
+    //hljs.initHighlighting();
+  //})
+  document.querySelectorAll('.hl').forEach((block) => {
+    hljs.highlightBlock(block);
+  });
+
+  $('code.hljs').parent('pre').addClass('hljs');
 
   // abcjs 
   function is_it_abc(elem) {
@@ -115,4 +129,5 @@ $(this).parent().remove()
       //$(tunes_code[$i]).hide();
     }
   }
+
 })
