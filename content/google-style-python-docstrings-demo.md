@@ -1,8 +1,8 @@
 title: Google-style Python DOCSTRINGS demo
 date: Sun 12 Jul 2020 01:47:25 PM -03
-modified: Sun 12 Jul 2020 01:47:25 PM -03
+modified: Sun 12 Jul 2020 02:16:41 PM -03
 tags: 
-summary: 
+summary: sumry suuumry yee
 status: published
 
 ```hl
