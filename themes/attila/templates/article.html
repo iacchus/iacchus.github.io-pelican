@@ -103,8 +103,10 @@
       <!--<div id='main-container'>-->
       {% if article.type %}
       <div class="post-type post-type-{{ article.type }}">
+        <div class="post-type-wrapper post-type-wrapper-{{ article.type }}">
       {% else %}
       <div class="post-type">
+        <div class="post-type-wrapper">
       {% endif %}
       {% include "partials/menu.html" %}
         <article class="post">
@@ -214,6 +216,7 @@
 
             </div>
         </article>
+        </div><!-.post-type-wrapper-->
       </div><!--post-type-->
       <!--</div>--><!--#main-container-->
     </main>

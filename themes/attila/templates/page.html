@@ -56,8 +56,10 @@
     <!--<div id='main-container'>-->
     {% if page.type %}
     <div class="post-type post-type-{{ page.type }}">
+        <div class="post-type-wrapper post-type-wrapper-{{ page.type }}">
     {% else %}
     <div class="post-type">
+        <div class="post-type-wrapper">
     {% endif %}
     <article class="post">
       <div class="inner">
@@ -66,7 +68,8 @@
           </section>
       </div>
       </article>
-    </div>
-    <!--</div>-->
+        </div><!--.post-type-wrapper-->
+    </div><!--.post-type-->
+    <!--</div>--><!--#main-container-->
   </main>
 {% endblock content %}

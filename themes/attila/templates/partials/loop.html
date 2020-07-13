@@ -5,8 +5,10 @@
     {% for article in articles_page.object_list if not ('drafts' in article.tags and output_file == 'index.html') %}
       {% if article.type %}
       <div class="post-type post-type-{{ article.type }}">
+        <div class="post-type-wrapper post-type-wrapper-{{ article.type }}">
       {% else %}
       <div class="post-type">
+        <div class="post-type-wrapper">
       {% endif %}
         <article class="post">
             <header class="post-header">         
@@ -64,6 +66,7 @@
 	    {% endif %}
             {% include 'partials/comments_count.html' %}
         </article>
+        </div><!--.post-type-wrapper--->
       </div><!-- article .post-type -->
     {% endfor %}
 
