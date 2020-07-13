@@ -100,7 +100,12 @@
 
     <!-- Post content -->
     <main class="content" role="main">
-      <div id='main-container'>
+      <!--<div id='main-container'>-->
+      {% if article.type %}
+      <div class="post-type post-type-{{ article.type }}">
+      {% else %}
+      <div class="post-type">
+      {% endif %}
       {% include "partials/menu.html" %}
         <article class="post">
         <div class="inner">
@@ -209,6 +214,7 @@
 
             </div>
         </article>
-      </div>
+      </div><!--post-type-->
+      <!--</div>--><!--#main-container-->
     </main>
 {% endblock content %}
