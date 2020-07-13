@@ -3,11 +3,11 @@
     </div>
 
     {% for article in articles_page.object_list if not ('drafts' in article.tags and output_file == 'index.html') %}
-      { % if article.type % }
+      {% if article.type %}
       <div class="post-type post-type-{{ article.type }}">
-      { % else % }
+      {% else %}
       <div class="post-type">
-      { % endif % }
+      {% endif %}
         <article class="post">
             <header class="post-header">         
                 <h2 class="post-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
