@@ -27,10 +27,10 @@ var $authorhead = $('#author-head');
   $(document).ready(function(){
 
         
-        // FitVids for responsive videos
-        //$('.post-content').fitVids();
+  // FitVids for responsive videos
+  //$('.post-content').fitVids();
    
-  $('#site-head').click( function () { srcTo($first); });
+  $('div.cover').click( function () { srcTo($first); });
   /*$('.btn.first').click( function () { srcTo($first); });
   $('.btn.last').click( function () { srcTo($last); });
   $('#header-arrow').click(function () { srcTo($first); });
