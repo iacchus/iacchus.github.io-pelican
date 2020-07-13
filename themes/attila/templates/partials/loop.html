@@ -3,6 +3,11 @@
     </div>
 
     {% for article in articles_page.object_list if not ('drafts' in article.tags and output_file == 'index.html') %}
+      { % if article.type % }
+      <div class="post-type post-type-{{ article.type }}">
+      { % else % }
+      <div class="post-type">
+      { % endif % }
         <article class="post">
             <header class="post-header">         
                 <h2 class="post-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
@@ -59,6 +64,7 @@
 	    {% endif %}
             {% include 'partials/comments_count.html' %}
         </article>
+      </div><!-- article .post-type -->
     {% endfor %}
 
     {% include "partials/pagination.html" %}
