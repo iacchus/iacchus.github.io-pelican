@@ -3,7 +3,8 @@
  */
 
 var $post = $('article');
-var $first = $('.post.first'); 
+//var $first = $('.post.first'); 
+var $first = $('section#wrapper'); 
 var $last = $('.post.last'); 
 var $fnav = $('.fixed-nav');
 //var $postholder = $('.post-holder');
@@ -46,7 +47,7 @@ var $authorhead = $('#author-head');
       $(this).parents('div.post-type').attr('item_index',index);
       $('.fn-item').last().click(function () {
         var i = $(this).attr('item_index');
-        var s = $(".post[item_index='"+i+"']");
+        var s = $("div.post-type[item_index='"+i+"']");
 
         $('html, body').animate({
           scrollTop: s.offset().top
