@@ -44,7 +44,7 @@ var $authorhead = $('#author-head');
       //$(this).parents('article').attr('id',t.toLowerCase().split(' ').join('-'));
       $(this).parents('div.post-type').attr('id',t.toLowerCase().split(' ').join('-'));
       //$(this).parents('article').attr('item_index',index);
-      $(this).parents('div.post-type').attr('item_index',index);
+      $(this).parents('div.post-type').attr('item_index', index);
       $('.fn-item').last().click(function () {
         var i = $(this).attr('item_index');
         var s = $("div.post-type[item_index='"+i+"']");
@@ -77,7 +77,8 @@ var $authorhead = $('#author-head');
           var b = $(this).offset().top + $(this).height();
           var t = $(this).index();
           var i = $(".fn-item[item_index='"+t+"']");
-          var a = $(this).parent('.post').prev('.post').find('.post-after');
+          //var a = $(this).parent('.post').prev('.post').find('.post-after');
+          var a = $(this).parent('div.post-type').prev('div.post-type').find('.post-after');
 
           if(w >= f && w<=b) {
             i.addClass('active');
