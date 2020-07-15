@@ -472,9 +472,10 @@ hr {
 }
 
 blockquote {
+    font-family: 'Oswald', sans-serif;
     margin: 2em auto;
     padding: 1.6rem;
-    padding-bottom: 2.4rem;
+    padding-bottom: 2.6rem;
     box-sizing: border-box;
     font-weight: 400;
     color: #000;
@@ -651,6 +652,13 @@ pre tt {
     font-weight: normal;
     overflow: auto;
     box-shadow: none;
+}
+
+pre code:not(.hljs) {
+    text-shadow: 0 0px 1px rgba(0,0,0,0.1),
+                 0 0px 2px rgba(0,0,0,0.14),
+                 0 0px 4px rgba(0,0,0,0.18),
+                 0 0px 8px rgba(0,0,0,0.22);
 }
 
 kbd {
