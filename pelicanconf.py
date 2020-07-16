@@ -48,46 +48,11 @@ PLUGINS = [
 ]
 
 # Feed generation is usually not desired when developing
-#FEED_ALL_ATOM = 'feeds/all.atom.xml'
-# CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
-#TRANSLATION_FEED_ATOM = None
-#AUTHOR_FEED_ATOM = None
-#AUTHOR_FEED_RSS = None
-
-# for post_revision
-GITHUB_URL = 'https://github.com/iacchus/iacchus.github.io'
-PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
-
-SHOW_FULL_ARTICLE = True
-
-RMD_READER_KNITR_OPTS_CHUNK = {
-    'class.output': 'knitr-output',
-    'collapse': True,
-    'comment': '',
-    # 'prompt': True,        
-    'results': 'asis',
-}
-
-RMD_READER_KNITR_OPTS_KNIT = None
-
-MARKDOWN = {
-        'extensions_configs':
-            {
-                'markdown.extensions.extra': {},
-                'markdown.extensions.meta': {},
-                'markdown.extensions.toc': {},
-                'markdown.extensions.attr_list': {},
-            },
-        'extensions': ['extra', 'meta', 'toc', 'attr_list']
-
-        }
-
-MATH_JAX = {
-    'message_style': None,
-}
-
-SHOW_SOURCE_IN_SECTION = True
-SHOW_SOURCE_ALL_POSTS = True
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),

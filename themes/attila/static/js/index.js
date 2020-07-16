@@ -78,7 +78,7 @@ var $authorhead = $('#author-head');
           var t = $(this).index();
           var i = $(".fn-item[item_index='"+t+"']");
           //var a = $(this).parent('.post').prev('.post').find('.post-after');
-          var a = $(this).parent('div.post-type').prev('div.post-type').find('.post-after');
+          var a = $(this).parent('div.post-type').prev('div.post-type').find('div.post-type');
 
           if(w >= f && w<=b) {
             i.addClass('active');
