@@ -1,6 +1,6 @@
 title: md test
 date: Mon 13 Jul 2020 07:35:49 PM -03
-modified: Mon 13 Jul 2020 07:35:49 PM -03
+modified: Wed 15 Jul 2020 09:01:57 PM -03
 tags: markdown, test
 summary: this is a little test to test our markdown template
 status: published
@@ -202,9 +202,9 @@ Ut nec auctor diam, vel sollicitudin nisl. Duis consequat sed risus eget iaculis
 
 ## (H2) Testing image
 
-![Alt Text, image of the nature](http://lorempixel.com/640/480/nature/ "Optional Text, this is Image")
+![Alt Text, image of the nature](https://lorempixel.com/640/480/nature/ "Optional Text, this is Image")
 
-Image embedded with code: `![Alt Text, image of the nature](http://lorempixel.com/640/480/nature/ "Optional Text, this is Image")`
+Image embedded with code: `![Alt Text, image of the nature](https://lorempixel.com/640/480/nature/ "Optional Text, this is Image")`
 
 Aliquam sit amet orci vel lectus venenatis tempus non quis arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac libero erat. Nam viverra commodo ipsum, sed vehicula turpis elementum id. Mauris eget malesuada justo. Maecenas imperdiet porttitor enim ac pulvinar. Ut auctor congue volutpat. Ut rutrum pretium neque, nec maximus sapien varius eget. Morbi erat ex, ultricies a mi non, tincidunt maximus quam. Ut et tortor sed nisi molestie tempor. Vivamus nec auctor magna. Integer nec risus vel ex convallis lacinia quis et justo. Nullam porta est ut ipsum semper efficitur.
 
