@@ -10,13 +10,13 @@ make clean
 make publish
 
 git add .
-git commit -a -m 'Autocommit from build.sh'
-git push
+git commit -a -m 'Autocommit from build.sh' || true
+git push || true
 
 cd ../iacchus.github.io
 git add .
-git commit -a -m 'Autocommit from build.sh'
-git push
+git commit -a -m 'Autocommit from build.sh' || true
+git push || true
 
 cd -
 
