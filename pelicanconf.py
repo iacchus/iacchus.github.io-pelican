@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import sys
 import os
 
 AUTHOR = 'Iacchus Mercurius'
@@ -25,8 +26,8 @@ ARTICLE_ORDER_BY = 'reversed-modified'
 
 #SUMMARY_MAX_LENGTH = None
 
-MARKUP = ('md', 'ipynb')
-#MARKUP = ('md')
+#MARKUP = ('md', 'ipynb')
+MARKUP = ('md')
 
 
 IPYNB_MARKUP_USE_FIRST_CELL = True
@@ -76,18 +77,19 @@ SHOW_FULL_ARTICLE = True
 
 # https://github.com/danielfrg/pelican-jupyter
 IPYNB_MARKUP_USE_FIRST_CELL = True
-IPYNB_SKIP_CSS = True
+#IPYNB_SKIP_CSS = True
 IGNORE_FILES = [".ipynb_checkpoints"]
 
 MARKDOWN = {
         'extensions_configs':
-            {
+           {
                 'markdown.extensions.extra': {},
+                'markdown.extensions.footnotes': {},
                 'markdown.extensions.meta': {},
                 'markdown.extensions.toc': {},
                 'markdown.extensions.attr_list': {},
             },
-        'extensions': ['extra', 'meta', 'toc', 'attr_list']
+        'extensions': ['extra', 'footnotes', 'meta', 'toc', 'attr_list']
 
         }
 
