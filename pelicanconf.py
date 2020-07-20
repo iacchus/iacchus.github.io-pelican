@@ -25,8 +25,8 @@ ARTICLE_ORDER_BY = 'reversed-modified'
 
 #SUMMARY_MAX_LENGTH = None
 
-#MARKUP = ('md', 'ipynb')
-MARKUP = ('md')
+MARKUP = ('md', 'ipynb')
+#MARKUP = ('md')
 
 
 IPYNB_MARKUP_USE_FIRST_CELL = True
@@ -42,7 +42,7 @@ PLUGINS = [
     #'just_table',
     #'liquid_tags.youtube',
     #'liquid_tags.notebook',
-    #'pelican_jupyter.markup',
+    'pelican_jupyter.markup',
     'pin_to_top',
     #'post_revision',
     #'render_math',
