@@ -15,7 +15,7 @@ make publish
 
 cd ../iacchus.github.io
 git add .
-git commit -a -m 'Autocommit from build-for-travis.sh'
+git commit -a -m 'Autocommit from build-for-travis.sh' || true
 git push
 
 cd -
