@@ -76,6 +76,7 @@ SHOW_FULL_ARTICLE = True
 
 # https://github.com/danielfrg/pelican-jupyter
 IPYNB_MARKUP_USE_FIRST_CELL = True
+IPYNB_SKIP_CSS = False
 IGNORE_FILES = [".ipynb_checkpoints"]
 
 MARKDOWN = {
