@@ -25,8 +25,12 @@ ARTICLE_ORDER_BY = 'reversed-modified'
 
 #SUMMARY_MAX_LENGTH = None
 
-#MARKUP = ('md', 'ipynb')
-MARKUP = ('md')
+MARKUP = ('md', 'ipynb')
+#MARKUP = ('md')
+
+
+IPYNB_MARKUP_USE_FIRST_CELL = True
+
 
 DISPLAY_PAGES_ON_MENU = True
 
@@ -36,9 +40,9 @@ PLUGIN_PATHS = [
 
 PLUGINS = [
     #'just_table',
-    'liquid_tags.youtube',
+    #'liquid_tags.youtube',
     #'liquid_tags.notebook',
-    #'ipynb.markup',
+    'pelican_jupyter.markup',
     'pin_to_top',
     #'post_revision',
     #'render_math',
@@ -48,27 +52,31 @@ PLUGINS = [
 ]
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+# FEED_ALL_ATOM = None
+# CATEGORY_FEED_ATOM = None
+# TRANSLATION_FEED_ATOM = None
+# AUTHOR_FEED_ATOM = None
+# AUTHOR_FEED_RSS = None
 
 # for post_revision
-GITHUB_URL = 'https://github.com/iacchus/iacchus.github.io'
-PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+#GITHUB_URL = 'https://github.com/iacchus/iacchus.github.io'
+#PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 SHOW_FULL_ARTICLE = True
 
-RMD_READER_KNITR_OPTS_CHUNK = {
-    'class.output': 'knitr-output',
-    'collapse': True,
-    'comment': '',
-    # 'prompt': True,
-    'results': 'asis',
-}
+#RMD_READER_KNITR_OPTS_CHUNK = {
+#    'class.output': 'knitr-output',
+#    'collapse': True,
+#    'comment': '',
+#    # 'prompt': True,
+#    'results': 'asis',
+#}
 
 RMD_READER_KNITR_OPTS_KNIT = None
+
+# https://github.com/danielfrg/pelican-jupyter
+IPYNB_MARKUP_USE_FIRST_CELL = True
+IGNORE_FILES = [".ipynb_checkpoints"]
 
 MARKDOWN = {
         'extensions_configs':
@@ -82,9 +90,9 @@ MARKDOWN = {
 
         }
 
-MATH_JAX = {
-    'message_style': None,
-}
+#MATH_JAX = {
+#    'message_style': None,
+#}
 
 SHOW_SOURCE_IN_SECTION = True
 SHOW_SOURCE_ALL_POSTS = True
