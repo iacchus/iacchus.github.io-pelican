@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Old+Standard+TT:400,400i,700|Open+Sans+Condensed:300,300i,700|Oswald:200,300,400,500,600,700|Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Arimo:400,400i,700&subset=greek,latin-ext');
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i);
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -551,7 +552,7 @@ mark {
 code, tt {
     //padding: 0.1rem 0.2rem;
     padding: 0.2rem 0.4rem;
-    font-family: 'Inconsolata', monospace, sans-serif;
+    font-family: 'Source Code Pro', 'Inconsolata', monospace, sans-serif;
     font-size: 1.4rem;
     line-height: normal;
     white-space: normal;
@@ -573,7 +574,7 @@ pre {
     //padding: 1em;
     padding: 0.7rem;
     overflow: hidden;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Source Code Pro', 'Inconsolata', monospace;
     //font-size: 1.4rem;
     font-size: 1.6rem;
     //line-height: normal;
@@ -647,7 +648,7 @@ pre tt {
     background: transparent;
     border: none;
     vertical-align: inherit;
-    font-family: 'Inconsolata', monospace, sans-serif;
+    font-family: 'Source Code Pro', 'Inconsolata', monospace, sans-serif;
     font-size: 1.4rem;
     font-weight: normal;
     overflow: auto;
