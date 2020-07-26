@@ -1,12 +1,13 @@
 title: The Zen of Python
 date: Sun 26 Jul 2020 08:33:37 AM -03
-modified: Sun 26 Jul 2020 10:50:45 AM -03
+modified: Sun 26 Jul 2020 11:56:26 AM -03
 tags: python
 summary: 
 status: published
 
-**The Zen of Python, by Tim Peters**
-O Zen do Python, por Tim Peters
+### The Zen of Python, by Tim Peters**
+### *O Zen do Python, por Tim Peters*
+
 **Beautiful is better than ugly.**
 Bonito é melhor que feio.
 **Explicit is better than implicit.**
