@@ -86,6 +86,7 @@ MARKDOWN = {
                 'markdown.extensions.extra': {},
                 'markdown.extensions.footnotes': {},
                 'markdown.extensions.meta': {},
+                'markdown.extensions.nl2br': {},
                 'markdown.extensions.toc': {},
                 'markdown.extensions.attr_list': {},
             },
