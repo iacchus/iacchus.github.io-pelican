@@ -1,6 +1,6 @@
 title: The Zen of Python
 date: Sun 26 Jul 2020 08:33:37 AM -03
-modified: Sun 26 Jul 2020 12:00:34 PM -03
+modified: Sun 26 Jul 2020 12:04:09 PM -03
 tags: python
 summary: 
 status: published
@@ -12,7 +12,7 @@ Explícito é melhor que implícito.
 **Simple is better than complex.**
 Simples é melhor que complexo.
 **Complex is better than complicated.**
-Completo é melhor que complicado.
+Complexo é melhor que complicado.
 **Flat is better than nested.**
 Plano é melhor que aninhado.
 **Sparse is better than dense.**
@@ -20,7 +20,7 @@ Disperso é melhor que densificado.
 **Readability counts.**
 Legibilidade faz diferença.
 **Special cases aren't special enough to break the rules.**
-Casos especiais não são especiais o basante para quebrar as regras.
+Casos especiais não são especiais o bastante para quebrar as regras.
 **Although practicality beats purity.**
 Ainda que praticalidade supere pureza.
 **Errors should never pass silently.**
