@@ -90,7 +90,8 @@ MARKDOWN = {
                 'markdown.extensions.toc': {},
                 'markdown.extensions.attr_list': {},
             },
-        'extensions': ['extra', 'footnotes', 'meta', 'toc', 'attr_list']
+        'extensions': ['extra', 'footnotes', 'meta', 'nl2br', 'toc',
+                       'attr_list']
 
         }
 
