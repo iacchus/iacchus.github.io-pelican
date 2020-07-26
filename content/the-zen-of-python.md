@@ -1,6 +1,6 @@
 title: The Zen of Python
 date: Sun 26 Jul 2020 08:33:37 AM -03
-modified: Sun 26 Jul 2020 10:49:38 AM -03
+modified: Sun 26 Jul 2020 10:50:45 AM -03
 tags: python
 summary: 
 status: published
@@ -18,11 +18,11 @@ Completo é melhor que complicado.
 **Flat is better than nested.**
 Plano é melhor que aninhado.
 **Sparse is better than dense.**
-Esparso é melhor que denso.
+Disperso é melhor que densificado.
 **Readability counts.**
 Legibilidade faz diferença.
 **Special cases aren't special enough to break the rules.**
-Casos especiais não sãoespeciais o basante para quebrar as regras.
+Casos especiais não são especiais o basante para quebrar as regras.
 **Although practicality beats purity.**
 Ainda que praticalidade supere pureza.
 **Errors should never pass silently.**
