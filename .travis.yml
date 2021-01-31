@@ -16,7 +16,7 @@ install:
   #- sudo apt upgrade -y
   - sudo apt install python git make # python3-venv
   - pip install --upgrade pip
-  - pip install pelican ghp-import Markdown
+  - pip install pelican[markdown] ghp-import Markdown
 
 # build our blog
 script:
