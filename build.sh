@@ -17,6 +17,7 @@ git push
 
 #rm -rf $PUBDIR
 git clone $ORIGIN $PUBDIR 
+make clean
 make publish
 
 cd $PUBDIR
