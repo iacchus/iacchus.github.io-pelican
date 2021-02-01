@@ -53,8 +53,8 @@ var $authorhead = $('#author-head');
   //$('.post.last').next('.post-after').hide();
 
   $post.each(function () {
-    var inits_at = Math.floor($(this).offset().top);
-    var ends_at = Math.ceil($(this).offset().top + $(this).height());
+    var inits_at = Math.round($(this).offset().top);
+    var ends_at = Math.round($(this).offset().top + $(this).height());
 
     $(this).attr({'inits': inits_at, 'ends': ends_at});
   });
