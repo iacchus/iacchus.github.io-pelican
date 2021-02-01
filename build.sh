@@ -4,6 +4,7 @@
 set -e
 
 export PUBDIR="../iacchus.github.io"
+export ORIGIN="git@github.com:iacchus/iacchus.github.io.git"
 
 # push actual state
 
@@ -12,20 +13,30 @@ git commit -a -m 'Autocommit from build.sh' || true
 git push
 
 
-make clean
+#make clean
 
 #rm -rf $PUBDIR
-git clone git@github.com:iacchus/iacchus.github.io.git $PUBDIR 
-make clean
-
+git clone $ORIGIN $PUBDIR 
 make publish
-#git init ../iacchus.github.io
-#git -C ../iacchus.github.io remote add origin 
 
-cd ../iacchus.github.io
-
+cd $PUBDIR
+git init .
 git add .
 git commit -a -m 'Autocommit from build.sh' || true
+git remote add origin $ORIGIN
+
 git push
+
+#make publish
+#git init $PUBDIR
+#git init .
+
+#git -C ../iacchus.github.io remote add origin 
+
+#cd ../iacchus.github.io
+
+#git add .
+#git commit -a -m 'Autocommit from build.sh' || true
+#git push
 
 cd -
