@@ -58,7 +58,7 @@ var $authorhead = $('#author-head');
     });
 
     $('.post.last').next('.post-after').hide();
-    if($sitehead.length) { 
+    //if($sitehead.length) { 
       $(window).scroll( function () {
         var w = $(window).scrollTop();
         var g = $sitehead.offset().top;
@@ -77,6 +77,7 @@ var $authorhead = $('#author-head');
           var b = $(this).offset().top + $(this).height();
           var t = $(this).index();
           var i = $(".fn-item[item_index='"+t+"']");
+          console.log("i: " + i)
           //var a = $(this).parent('.post').prev('.post').find('.post-after');
           var a = $(this).parent('div.post-type').prev('div.post-type').find('div.post-type');
 
@@ -89,7 +90,7 @@ var $authorhead = $('#author-head');
           }
         });
       });
-    }
+    //}
 
     //$('.fixed-nav').append("<div id='about-side'></div>")
     //$('#about-side').load('about-side.html'); 
