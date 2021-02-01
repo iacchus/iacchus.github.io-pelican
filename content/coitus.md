@@ -6,5 +6,3 @@ status: published
 pinned: yep
 
 ![I.M. C.O.I.T.U.S](images/iacchus-mercurius-formula-coitus.png)
-
-IO!
