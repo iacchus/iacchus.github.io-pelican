@@ -15,12 +15,13 @@ git push
 
 #make clean
 
-#rm -rf $PUBDIR
-#git clone $ORIGIN $PUBDIR 
-make clean
+rm -rf $PUBDIR
+
+git clone $ORIGIN $PUBDIR
 make publish
 
 cd $PUBDIR
+
 git init .
 git add .
 git commit -a -m 'Autocommit from build.sh' || true
