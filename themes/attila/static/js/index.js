@@ -56,7 +56,7 @@ var $authorhead = $('#author-head');
     var inits_at = $(this).offset().top;
     var ends_at = $(this).offset().top + $(this).height();
 
-    $(this).attr({'inits': inits_at, 'ends': ends_at}
+    $(this).attr({'inits': inits_at, 'ends': ends_at});
   });
 
   //if($sitehead.length) { 
