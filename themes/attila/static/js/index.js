@@ -54,7 +54,7 @@ var $authorhead = $('#author-head');
 
   $post.each(function () {
     var inits_at = Math.floor($(this).offset().top);
-    var ends_at = Math.ceiling($(this).offset().top + $(this).height());
+    var ends_at = Math.ceil($(this).offset().top + $(this).height());
 
     $(this).attr({'inits': inits_at, 'ends': ends_at});
   });
