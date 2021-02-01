@@ -17,7 +17,7 @@ git push
 
 rm -rf $PUBDIR
 
-git clone $ORIGIN $PUBDIR
+#git clone $ORIGIN $PUBDIR
 make publish
 
 cd $PUBDIR
@@ -27,7 +27,7 @@ git add .
 git commit -a -m 'Autocommit from build.sh' || true
 git remote add origin $ORIGIN
 
-git push -u origin master
+git push --force -u origin master
 
 #make publish
 #git init $PUBDIR
